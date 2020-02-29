@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:fme="http://www.safe.com/gml/fme" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.safe.com/gml/fme" elementFormDefault="qualified">
+<import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+<element name="sc_final_census2" type="fme:sc_final_census2Type" substitutionGroup="gml:_Feature"/>
+<complexType name="sc_final_census2Type">
+<complexContent>
+<extension base="gml:AbstractFeatureType">
+<sequence>
+<element name="FIPS" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="11"/>
+</restriction>
+</simpleType></element>
+<element name="MSA" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="9"/>
+</restriction>
+</simpleType></element>
+<element name="TOT_POP" minOccurs="0" type="int"/>
+<element name="POP_16" minOccurs="0" type="int"/>
+<element name="POP_65" minOccurs="0" type="int"/>
+<element name="WHITE_" minOccurs="0" type="int"/>
+<element name="BLACK_" minOccurs="0" type="int"/>
+<element name="ASIAN_" minOccurs="0" type="int"/>
+<element name="HISP_" minOccurs="0" type="int"/>
+<element name="MULTI_RA" minOccurs="0" type="int"/>
+<element name="MALES" minOccurs="0" type="int"/>
+<element name="FEMALES" minOccurs="0" type="int"/>
+<element name="MALE1664" minOccurs="0" type="int"/>
+<element name="FEM1664" minOccurs="0" type="int"/>
+<element name="EMPL16" minOccurs="0" type="int"/>
+<element name="EMP_AWAY" minOccurs="0" type="int"/>
+<element name="EMP_HOME" minOccurs="0" type="int"/>
+<element name="EMP_29" minOccurs="0" type="int"/>
+<element name="EMP_30" minOccurs="0" type="int"/>
+<element name="EMP16_2" minOccurs="0" type="int"/>
+<element name="EMP_MALE" minOccurs="0" type="int"/>
+<element name="EMP_FEM" minOccurs="0" type="int"/>
+<element name="OCC_MAN" minOccurs="0" type="int"/>
+<element name="OCC_OFF1" minOccurs="0" type="int"/>
+<element name="OCC_INFO" minOccurs="0" type="int"/>
+<element name="HH_INC" minOccurs="0" type="int"/>
+<element name="POV_POP" minOccurs="0" type="int"/>
+<element name="POV_TOT" minOccurs="0" type="int"/>
+<element name="HSG_VAL" minOccurs="0" type="int"/>
+<element name="POLYID" minOccurs="0" type="short"/>
+<element ref="gml:surfaceProperty" minOccurs="0"/>
+<element ref="gml:multiSurfaceProperty" minOccurs="0"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
+</schema>

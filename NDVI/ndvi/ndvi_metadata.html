@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Normalized Difference Vegetation Index Grid</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1348.17">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    td.td1 {width: 103.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 170.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 44.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 225.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Normalized Difference Vegetation Index Grid</b></span></h1>
+<p class="p2"><span class="s1"><i>Data provided "as is," no warranties.</i></span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><b>File Description</b><br>
+Original data: A subset of 7 by 7 square raster grids with 10 arcminute spacing roughly situated around the border between the Central African Republic, Sudan and Congo, drawn from the NOAA 1990 Global Change Database.</span></p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">ndvi.dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Data file to join with base grid map</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">grid77.shp shx dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Base grid map 7 x 7</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">ndvigrid.shp shx dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Grid with data</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p2"><span class="s1">Type = Polygon shape file, unprojected<br>
+Observations = 49<br>
+Variables = 5</span></p>
+<p class="p2"><span class="s1"><b>Source</b><br>
+Anselin, L. (1993). Discrete spatial autoregressive models. In M. Goodchild, B. Parks and L. Steyaert (Eds.), <i>Environmental Modeling with GIS</i>, pp. 454-469. New York: Oxford University Press. Table 46.2 on p. 455.</span></p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1"><b>Variable</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p5"><span class="s1"><b>Description</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">PolyID<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Grid cell identifier</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">GREEN</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Greenness vegetation index, based on AVHRR</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">TEMP<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Temperature in 1/10 degree celsius</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">ELEV<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Elevation in meters</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">PREC</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Precipitation (mm per year)</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">Prepared by Luc Anselin.</span></p>
+<p class="p2"><span class="s1">Last updated June 3, 2004</span></p>
+</body>
+</html>

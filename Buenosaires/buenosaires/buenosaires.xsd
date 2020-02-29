@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:fme="http://www.safe.com/gml/fme" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.safe.com/gml/fme" elementFormDefault="qualified">
+<import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+<element name="buenosaires" type="fme:buenosairesType" substitutionGroup="gml:_Feature"/>
+<complexType name="buenosairesType">
+<complexContent>
+<extension base="gml:AbstractFeatureType">
+<sequence>
+<element name="INDRA" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="10"/>
+</restriction>
+</simpleType></element>
+<element name="PROV" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="2"/>
+</restriction>
+</simpleType></element>
+<element name="CIRCUNS" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="3"/>
+</restriction>
+</simpleType></element>
+<element name="CIRC" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="5"/>
+</restriction>
+</simpleType></element>
+<element name="PROVINCIA" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="25"/>
+</restriction>
+</simpleType></element>
+<element name="CIRCUNSCRI" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="30"/>
+</restriction>
+</simpleType></element>
+<element name="CIRCUITO" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="9"/>
+</restriction>
+</simpleType></element>
+<element name="APR_1" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="AL_1" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="TURNT_1" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="ELEC_1" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="VOTPOS_1" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="AL99CIRC" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="APR99CIR" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="TURN99CR" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="EAST" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="NORTH" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="INDRANO" minOccurs="0" type="long"/>
+<element name="APR99PC" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="16"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="AL99PC" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="16"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="TURN99PC" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="16"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element ref="gml:surfaceProperty" minOccurs="0"/>
+<element ref="gml:multiSurfaceProperty" minOccurs="0"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
+</schema>

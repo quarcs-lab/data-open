@@ -1,0 +1,2189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>ndvigrid</name>
+<visibility>1</visibility>
+<Schema name="ndvigrid" id="kml_schema_ft_ndvigrid">
+<SimpleField type="xsd:int" name="POLYID">
+<displayName>POLYID</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="AREA">
+<displayName>AREA</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="PERIMETER">
+<displayName>PERIMETER</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="GREEN">
+<displayName>GREEN</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="TEMP">
+<displayName>TEMP</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="ELEV">
+<displayName>ELEV</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="PREC">
+<displayName>PREC</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_ndvigrid">
+<name>ndvigrid</name>
+<Placemark id="kml_1">
+<name>kml_1</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>126</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>277</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>107</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">1</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">126</SimpleData>
+<SimpleData name="TEMP">277</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">107</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>0,49,0 7,49,0 7,42,0 0,42,0 0,49,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2">
+<name>kml_2</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>130</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>274</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>106</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">2</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">130</SimpleData>
+<SimpleData name="TEMP">274</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">106</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>7,49,0 14,49,0 14,42,0 7,42,0 7,49,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_3">
+<name>kml_3</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>129</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>271</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>610</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>104</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">3</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">129</SimpleData>
+<SimpleData name="TEMP">271</SimpleData>
+<SimpleData name="ELEV">610</SimpleData>
+<SimpleData name="PREC">104</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>14,49,0 21,49,0 21,42,0 14,42,0 14,49,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_4">
+<name>kml_4</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>126</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>271</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>610</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>104</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">4</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">126</SimpleData>
+<SimpleData name="TEMP">271</SimpleData>
+<SimpleData name="ELEV">610</SimpleData>
+<SimpleData name="PREC">104</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>21,49,0 28,49,0 28,42,0 21,42,0 21,49,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_5">
+<name>kml_5</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>125</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>276</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>610</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>89</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">5</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">125</SimpleData>
+<SimpleData name="TEMP">276</SimpleData>
+<SimpleData name="ELEV">610</SimpleData>
+<SimpleData name="PREC">89</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>28,49,0 35,49,0 35,42,0 28,42,0 28,49,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_6">
+<name>kml_6</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>125</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>281</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>610</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>74</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">6</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">125</SimpleData>
+<SimpleData name="TEMP">281</SimpleData>
+<SimpleData name="ELEV">610</SimpleData>
+<SimpleData name="PREC">74</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>35,49,0 42,49,0 42,42,0 35,42,0 35,49,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_7">
+<name>kml_7</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>122</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>281</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>74</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">7</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">122</SimpleData>
+<SimpleData name="TEMP">281</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">74</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>42,49,0 49,49,0 49,42,0 42,42,0 42,49,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_8">
+<name>kml_8</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>132</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>271</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>114</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">8</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">132</SimpleData>
+<SimpleData name="TEMP">271</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">114</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>0,42,0 7,42,0 7,35,0 0,35,0 0,42,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_9">
+<name>kml_9</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>130</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>268</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>115</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">9</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">130</SimpleData>
+<SimpleData name="TEMP">268</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">115</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>7,42,0 14,42,0 14,35,0 7,35,0 7,42,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_10">
+<name>kml_10</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>10</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>126</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>265</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>610</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>116</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">10</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">126</SimpleData>
+<SimpleData name="TEMP">265</SimpleData>
+<SimpleData name="ELEV">610</SimpleData>
+<SimpleData name="PREC">116</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>14,42,0 21,42,0 21,35,0 14,35,0 14,42,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_11">
+<name>kml_11</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>11</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>125</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>265</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>580</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>116</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">11</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">125</SimpleData>
+<SimpleData name="TEMP">265</SimpleData>
+<SimpleData name="ELEV">580</SimpleData>
+<SimpleData name="PREC">116</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>21,42,0 28,42,0 28,35,0 21,35,0 21,42,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_12">
+<name>kml_12</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>12</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>124</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>266</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>610</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>109</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">12</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">124</SimpleData>
+<SimpleData name="TEMP">266</SimpleData>
+<SimpleData name="ELEV">610</SimpleData>
+<SimpleData name="PREC">109</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>28,42,0 35,42,0 35,35,0 28,35,0 28,42,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_13">
+<name>kml_13</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>13</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>132</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>268</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>640</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>102</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">13</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">132</SimpleData>
+<SimpleData name="TEMP">268</SimpleData>
+<SimpleData name="ELEV">640</SimpleData>
+<SimpleData name="PREC">102</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>35,42,0 42,42,0 42,35,0 35,35,0 35,42,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_14">
+<name>kml_14</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>14</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>132</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>268</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>102</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">14</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">132</SimpleData>
+<SimpleData name="TEMP">268</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">102</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>42,42,0 49,42,0 49,35,0 42,35,0 42,42,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_15">
+<name>kml_15</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>15</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>132</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>264</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>790</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>121</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">15</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">132</SimpleData>
+<SimpleData name="TEMP">264</SimpleData>
+<SimpleData name="ELEV">790</SimpleData>
+<SimpleData name="PREC">121</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>0,35,0 7,35,0 7,28,0 0,28,0 0,35,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_16">
+<name>kml_16</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>16</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>135</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>261</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>700</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>124</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">16</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">135</SimpleData>
+<SimpleData name="TEMP">261</SimpleData>
+<SimpleData name="ELEV">700</SimpleData>
+<SimpleData name="PREC">124</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>7,35,0 14,35,0 14,28,0 7,28,0 7,35,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_17">
+<name>kml_17</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>17</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>127</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">17</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">139</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">127</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>14,35,0 21,35,0 21,28,0 14,28,0 14,35,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_18">
+<name>kml_18</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>18</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>140</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>640</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>127</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">18</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">140</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">640</SimpleData>
+<SimpleData name="PREC">127</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>21,35,0 28,35,0 28,28,0 21,28,0 21,35,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_19">
+<name>kml_19</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>19</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>130</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>257</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>610</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>129</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">19</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">130</SimpleData>
+<SimpleData name="TEMP">257</SimpleData>
+<SimpleData name="ELEV">610</SimpleData>
+<SimpleData name="PREC">129</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>28,35,0 35,35,0 35,28,0 28,28,0 28,35,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_20">
+<name>kml_20</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>20</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>123</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>255</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>130</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">20</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">123</SimpleData>
+<SimpleData name="TEMP">255</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">130</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>35,35,0 42,35,0 42,28,0 35,28,0 35,35,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_21">
+<name>kml_21</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>21</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>131</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>255</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>130</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">21</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">131</SimpleData>
+<SimpleData name="TEMP">255</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">130</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>42,35,0 49,35,0 49,28,0 42,28,0 42,35,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_22">
+<name>kml_22</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>22</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>140</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>264</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>121</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">22</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">140</SimpleData>
+<SimpleData name="TEMP">264</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">121</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>0,28,0 7,28,0 7,21,0 0,21,0 0,28,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_23">
+<name>kml_23</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>23</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>140</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>261</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>700</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>124</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">23</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">140</SimpleData>
+<SimpleData name="TEMP">261</SimpleData>
+<SimpleData name="ELEV">700</SimpleData>
+<SimpleData name="PREC">124</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>7,28,0 14,28,0 14,21,0 7,21,0 7,28,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_24">
+<name>kml_24</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>24</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>145</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>700</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>127</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">24</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">145</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">700</SimpleData>
+<SimpleData name="PREC">127</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>14,28,0 21,28,0 21,21,0 14,21,0 14,28,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_25">
+<name>kml_25</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>25</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>152</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>700</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>127</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">25</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">152</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">700</SimpleData>
+<SimpleData name="PREC">127</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>21,28,0 28,28,0 28,21,0 21,21,0 21,28,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_26">
+<name>kml_26</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>26</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>131</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>257</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>670</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>129</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">26</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">131</SimpleData>
+<SimpleData name="TEMP">257</SimpleData>
+<SimpleData name="ELEV">670</SimpleData>
+<SimpleData name="PREC">129</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>28,28,0 35,28,0 35,21,0 28,21,0 28,28,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_27">
+<name>kml_27</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>27</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>112</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>255</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>130</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">27</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">112</SimpleData>
+<SimpleData name="TEMP">255</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">130</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>35,28,0 42,28,0 42,21,0 35,21,0 35,28,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_28">
+<name>kml_28</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>110</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>255</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>130</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">28</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">110</SimpleData>
+<SimpleData name="TEMP">255</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">130</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>42,28,0 49,28,0 49,21,0 42,21,0 42,28,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_29">
+<name>kml_29</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>29</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>150</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>263</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>123</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">29</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">150</SimpleData>
+<SimpleData name="TEMP">263</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">123</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>0,21,0 7,21,0 7,14,0 0,14,0 0,21,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_30">
+<name>kml_30</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>30</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>144</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>261</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>125</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">30</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">144</SimpleData>
+<SimpleData name="TEMP">261</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">125</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>7,21,0 14,21,0 14,14,0 7,14,0 7,21,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_31">
+<name>kml_31</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>31</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>142</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>128</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">31</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">142</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">128</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>14,21,0 21,21,0 21,14,0 14,14,0 14,21,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_32">
+<name>kml_32</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>32</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>145</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>128</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">32</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">145</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">128</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>21,21,0 28,21,0 28,14,0 21,14,0 21,21,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_33">
+<name>kml_33</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>33</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>134</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>257</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>136</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">33</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">134</SimpleData>
+<SimpleData name="TEMP">257</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">136</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>28,21,0 35,21,0 35,14,0 28,14,0 28,21,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_34">
+<name>kml_34</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>34</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>109</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>256</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>730</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>144</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">34</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">109</SimpleData>
+<SimpleData name="TEMP">256</SimpleData>
+<SimpleData name="ELEV">730</SimpleData>
+<SimpleData name="PREC">144</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>35,21,0 42,21,0 42,14,0 35,14,0 35,21,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_35">
+<name>kml_35</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>35</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>107</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>256</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>144</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">35</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">107</SimpleData>
+<SimpleData name="TEMP">256</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">144</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>42,21,0 49,21,0 49,14,0 42,14,0 42,21,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_36">
+<name>kml_36</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>36</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>149</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>262</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>124</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">36</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">149</SimpleData>
+<SimpleData name="TEMP">262</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">124</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>0,14,0 7,14,0 7,7,0 0,7,0 0,14,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_37">
+<name>kml_37</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>37</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>140</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>260</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>127</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">37</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">140</SimpleData>
+<SimpleData name="TEMP">260</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">127</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>7,14,0 14,14,0 14,7,0 7,7,0 7,14,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_38">
+<name>kml_38</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>38</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>149</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>129</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">38</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">149</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">129</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>14,14,0 21,14,0 21,7,0 14,7,0 14,14,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_39">
+<name>kml_39</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>39</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>141</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>129</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">39</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">141</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">129</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>21,14,0 28,14,0 28,7,0 21,7,0 21,14,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_40">
+<name>kml_40</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>40</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>133</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>257</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>143</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">40</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">133</SimpleData>
+<SimpleData name="TEMP">257</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">143</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>28,14,0 35,14,0 35,7,0 28,7,0 28,14,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_41">
+<name>kml_41</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>41</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>132</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>256</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>157</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">41</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">132</SimpleData>
+<SimpleData name="TEMP">256</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">157</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>35,14,0 42,14,0 42,7,0 35,7,0 35,14,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_42">
+<name>kml_42</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>42</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>117</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>256</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>157</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">42</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">117</SimpleData>
+<SimpleData name="TEMP">256</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">157</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>42,14,0 49,14,0 49,7,0 42,7,0 42,14,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_43">
+<name>kml_43</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>43</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>147</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>262</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>124</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">43</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">147</SimpleData>
+<SimpleData name="TEMP">262</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">124</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>0,7,0 7,7,0 7,0,0 0,0,0 0,7,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_44">
+<name>kml_44</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>44</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>155</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>260</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>127</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">44</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">155</SimpleData>
+<SimpleData name="TEMP">260</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">127</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>7,7,0 14,7,0 14,0,0 7,0,0 7,7,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_45">
+<name>kml_45</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>45</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>147</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>129</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">45</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">147</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">129</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>14,7,0 21,7,0 21,0,0 14,0,0 14,7,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_46">
+<name>kml_46</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>46</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>152</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>258</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>129</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">46</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">152</SimpleData>
+<SimpleData name="TEMP">258</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">129</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>21,7,0 28,7,0 28,0,0 21,0,0 21,7,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_47">
+<name>kml_47</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>47</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>148</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>257</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>143</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">47</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">148</SimpleData>
+<SimpleData name="TEMP">257</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">143</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>28,7,0 35,7,0 35,0,0 28,0,0 28,7,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_48">
+<name>kml_48</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>48</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>256</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>790</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>157</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">48</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">139</SimpleData>
+<SimpleData name="TEMP">256</SimpleData>
+<SimpleData name="ELEV">790</SimpleData>
+<SimpleData name="PREC">157</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>35,7,0 42,7,0 42,0,0 35,0,0 35,7,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_49">
+<name>kml_49</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>POLYID</th>
+<td>49</td>
+</tr><tr bgcolor="">
+<th>AREA</th>
+<td>49</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PERIMETER</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>GREEN</th>
+<td>126</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>TEMP</th>
+<td>256</td>
+</tr><tr bgcolor="">
+<th>ELEV</th>
+<td>760</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PREC</th>
+<td>157</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_ndvigrid">
+<SimpleData name="POLYID">49</SimpleData>
+<SimpleData name="AREA">49</SimpleData>
+<SimpleData name="PERIMETER">28</SimpleData>
+<SimpleData name="GREEN">126</SimpleData>
+<SimpleData name="TEMP">256</SimpleData>
+<SimpleData name="ELEV">760</SimpleData>
+<SimpleData name="PREC">157</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>42,7,0 49,7,0 49,0,0 42,0,0 42,7,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+</Document></kml>

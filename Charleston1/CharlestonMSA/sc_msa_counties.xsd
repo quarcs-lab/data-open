@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:fme="http://www.safe.com/gml/fme" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.safe.com/gml/fme" elementFormDefault="qualified">
+<import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+<element name="sc_msa_counties" type="fme:sc_msa_countiesType" substitutionGroup="gml:_Feature"/>
+<complexType name="sc_msa_countiesType">
+<complexContent>
+<extension base="gml:AbstractFeatureType">
+<sequence>
+<element name="NAME" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="32"/>
+</restriction>
+</simpleType></element>
+<element name="STATE_NAME" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="25"/>
+</restriction>
+</simpleType></element>
+<element name="STATE_FIPS" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="2"/>
+</restriction>
+</simpleType></element>
+<element name="CNTY_FIPS" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="3"/>
+</restriction>
+</simpleType></element>
+<element name="FIPS" minOccurs="0">
+<simpleType>
+<restriction base="string">
+<maxLength value="5"/>
+</restriction>
+</simpleType></element>
+<element name="AREA" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="12"/>
+<fractionDigits value="5"/>
+</restriction>
+</simpleType></element>
+<element name="POP2000" minOccurs="0" type="int"/>
+<element name="POP2001" minOccurs="0" type="int"/>
+<element name="POP00_SQMI" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="10"/>
+<fractionDigits value="1"/>
+</restriction>
+</simpleType></element>
+<element name="WHITE" minOccurs="0" type="int"/>
+<element name="BLACK" minOccurs="0" type="int"/>
+<element name="AMERI_ES" minOccurs="0" type="int"/>
+<element name="ASIAN" minOccurs="0" type="int"/>
+<element name="HAWN_PI" minOccurs="0" type="int"/>
+<element name="OTHER" minOccurs="0" type="int"/>
+<element name="MULT_RACE" minOccurs="0" type="int"/>
+<element name="HISPANIC" minOccurs="0" type="int"/>
+<element name="MALES" minOccurs="0" type="int"/>
+<element name="FEMALES" minOccurs="0" type="int"/>
+<element name="AGE_UNDER5" minOccurs="0" type="int"/>
+<element name="AGE_5_17" minOccurs="0" type="int"/>
+<element name="AGE_18_21" minOccurs="0" type="int"/>
+<element name="AGE_22_29" minOccurs="0" type="int"/>
+<element name="AGE_30_39" minOccurs="0" type="int"/>
+<element name="AGE_40_49" minOccurs="0" type="int"/>
+<element name="AGE_50_64" minOccurs="0" type="int"/>
+<element name="AGE_65_UP" minOccurs="0" type="int"/>
+<element name="MED_AGE" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="1"/>
+</restriction>
+</simpleType></element>
+<element name="MED_AGE_M" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="1"/>
+</restriction>
+</simpleType></element>
+<element name="MED_AGE_F" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="1"/>
+</restriction>
+</simpleType></element>
+<element name="HOUSEHOLDS" minOccurs="0" type="int"/>
+<element name="AVE_HH_SZ" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="HSEHLD_1_M" minOccurs="0" type="int"/>
+<element name="HSEHLD_1_F" minOccurs="0" type="int"/>
+<element name="MARHH_CHD" minOccurs="0" type="int"/>
+<element name="MARHH_NO_C" minOccurs="0" type="int"/>
+<element name="MHH_CHILD" minOccurs="0" type="int"/>
+<element name="FHH_CHILD" minOccurs="0" type="int"/>
+<element name="FAMILIES" minOccurs="0" type="int"/>
+<element name="AVE_FAM_SZ" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element name="HSE_UNITS" minOccurs="0" type="int"/>
+<element name="VACANT" minOccurs="0" type="int"/>
+<element name="OWNER_OCC" minOccurs="0" type="int"/>
+<element name="RENTER_OCC" minOccurs="0" type="int"/>
+<element name="NO_FARMS97" minOccurs="0" type="int"/>
+<element name="AVG_SIZE97" minOccurs="0" type="int"/>
+<element name="CROP_ACR97" minOccurs="0" type="int"/>
+<element name="AVG_SALE97" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="7"/>
+<fractionDigits value="2"/>
+</restriction>
+</simpleType></element>
+<element ref="gml:surfaceProperty" minOccurs="0"/>
+<element ref="gml:multiSurfaceProperty" minOccurs="0"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
+</schema>

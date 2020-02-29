@@ -1,0 +1,5040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>stl_hom</name>
+<visibility>1</visibility>
+<Schema name="stl_hom" id="kml_schema_ft_stl_hom">
+<SimpleField type="xsd:double" name="FIPSNO">
+<displayName>FIPSNO</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="NAME">
+<displayName>NAME</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="STATE_NAME">
+<displayName>STATE_NAME</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="STATE_FIPS">
+<displayName>STATE_FIPS</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="CNTY_FIPS">
+<displayName>CNTY_FIPS</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="FIPS">
+<displayName>FIPS</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="HC7984">
+<displayName>HC7984</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="HC8488">
+<displayName>HC8488</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="HC8893">
+<displayName>HC8893</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="PO7984">
+<displayName>PO7984</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="PO8488">
+<displayName>PO8488</displayName>
+</SimpleField>
+<SimpleField type="xsd:int" name="PO8893">
+<displayName>PO8893</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_stl_hom">
+<name>stl_hom</name>
+<Placemark id="kml_1">
+<name>kml_1</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17107</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Logan</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>107</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17107</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>189087</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>154952</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>184677</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17107</SimpleData>
+<SimpleData name="NAME">Logan</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">107</SimpleData>
+<SimpleData name="FIPS">17107</SimpleData>
+<SimpleData name="HC7984">4</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">3</SimpleData>
+<SimpleData name="PO7984">189087</SimpleData>
+<SimpleData name="PO8488">154952</SimpleData>
+<SimpleData name="PO8893">184677</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.5852203369141,39.9787940979004,0 -89.5811462402344,40.0948677062988,0 -89.6039886474609,40.0953063964844,0 -89.6058959960938,40.1361198425293,0 -89.6103515625,40.3251953125,0 -89.2690277099609,40.3295669555664,0 -89.2685623168945,40.2855796813965,0 -89.154655456543,40.285774230957,0 -89.1527633666992,40.0549697875977,0 -89.1516189575195,39.9194030761719,0 -89.2247772216797,39.9186782836914,0 -89.4118576049805,39.918041229248,0 -89.4124374389648,39.9316444396973,0 -89.4952011108398,39.9334869384766,0 -89.4927978515625,39.9801864624023,0 -89.5852203369141,39.9787940979004,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_2">
+<name>kml_2</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17001</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Adams</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>001</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17001</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>19</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>9</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>425580</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>338876</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>399026</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17001</SimpleData>
+<SimpleData name="NAME">Adams</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">001</SimpleData>
+<SimpleData name="FIPS">17001</SimpleData>
+<SimpleData name="HC7984">19</SimpleData>
+<SimpleData name="HC8488">9</SimpleData>
+<SimpleData name="HC8893">9</SimpleData>
+<SimpleData name="PO7984">425580</SimpleData>
+<SimpleData name="PO8488">338876</SimpleData>
+<SimpleData name="PO8893">399026</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.9215393066406,39.8474617004395,0 -90.9223175048828,39.7658386230469,0 -91.373420715332,39.7612724304199,0 -91.3817138671875,39.8037719726562,0 -91.4491882324219,39.8630485534668,0 -91.4509887695312,39.8852424621582,0 -91.4340515136719,39.9018287658691,0 -91.4303894042969,39.9218368530273,0 -91.4472427368164,39.9460639953613,0 -91.4872894287109,40.0057525634766,0 -91.5040054321289,40.0667114257812,0 -91.5161285400391,40.1345443725586,0 -91.5065460205078,40.2004585266113,0 -90.9212493896484,40.1966209411621,0 -90.9231109619141,40.1086235046387,0 -90.9215393066406,39.8474617004395,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_3">
+<name>kml_3</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17129</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Menard</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>129</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17129</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>69649</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>57391</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>68125</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17129</SimpleData>
+<SimpleData name="NAME">Menard</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">129</SimpleData>
+<SimpleData name="FIPS">17129</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">69649</SimpleData>
+<SimpleData name="PO8488">57391</SimpleData>
+<SimpleData name="PO8893">68125</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.9975967407227,39.9062042236328,0 -90.0002517700195,40.1147613525391,0 -89.9655456542969,40.1402854919434,0 -89.9240417480469,40.1408843994141,0 -89.8927230834961,40.1332778930664,0 -89.8795547485352,40.1446571350098,0 -89.8656463623047,40.1306419372559,0 -89.8452453613281,40.1406745910645,0 -89.8283462524414,40.1266593933105,0 -89.802490234375,40.1280860900879,0 -89.7784729003906,40.1367568969727,0 -89.7562026977539,40.1322708129883,0 -89.7177505493164,40.1459465026855,0 -89.6990966796875,40.1441612243652,0 -89.6588439941406,40.1650772094727,0 -89.6058959960938,40.1361198425293,0 -89.6039886474609,40.0953063964844,0 -89.5811462402344,40.0948677062988,0 -89.5852203369141,39.9787940979004,0 -89.7058334350586,39.9768447875977,0 -89.7104721069336,39.9201622009277,0 -89.7698287963867,39.9191436767578,0 -89.7751846313477,39.9082527160645,0 -89.9975967407227,39.9062042236328,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_4">
+<name>kml_4</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17017</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Cass</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>017</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17017</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>88540</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>69588</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>80507</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17017</SimpleData>
+<SimpleData name="NAME">Cass</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">017</SimpleData>
+<SimpleData name="FIPS">17017</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">88540</SimpleData>
+<SimpleData name="PO8488">69588</SimpleData>
+<SimpleData name="PO8893">80507</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.5853576660156,39.8807411193848,0 -90.5427474975586,39.9178276062012,0 -90.5149765014648,39.9896926879883,0 -90.4421463012695,40.0201873779297,0 -90.4277725219727,40.0697135925293,0 -90.4026489257812,40.0785140991211,0 -90.3887329101562,40.1194229125977,0 -90.3539581298828,40.1278228759766,0 -90.3140563964844,40.1099510192871,0 -90.2895355224609,40.0670280456543,0 -90.2720718383789,40.063060760498,0 -90.2577209472656,40.0699462890625,0 -90.2377548217773,40.0569152832031,0 -90.2017593383789,40.0616569519043,0 -90.1868209838867,40.0708045959473,0 -90.1309280395508,40.0697402954102,0 -90.0883865356445,40.0844535827637,0 -90.0632858276367,40.1027069091797,0 -90.0002517700195,40.1147613525391,0 -89.9975967407227,39.9062042236328,0 -89.9980010986328,39.8771896362305,0 -90.5853576660156,39.8807411193848,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_5">
+<name>kml_5</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17009</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Brown</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>009</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17009</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>33697</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>28462</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>35051</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17009</SimpleData>
+<SimpleData name="NAME">Brown</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">009</SimpleData>
+<SimpleData name="FIPS">17009</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">0</SimpleData>
+<SimpleData name="HC8893">0</SimpleData>
+<SimpleData name="PO7984">33697</SimpleData>
+<SimpleData name="PO8488">28462</SimpleData>
+<SimpleData name="PO8893">35051</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.5770416259766,39.8454475402832,0 -90.87890625,39.8424949645996,0 -90.9215393066406,39.8474617004395,0 -90.9231109619141,40.1086235046387,0 -90.6987991333008,40.1064224243164,0 -90.7121963500977,40.0809020996094,0 -90.6796646118164,40.0762214660645,0 -90.6821746826172,40.0458183288574,0 -90.6452560424805,40.0289306640625,0 -90.613410949707,40.0278549194336,0 -90.6096878051758,40.0201797485352,0 -90.6222152709961,40.0150833129883,0 -90.6070404052734,40.0043334960938,0 -90.6055221557617,39.983943939209,0 -90.5149765014648,39.9896926879883,0 -90.5427474975586,39.9178276062012,0 -90.5853576660156,39.8807411193848,0 -90.5770416259766,39.8454475402832,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_6">
+<name>kml_6</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17115</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Macon</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>115</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17115</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>28</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>37</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>64</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>774843</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>612906</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>707286</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17115</SimpleData>
+<SimpleData name="NAME">Macon</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">115</SimpleData>
+<SimpleData name="FIPS">17115</SimpleData>
+<SimpleData name="HC7984">28</SimpleData>
+<SimpleData name="HC8488">37</SimpleData>
+<SimpleData name="HC8893">64</SimpleData>
+<SimpleData name="PO7984">774843</SimpleData>
+<SimpleData name="PO8488">612906</SimpleData>
+<SimpleData name="PO8893">707286</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.0322036743164,39.6565208435059,0 -89.1469116210938,39.6568984985352,0 -89.1491928100586,39.8015213012695,0 -89.1916351318359,39.8161392211914,0 -89.223388671875,39.8116798400879,0 -89.2247772216797,39.9186782836914,0 -89.1516189575195,39.9194030761719,0 -89.1527633666992,40.0549697875977,0 -88.755012512207,40.059139251709,0 -88.7487640380859,39.7947769165039,0 -88.761344909668,39.7939414978027,0 -88.7631149291992,39.7381896972656,0 -88.814567565918,39.7371215820312,0 -88.8153381347656,39.6559791564941,0 -89.0322036743164,39.6565208435059,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_7">
+<name>kml_7</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17167</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Sangamon</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>167</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17167</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>61</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>48</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>65</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>1056438</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>882123</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>1078035</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17167</SimpleData>
+<SimpleData name="NAME">Sangamon</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">167</SimpleData>
+<SimpleData name="FIPS">17167</SimpleData>
+<SimpleData name="HC7984">61</SimpleData>
+<SimpleData name="HC8488">48</SimpleData>
+<SimpleData name="HC8893">65</SimpleData>
+<SimpleData name="PO7984">1056438</SimpleData>
+<SimpleData name="PO8488">882123</SimpleData>
+<SimpleData name="PO8893">1078035</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.7039642333984,39.5280342102051,0 -89.9299850463867,39.5270080566406,0 -89.9289779663086,39.558292388916,0 -89.9860458374023,39.7049598693848,0 -89.9980010986328,39.8771896362305,0 -89.9975967407227,39.9062042236328,0 -89.7751846313477,39.9082527160645,0 -89.7698287963867,39.9191436767578,0 -89.7104721069336,39.9201622009277,0 -89.7058334350586,39.9768447875977,0 -89.5852203369141,39.9787940979004,0 -89.4927978515625,39.9801864624023,0 -89.4952011108398,39.9334869384766,0 -89.4124374389648,39.9316444396973,0 -89.4118576049805,39.918041229248,0 -89.2247772216797,39.9186782836914,0 -89.223388671875,39.8116798400879,0 -89.2610778808594,39.8208236694336,0 -89.283317565918,39.7936630249023,0 -89.3324661254883,39.7642707824707,0 -89.4084854125977,39.7425880432129,0 -89.4359970092773,39.748046875,0 -89.4366455078125,39.686393737793,0 -89.4904403686523,39.6841430664062,0 -89.4892501831055,39.6465187072754,0 -89.5406188964844,39.645149230957,0 -89.5399551391602,39.5286483764648,0 -89.7039642333984,39.5280342102051,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_8">
+<name>kml_8</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29127</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Marion</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>127</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29127</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>172182</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>140910</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>166631</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29127</SimpleData>
+<SimpleData name="NAME">Marion</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">127</SimpleData>
+<SimpleData name="FIPS">29127</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">0</SimpleData>
+<SimpleData name="HC8893">3</SimpleData>
+<SimpleData name="PO7984">172182</SimpleData>
+<SimpleData name="PO8488">140910</SimpleData>
+<SimpleData name="PO8893">166631</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.850715637207,39.6611785888672,0 -91.8481597900391,39.9496459960938,0 -91.4472427368164,39.9460639953613,0 -91.4303894042969,39.9218368530273,0 -91.4340515136719,39.9018287658691,0 -91.4509887695312,39.8852424621582,0 -91.4491882324219,39.8630485534668,0 -91.3817138671875,39.8037719726562,0 -91.373420715332,39.7612724304199,0 -91.3670883178711,39.7246398925781,0 -91.3176651000977,39.6859169006348,0 -91.721794128418,39.6862030029297,0 -91.7227630615234,39.6594352722168,0 -91.850715637207,39.6611785888672,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_9">
+<name>kml_9</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17137</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Morgan</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>137</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17137</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>10</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>224033</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>184651</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>218281</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17137</SimpleData>
+<SimpleData name="NAME">Morgan</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">137</SimpleData>
+<SimpleData name="FIPS">17137</SimpleData>
+<SimpleData name="HC7984">7</SimpleData>
+<SimpleData name="HC8488">4</SimpleData>
+<SimpleData name="HC8893">10</SimpleData>
+<SimpleData name="PO7984">224033</SimpleData>
+<SimpleData name="PO8488">184651</SimpleData>
+<SimpleData name="PO8893">218281</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.1548004150391,39.5255813598633,0 -90.3032913208008,39.524715423584,0 -90.3003845214844,39.6394233703613,0 -90.3416061401367,39.640064239502,0 -90.3419342041016,39.6677131652832,0 -90.3759994506836,39.6679344177246,0 -90.375862121582,39.7549781799316,0 -90.4847564697266,39.7555313110352,0 -90.4834518432617,39.7918090820312,0 -90.6085968017578,39.7939414978027,0 -90.5884857177734,39.809986114502,0 -90.5770416259766,39.8454475402832,0 -90.5853576660156,39.8807411193848,0 -89.9980010986328,39.8771896362305,0 -89.9860458374023,39.7049598693848,0 -89.9289779663086,39.558292388916,0 -89.9299850463867,39.5270080566406,0 -90.1548004150391,39.5255813598633,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_10">
+<name>kml_10</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17149</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Pike</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>149</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17149</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>113497</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>90964</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>105524</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17149</SimpleData>
+<SimpleData name="NAME">Pike</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">149</SimpleData>
+<SimpleData name="FIPS">17149</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">4</SimpleData>
+<SimpleData name="PO7984">113497</SimpleData>
+<SimpleData name="PO8488">90964</SimpleData>
+<SimpleData name="PO8893">105524</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.2032470703125,39.6000213623047,0 -91.3176651000977,39.6859169006348,0 -91.3670883178711,39.7246398925781,0 -91.373420715332,39.7612724304199,0 -90.9223175048828,39.7658386230469,0 -90.9215393066406,39.8474617004395,0 -90.87890625,39.8424949645996,0 -90.5770416259766,39.8454475402832,0 -90.5884857177734,39.809986114502,0 -90.6085968017578,39.7939414978027,0 -90.6466827392578,39.7047386169434,0 -90.6409072875977,39.6798553466797,0 -90.6122589111328,39.6438446044922,0 -90.5824127197266,39.5656776428223,0 -90.5877685546875,39.5252838134766,0 -90.6213226318359,39.4198150634766,0 -90.6173324584961,39.3931045532227,0 -90.9478912353516,39.4005851745605,0 -91.0363388061523,39.4444122314453,0 -91.0643844604492,39.4739837646484,0 -91.0936126708984,39.5289268493652,0 -91.1561889648438,39.5525932312012,0 -91.2032470703125,39.6000213623047,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_11">
+<name>kml_11</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17021</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Christian</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>021</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17021</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>218510</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>176852</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>207263</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17021</SimpleData>
+<SimpleData name="NAME">Christian</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">021</SimpleData>
+<SimpleData name="FIPS">17021</SimpleData>
+<SimpleData name="HC7984">4</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">3</SimpleData>
+<SimpleData name="PO7984">218510</SimpleData>
+<SimpleData name="PO8488">176852</SimpleData>
+<SimpleData name="PO8893">207263</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.5399551391602,39.5286483764648,0 -89.5406188964844,39.645149230957,0 -89.4892501831055,39.6465187072754,0 -89.4904403686523,39.6841430664062,0 -89.4366455078125,39.686393737793,0 -89.4359970092773,39.748046875,0 -89.4084854125977,39.7425880432129,0 -89.3324661254883,39.7642707824707,0 -89.283317565918,39.7936630249023,0 -89.2610778808594,39.8208236694336,0 -89.223388671875,39.8116798400879,0 -89.1916351318359,39.8161392211914,0 -89.1491928100586,39.8015213012695,0 -89.1469116210938,39.6568984985352,0 -89.0322036743164,39.6565208435059,0 -89.0318145751953,39.349178314209,0 -89.1388931274414,39.3499870300293,0 -89.537483215332,39.3495979309082,0 -89.5399551391602,39.5286483764648,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_12">
+<name>kml_12</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17139</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Moultrie</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>139</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>87628</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>71366</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>83895</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17139</SimpleData>
+<SimpleData name="NAME">Moultrie</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">139</SimpleData>
+<SimpleData name="FIPS">17139</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">87628</SimpleData>
+<SimpleData name="PO8488">71366</SimpleData>
+<SimpleData name="PO8893">83895</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.4729156494141,39.4514503479004,0 -88.5902938842773,39.451000213623,0 -88.589958190918,39.4777450561523,0 -88.604248046875,39.4783020019531,0 -88.6046829223633,39.4914512634277,0 -88.6243591308594,39.4911346435547,0 -88.6241683959961,39.5069999694824,0 -88.6468200683594,39.5071601867676,0 -88.6483993530273,39.5248489379883,0 -88.7199401855469,39.5271301269531,0 -88.7205505371094,39.5815315246582,0 -88.8130416870117,39.5834312438965,0 -88.8153381347656,39.6559791564941,0 -88.814567565918,39.7371215820312,0 -88.7631149291992,39.7381896972656,0 -88.761344909668,39.7939414978027,0 -88.7487640380859,39.7947769165039,0 -88.4758529663086,39.7910308837891,0 -88.4742660522461,39.6504783630371,0 -88.4729156494141,39.4514503479004,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_13">
+<name>kml_13</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17171</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Scott</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>171</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17171</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>36354</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>29070</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>33911</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17171</SimpleData>
+<SimpleData name="NAME">Scott</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">171</SimpleData>
+<SimpleData name="FIPS">17171</SimpleData>
+<SimpleData name="HC7984">1</SimpleData>
+<SimpleData name="HC8488">0</SimpleData>
+<SimpleData name="HC8893">0</SimpleData>
+<SimpleData name="PO7984">36354</SimpleData>
+<SimpleData name="PO8488">29070</SimpleData>
+<SimpleData name="PO8893">33911</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.5877685546875,39.5252838134766,0 -90.5824127197266,39.5656776428223,0 -90.6122589111328,39.6438446044922,0 -90.6409072875977,39.6798553466797,0 -90.6466827392578,39.7047386169434,0 -90.6085968017578,39.7939414978027,0 -90.4834518432617,39.7918090820312,0 -90.4847564697266,39.7555313110352,0 -90.375862121582,39.7549781799316,0 -90.3759994506836,39.6679344177246,0 -90.3419342041016,39.6677131652832,0 -90.3416061401367,39.640064239502,0 -90.3003845214844,39.6394233703613,0 -90.3032913208008,39.524715423584,0 -90.5877685546875,39.5252838134766,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_14">
+<name>kml_14</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17029</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Coles</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>029</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17029</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>12</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>316661</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>261489</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>310942</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17029</SimpleData>
+<SimpleData name="NAME">Coles</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">029</SimpleData>
+<SimpleData name="FIPS">17029</SimpleData>
+<SimpleData name="HC7984">12</SimpleData>
+<SimpleData name="HC8488">8</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">316661</SimpleData>
+<SimpleData name="PO8488">261489</SimpleData>
+<SimpleData name="PO8893">310942</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.0138473510742,39.3792839050293,0 -88.4721908569336,39.3766479492188,0 -88.4729156494141,39.4514503479004,0 -88.4742660522461,39.6504783630371,0 -88.0583038330078,39.65771484375,0 -88.0595321655273,39.6858367919922,0 -87.9686126708984,39.6888389587402,0 -87.9651870727539,39.4847793579102,0 -88.0140533447266,39.4853706359863,0 -88.0138473510742,39.3792839050293,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_15">
+<name>kml_15</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29173</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Ralls</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>173</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29173</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>53222</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>43945</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>51287</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29173</SimpleData>
+<SimpleData name="NAME">Ralls</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">173</SimpleData>
+<SimpleData name="FIPS">29173</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">53222</SimpleData>
+<SimpleData name="PO8488">43945</SimpleData>
+<SimpleData name="PO8893">51287</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.4441223144531,39.3213005065918,0 -91.7131652832031,39.3272438049316,0 -91.7236709594727,39.3402061462402,0 -91.715087890625,39.604248046875,0 -91.7222671508789,39.6045761108398,0 -91.7227630615234,39.6594352722168,0 -91.721794128418,39.6862030029297,0 -91.3176651000977,39.6859169006348,0 -91.2032470703125,39.6000213623047,0 -91.4656524658203,39.4569778442383,0 -91.4441223144531,39.3213005065918,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_16">
+<name>kml_16</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17173</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Shelby</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>173</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17173</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>141872</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>114480</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>134212</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17173</SimpleData>
+<SimpleData name="NAME">Shelby</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">173</SimpleData>
+<SimpleData name="FIPS">17173</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">141872</SimpleData>
+<SimpleData name="PO8488">114480</SimpleData>
+<SimpleData name="PO8893">134212</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.8100051879883,39.214427947998,0 -89.1425247192383,39.2167358398438,0 -89.1388931274414,39.3499870300293,0 -89.0318145751953,39.349178314209,0 -89.0322036743164,39.6565208435059,0 -88.8153381347656,39.6559791564941,0 -88.8130416870117,39.5834312438965,0 -88.7205505371094,39.5815315246582,0 -88.7199401855469,39.5271301269531,0 -88.6483993530273,39.5248489379883,0 -88.6468200683594,39.5071601867676,0 -88.6241683959961,39.5069999694824,0 -88.6243591308594,39.4911346435547,0 -88.6046829223633,39.4914512634277,0 -88.604248046875,39.4783020019531,0 -88.589958190918,39.4777450561523,0 -88.5902938842773,39.451000213623,0 -88.4729156494141,39.4514503479004,0 -88.4721908569336,39.3766479492188,0 -88.4715423583984,39.2130012512207,0 -88.8100051879883,39.214427947998,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_17">
+<name>kml_17</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29163</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Pike</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>163</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29163</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>103469</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>81508</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>95847</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29163</SimpleData>
+<SimpleData name="NAME">Pike</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">163</SimpleData>
+<SimpleData name="FIPS">29163</SimpleData>
+<SimpleData name="HC7984">6</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">4</SimpleData>
+<SimpleData name="PO7984">103469</SimpleData>
+<SimpleData name="PO8488">81508</SimpleData>
+<SimpleData name="PO8893">95847</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.4175186157227,39.1476249694824,0 -91.4441223144531,39.3213005065918,0 -91.4656524658203,39.4569778442383,0 -91.2032470703125,39.6000213623047,0 -91.1561889648438,39.5525932312012,0 -91.0936126708984,39.5289268493652,0 -91.0643844604492,39.4739837646484,0 -91.0363388061523,39.4444122314453,0 -90.9478912353516,39.4005851745605,0 -90.8504943847656,39.3504524230957,0 -90.7793426513672,39.296802520752,0 -90.7380828857422,39.2478103637695,0 -90.7323379516602,39.2247467041016,0 -91.1867599487305,39.2266731262207,0 -91.1931228637695,39.1431732177734,0 -91.2649230957031,39.1435356140137,0 -91.4175186157227,39.1476249694824,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_18">
+<name>kml_18</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17135</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Montgomery</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>135</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17135</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>193449</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>158109</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>185026</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17135</SimpleData>
+<SimpleData name="NAME">Montgomery</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">135</SimpleData>
+<SimpleData name="FIPS">17135</SimpleData>
+<SimpleData name="HC7984">6</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">7</SimpleData>
+<SimpleData name="PO7984">193449</SimpleData>
+<SimpleData name="PO8488">158109</SimpleData>
+<SimpleData name="PO8893">185026</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.7024688720703,38.9967994689941,0 -89.7106094360352,39.3544120788574,0 -89.7040710449219,39.3548774719238,0 -89.7039642333984,39.5280342102051,0 -89.5399551391602,39.5286483764648,0 -89.537483215332,39.3495979309082,0 -89.1388931274414,39.3499870300293,0 -89.1425247192383,39.2167358398438,0 -89.2559432983398,39.2161026000977,0 -89.2577667236328,39.0252838134766,0 -89.5941696166992,39.0282020568848,0 -89.5929489135742,38.998291015625,0 -89.645637512207,38.9964256286621,0 -89.7024688720703,38.9967994689941,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_19">
+<name>kml_19</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17117</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Macoupin</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>117</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17117</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>295848</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>244254</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>287751</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17117</SimpleData>
+<SimpleData name="NAME">Macoupin</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">117</SimpleData>
+<SimpleData name="FIPS">17117</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">4</SimpleData>
+<SimpleData name="HC8893">6</SimpleData>
+<SimpleData name="PO7984">295848</SimpleData>
+<SimpleData name="PO8488">244254</SimpleData>
+<SimpleData name="PO8893">287751</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.1518325805664,38.997974395752,0 -90.1523895263672,39.2581481933594,0 -90.1548004150391,39.5255813598633,0 -89.9299850463867,39.5270080566406,0 -89.7039642333984,39.5280342102051,0 -89.7040710449219,39.3548774719238,0 -89.7106094360352,39.3544120788574,0 -89.7024688720703,38.9967994689941,0 -90.1518325805664,38.997974395752,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_20">
+<name>kml_20</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17061</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Greene</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>061</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17061</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>99013</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>78582</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>91899</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17061</SimpleData>
+<SimpleData name="NAME">Greene</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">061</SimpleData>
+<SimpleData name="FIPS">17061</SimpleData>
+<SimpleData name="HC7984">4</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">99013</SimpleData>
+<SimpleData name="PO8488">78582</SimpleData>
+<SimpleData name="PO8893">91899</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.1523895263672,39.2581481933594,0 -90.2046127319336,39.2519683837891,0 -90.2055511474609,39.2256736755371,0 -90.3171920776367,39.2249908447266,0 -90.3178482055664,39.1773948669434,0 -90.4923095703125,39.1752166748047,0 -90.5063705444336,39.1619606018066,0 -90.519172668457,39.1858787536621,0 -90.5684280395508,39.1850128173828,0 -90.5867156982422,39.1776008605957,0 -90.5823135375977,39.1608695983887,0 -90.6083526611328,39.1175765991211,0 -90.6142730712891,39.1556015014648,0 -90.5997314453125,39.2142028808594,0 -90.6228332519531,39.3635902404785,0 -90.6173324584961,39.3931045532227,0 -90.6213226318359,39.4198150634766,0 -90.5877685546875,39.5252838134766,0 -90.3032913208008,39.524715423584,0 -90.1548004150391,39.5255813598633,0 -90.1523895263672,39.2581481933594,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_21">
+<name>kml_21</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17013</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Calhoun</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>013</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17013</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>34772</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>27538</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>31699</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17013</SimpleData>
+<SimpleData name="NAME">Calhoun</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">013</SimpleData>
+<SimpleData name="FIPS">17013</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">34772</SimpleData>
+<SimpleData name="PO8488">27538</SimpleData>
+<SimpleData name="PO8893">31699</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.6083526611328,39.1175765991211,0 -90.6111679077148,39.1075782775879,0 -90.5762405395508,39.0317344665527,0 -90.5752639770508,39.0054512023926,0 -90.5504684448242,38.969856262207,0 -90.5319519042969,38.9577751159668,0 -90.4882888793945,38.9671936035156,0 -90.469841003418,38.9591789245605,0 -90.5304260253906,38.8916091918945,0 -90.5703277587891,38.8713264465332,0 -90.6272125244141,38.8807945251465,0 -90.6688766479492,38.9352531433105,0 -90.7060699462891,39.0377922058105,0 -90.7075881958008,39.058177947998,0 -90.6903991699219,39.0937004089355,0 -90.7167358398438,39.1442108154297,0 -90.7181930541992,39.195873260498,0 -90.7323379516602,39.2247467041016,0 -90.7380828857422,39.2478103637695,0 -90.7793426513672,39.296802520752,0 -90.8504943847656,39.3504524230957,0 -90.9478912353516,39.4005851745605,0 -90.6173324584961,39.3931045532227,0 -90.6228332519531,39.3635902404785,0 -90.5997314453125,39.2142028808594,0 -90.6142730712891,39.1556015014648,0 -90.6083526611328,39.1175765991211,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_22">
+<name>kml_22</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17035</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Cumberland</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>035</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17035</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>65947</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>54045</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>64482</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17035</SimpleData>
+<SimpleData name="NAME">Cumberland</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">035</SimpleData>
+<SimpleData name="FIPS">17035</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">7</SimpleData>
+<SimpleData name="PO7984">65947</SimpleData>
+<SimpleData name="PO8488">54045</SimpleData>
+<SimpleData name="PO8893">64482</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.010856628418,39.1775131225586,0 -88.3640747070312,39.1744422912598,0 -88.4697036743164,39.1753616333008,0 -88.4715423583984,39.2130012512207,0 -88.4721908569336,39.3766479492188,0 -88.0138473510742,39.3792839050293,0 -88.010856628418,39.1775131225586,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_23">
+<name>kml_23</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29007</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Audrain</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>007</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29007</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>155266</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>124241</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>142472</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29007</SimpleData>
+<SimpleData name="NAME">Audrain</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">007</SimpleData>
+<SimpleData name="FIPS">29007</SimpleData>
+<SimpleData name="HC7984">9</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">6</SimpleData>
+<SimpleData name="PO7984">155266</SimpleData>
+<SimpleData name="PO8488">124241</SimpleData>
+<SimpleData name="PO8893">142472</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.3169631958008,39.2493095397949,0 -92.3142318725586,39.3473205566406,0 -91.7236709594727,39.3402061462402,0 -91.7131652832031,39.3272438049316,0 -91.4441223144531,39.3213005065918,0 -91.4175186157227,39.1476249694824,0 -91.6382827758789,39.1485557556152,0 -91.6434707641602,39.0627784729004,0 -92.1118850708008,39.0669631958008,0 -92.1045303344727,39.2421417236328,0 -92.3169631958008,39.2493095397949,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_24">
+<name>kml_24</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17083</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Jersey</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>083</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17083</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>123387</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>101876</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>124253</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17083</SimpleData>
+<SimpleData name="NAME">Jersey</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">083</SimpleData>
+<SimpleData name="FIPS">17083</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">123387</SimpleData>
+<SimpleData name="PO8488">101876</SimpleData>
+<SimpleData name="PO8893">124253</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.1518325805664,38.997974395752,0 -90.2791213989258,38.9976921081543,0 -90.2789306640625,38.9247169494629,0 -90.3197402954102,38.9249076843262,0 -90.4130706787109,38.962329864502,0 -90.469841003418,38.9591789245605,0 -90.4882888793945,38.9671936035156,0 -90.5319519042969,38.9577751159668,0 -90.5504684448242,38.969856262207,0 -90.5752639770508,39.0054512023926,0 -90.5762405395508,39.0317344665527,0 -90.6111679077148,39.1075782775879,0 -90.6083526611328,39.1175765991211,0 -90.5823135375977,39.1608695983887,0 -90.5867156982422,39.1776008605957,0 -90.5684280395508,39.1850128173828,0 -90.519172668457,39.1858787536621,0 -90.5063705444336,39.1619606018066,0 -90.4923095703125,39.1752166748047,0 -90.3178482055664,39.1773948669434,0 -90.3171920776367,39.2249908447266,0 -90.2055511474609,39.2256736755371,0 -90.2046127319336,39.2519683837891,0 -90.1523895263672,39.2581481933594,0 -90.1518325805664,38.997974395752,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_25">
+<name>kml_25</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29019</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Boone</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>019</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29019</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>23</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>18</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>22</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>612258</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>532917</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>684222</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29019</SimpleData>
+<SimpleData name="NAME">Boone</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">019</SimpleData>
+<SimpleData name="FIPS">29019</SimpleData>
+<SimpleData name="HC7984">23</SimpleData>
+<SimpleData name="HC8488">18</SimpleData>
+<SimpleData name="HC8893">22</SimpleData>
+<SimpleData name="PO7984">612258</SimpleData>
+<SimpleData name="PO8488">532917</SimpleData>
+<SimpleData name="PO8893">684222</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.3951187133789,38.736011505127,0 -92.4096755981445,38.7606086730957,0 -92.392578125,38.7909393310547,0 -92.3934020996094,38.8117752075195,0 -92.4328842163086,38.8239974975586,0 -92.4747085571289,38.8642654418945,0 -92.4999847412109,38.9180717468262,0 -92.5661926269531,38.9681968688965,0 -92.5656509399414,39.0021743774414,0 -92.4328994750977,39.2502555847168,0 -92.3169631958008,39.2493095397949,0 -92.1045303344727,39.2421417236328,0 -92.1118850708008,39.0669631958008,0 -92.1371917724609,39.0618934631348,0 -92.1554412841797,38.928653717041,0 -92.1702728271484,38.8974990844727,0 -92.1585693359375,38.8846015930176,0 -92.1633911132812,38.8708953857422,0 -92.1436462402344,38.8155517578125,0 -92.1874542236328,38.737979888916,0 -92.2191162109375,38.7164306640625,0 -92.224853515625,38.6963500976562,0 -92.1995010375977,38.6805877685547,0 -92.1933746337891,38.6585006713867,0 -92.2197494506836,38.638427734375,0 -92.2661972045898,38.6509971618652,0 -92.292121887207,38.6662864685059,0 -92.3555450439453,38.6748123168945,0 -92.3495483398438,38.7175712585449,0 -92.3951187133789,38.736011505127,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_26">
+<name>kml_26</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29113</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Lincoln</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>113</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29113</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>135365</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>129468</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>176450</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29113</SimpleData>
+<SimpleData name="NAME">Lincoln</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">113</SimpleData>
+<SimpleData name="FIPS">29113</SimpleData>
+<SimpleData name="HC7984">5</SimpleData>
+<SimpleData name="HC8488">7</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">135365</SimpleData>
+<SimpleData name="PO8488">129468</SimpleData>
+<SimpleData name="PO8893">176450</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.9616088867188,38.871410369873,0 -91.1165390014648,38.8744697570801,0 -91.1183471679688,38.9292984008789,0 -91.2006683349609,38.9331817626953,0 -91.199104309082,38.9930419921875,0 -91.26904296875,38.9961433410645,0 -91.2649230957031,39.1435356140137,0 -91.1931228637695,39.1431732177734,0 -91.1867599487305,39.2266731262207,0 -90.7323379516602,39.2247467041016,0 -90.7181930541992,39.195873260498,0 -90.7167358398438,39.1442108154297,0 -90.6903991699219,39.0937004089355,0 -90.7075881958008,39.058177947998,0 -90.7060699462891,39.0377922058105,0 -90.6688766479492,38.9352531433105,0 -90.6942672729492,38.9322929382324,0 -90.6958084106445,38.9182243347168,0 -90.7100219726562,38.9194488525391,0 -90.7074737548828,38.9085922241211,0 -90.7342376708984,38.9173965454102,0 -90.7321014404297,38.9310150146484,0 -90.7881317138672,38.9218330383301,0 -90.8050994873047,38.9112319946289,0 -90.8133926391602,38.8794136047363,0 -90.8804016113281,38.8904724121094,0 -90.9394683837891,38.8875350952148,0 -90.9585418701172,38.8954696655273,0 -90.9616088867188,38.871410369873,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_27">
+<name>kml_27</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17051</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Fayette</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>051</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17051</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>133297</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>108085</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>125625</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17051</SimpleData>
+<SimpleData name="NAME">Fayette</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">051</SimpleData>
+<SimpleData name="FIPS">17051</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">133297</SimpleData>
+<SimpleData name="PO8488">108085</SimpleData>
+<SimpleData name="PO8893">125625</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.2577667236328,39.0252838134766,0 -89.2559432983398,39.2161026000977,0 -89.1425247192383,39.2167358398438,0 -88.8100051879883,39.214427947998,0 -88.8104553222656,38.9170913696289,0 -88.7010345458984,38.9177932739258,0 -88.7025909423828,38.830322265625,0 -89.1432571411133,38.8255767822266,0 -89.1448516845703,38.7412796020508,0 -89.2628402709961,38.742015838623,0 -89.2649307250977,39.0076179504395,0 -89.2560501098633,39.0085105895996,0 -89.2577667236328,39.0252838134766,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_28">
+<name>kml_28</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17049</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Effingham</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>049</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17049</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>186877</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>156669</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>190942</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17049</SimpleData>
+<SimpleData name="NAME">Effingham</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">049</SimpleData>
+<SimpleData name="FIPS">17049</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">0</SimpleData>
+<SimpleData name="HC8893">3</SimpleData>
+<SimpleData name="PO7984">186877</SimpleData>
+<SimpleData name="PO8488">156669</SimpleData>
+<SimpleData name="PO8893">190942</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.3651580810547,38.9151725769043,0 -88.7010345458984,38.9177932739258,0 -88.8104553222656,38.9170913696289,0 -88.8100051879883,39.214427947998,0 -88.4715423583984,39.2130012512207,0 -88.4697036743164,39.1753616333008,0 -88.3640747070312,39.1744422912598,0 -88.3651580810547,38.9151725769043,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_29">
+<name>kml_29</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17079</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Jasper</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>079</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17079</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>68404</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>55409</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>63947</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17079</SimpleData>
+<SimpleData name="NAME">Jasper</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">079</SimpleData>
+<SimpleData name="FIPS">17079</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">68404</SimpleData>
+<SimpleData name="PO8488">55409</SimpleData>
+<SimpleData name="PO8893">63947</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-87.9553909301758,38.8554420471191,0 -88.2621154785156,38.8539009094238,0 -88.3654556274414,38.8580627441406,0 -88.3651580810547,38.9151725769043,0 -88.3640747070312,39.1744422912598,0 -88.010856628418,39.1775131225586,0 -87.9556503295898,39.1777496337891,0 -87.9553909301758,38.8554420471191,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_30">
+<name>kml_30</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29139</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Montgomery</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>139</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29139</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>68779</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>56067</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>67921</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29139</SimpleData>
+<SimpleData name="NAME">Montgomery</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">139</SimpleData>
+<SimpleData name="FIPS">29139</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">3</SimpleData>
+<SimpleData name="PO7984">68779</SimpleData>
+<SimpleData name="PO8488">56067</SimpleData>
+<SimpleData name="PO8893">67921</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.4249877929688,38.7132110595703,0 -91.4937438964844,38.7039604187012,0 -91.5614547729492,38.6788215637207,0 -91.593994140625,38.6828079223633,0 -91.6535415649414,38.7044715881348,0 -91.6434707641602,39.0627784729004,0 -91.6382827758789,39.1485557556152,0 -91.4175186157227,39.1476249694824,0 -91.2649230957031,39.1435356140137,0 -91.26904296875,38.9961433410645,0 -91.275390625,38.8437385559082,0 -91.4185104370117,38.8484039306641,0 -91.4249877929688,38.7132110595703,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_31">
+<name>kml_31</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29027</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Callaway</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>027</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29027</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>10</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>192789</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>159187</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>198841</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29027</SimpleData>
+<SimpleData name="NAME">Callaway</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">027</SimpleData>
+<SimpleData name="FIPS">29027</SimpleData>
+<SimpleData name="HC7984">10</SimpleData>
+<SimpleData name="HC8488">6</SimpleData>
+<SimpleData name="HC8893">6</SimpleData>
+<SimpleData name="PO7984">192789</SimpleData>
+<SimpleData name="PO8488">159187</SimpleData>
+<SimpleData name="PO8893">198841</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.2197494506836,38.638427734375,0 -92.1933746337891,38.6585006713867,0 -92.1995010375977,38.6805877685547,0 -92.224853515625,38.6963500976562,0 -92.2191162109375,38.7164306640625,0 -92.1874542236328,38.737979888916,0 -92.1436462402344,38.8155517578125,0 -92.1633911132812,38.8708953857422,0 -92.1585693359375,38.8846015930176,0 -92.1702728271484,38.8974990844727,0 -92.1554412841797,38.928653717041,0 -92.1371917724609,39.0618934631348,0 -92.1118850708008,39.0669631958008,0 -91.6434707641602,39.0627784729004,0 -91.6535415649414,38.7044715881348,0 -91.653564453125,38.7035446166992,0 -91.7409362792969,38.7060737609863,0 -91.7605590820312,38.6921157836914,0 -91.8020324707031,38.6795616149902,0 -91.8555526733398,38.6753807067871,0 -91.954345703125,38.5972900390625,0 -91.984733581543,38.5903358459473,0 -92.0333404541016,38.565315246582,0 -92.1021041870117,38.562068939209,0 -92.1705322265625,38.581916809082,0 -92.198356628418,38.6017189025879,0 -92.2197494506836,38.638427734375,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_32">
+<name>kml_32</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17005</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Bond</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>005</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17005</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>96686</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>77652</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>90687</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17005</SimpleData>
+<SimpleData name="NAME">Bond</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">005</SimpleData>
+<SimpleData name="FIPS">17005</SimpleData>
+<SimpleData name="HC7984">4</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">9</SimpleData>
+<SimpleData name="PO7984">96686</SimpleData>
+<SimpleData name="PO8488">77652</SimpleData>
+<SimpleData name="PO8893">90687</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.605598449707,38.7412948608398,0 -89.6069717407227,38.8718223571777,0 -89.6442031860352,38.8717880249023,0 -89.645637512207,38.9964256286621,0 -89.5929489135742,38.998291015625,0 -89.5941696166992,39.0282020568848,0 -89.2577667236328,39.0252838134766,0 -89.2560501098633,39.0085105895996,0 -89.2649307250977,39.0076179504395,0 -89.2628402709961,38.742015838623,0 -89.605598449707,38.7412948608398,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_33">
+<name>kml_33</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17119</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Madison</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>119</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17119</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>95</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>83</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>120</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>1480530</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>1235941</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>1504899</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17119</SimpleData>
+<SimpleData name="NAME">Madison</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">119</SimpleData>
+<SimpleData name="FIPS">17119</SimpleData>
+<SimpleData name="HC7984">95</SimpleData>
+<SimpleData name="HC8488">83</SimpleData>
+<SimpleData name="HC8893">120</SimpleData>
+<SimpleData name="PO7984">1480530</SimpleData>
+<SimpleData name="PO8488">1235941</SimpleData>
+<SimpleData name="PO8893">1504899</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.1217269897461,38.8005104064941,0 -90.1131210327148,38.8304672241211,0 -90.1328125,38.8530311584473,0 -90.2439270019531,38.9145088195801,0 -90.2789306640625,38.9247169494629,0 -90.2791213989258,38.9976921081543,0 -90.1518325805664,38.997974395752,0 -89.7024688720703,38.9967994689941,0 -89.645637512207,38.9964256286621,0 -89.6442031860352,38.8717880249023,0 -89.6069717407227,38.8718223571777,0 -89.605598449707,38.7412948608398,0 -89.6043090820312,38.6601638793945,0 -89.7145004272461,38.6577568054199,0 -90.1835784912109,38.6587715148926,0 -90.2022399902344,38.7003631591797,0 -90.1965713500977,38.7239646911621,0 -90.1633987426758,38.7730979919434,0 -90.1351776123047,38.7854843139648,0 -90.1217269897461,38.8005104064941,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_34">
+<name>kml_34</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29219</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Warren</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>219</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29219</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>92864</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>88945</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>119869</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29219</SimpleData>
+<SimpleData name="NAME">Warren</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">219</SimpleData>
+<SimpleData name="FIPS">29219</SimpleData>
+<SimpleData name="HC7984">8</SimpleData>
+<SimpleData name="HC8488">7</SimpleData>
+<SimpleData name="HC8893">6</SimpleData>
+<SimpleData name="PO7984">92864</SimpleData>
+<SimpleData name="PO8488">88945</SimpleData>
+<SimpleData name="PO8893">119869</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.9686508178711,38.5463180541992,0 -91.0137176513672,38.5629959106445,0 -91.0605621337891,38.6068344116211,0 -91.0888900756836,38.6096496582031,0 -91.1422805786133,38.6003379821777,0 -91.2049713134766,38.6117286682129,0 -91.2253112792969,38.6250419616699,0 -91.2478713989258,38.656909942627,0 -91.2963790893555,38.6884002685547,0 -91.3344650268555,38.7023468017578,0 -91.3750762939453,38.6990165710449,0 -91.4249877929688,38.7132110595703,0 -91.4185104370117,38.8484039306641,0 -91.275390625,38.8437385559082,0 -91.26904296875,38.9961433410645,0 -91.199104309082,38.9930419921875,0 -91.2006683349609,38.9331817626953,0 -91.1183471679688,38.9292984008789,0 -91.1165390014648,38.8744697570801,0 -90.9616088867188,38.871410369873,0 -90.9686508178711,38.5463180541992,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_35">
+<name>kml_35</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29183</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>St. Charles</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>183</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29183</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>31</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>21</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>32</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>905683</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>910865</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>1298759</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29183</SimpleData>
+<SimpleData name="NAME">St. Charles</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">183</SimpleData>
+<SimpleData name="FIPS">29183</SimpleData>
+<SimpleData name="HC7984">31</SimpleData>
+<SimpleData name="HC8488">21</SimpleData>
+<SimpleData name="HC8893">32</SimpleData>
+<SimpleData name="PO7984">905683</SimpleData>
+<SimpleData name="PO8488">910865</SimpleData>
+<SimpleData name="PO8893">1298759</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.7377090454102,38.6345176696777,0 -90.7838363647461,38.5773887634277,0 -90.8022155761719,38.5844459533691,0 -90.8227767944336,38.5819625854492,0 -90.9120483398438,38.5406303405762,0 -90.9686508178711,38.5463180541992,0 -90.9616088867188,38.871410369873,0 -90.9585418701172,38.8954696655273,0 -90.9394683837891,38.8875350952148,0 -90.8804016113281,38.8904724121094,0 -90.8133926391602,38.8794136047363,0 -90.8050994873047,38.9112319946289,0 -90.7881317138672,38.9218330383301,0 -90.7321014404297,38.9310150146484,0 -90.7342376708984,38.9173965454102,0 -90.7074737548828,38.9085922241211,0 -90.7100219726562,38.9194488525391,0 -90.6958084106445,38.9182243347168,0 -90.6942672729492,38.9322929382324,0 -90.6688766479492,38.9352531433105,0 -90.6272125244141,38.8807945251465,0 -90.5703277587891,38.8713264465332,0 -90.5304260253906,38.8916091918945,0 -90.469841003418,38.9591789245605,0 -90.4130706787109,38.962329864502,0 -90.3197402954102,38.9249076843262,0 -90.2789306640625,38.9247169494629,0 -90.2439270019531,38.9145088195801,0 -90.1328125,38.8530311584473,0 -90.1131210327148,38.8304672241211,0 -90.1217269897461,38.8005104064941,0 -90.1349105834961,38.8226509094238,0 -90.1998977661133,38.8250198364258,0 -90.2604675292969,38.8559379577637,0 -90.2879638671875,38.8852272033691,0 -90.3181610107422,38.8895645141602,0 -90.3381271362305,38.878101348877,0 -90.3600616455078,38.8330764770508,0 -90.4030914306641,38.8255195617676,0 -90.4332885742188,38.8311882019043,0 -90.4521255493164,38.8265113830566,0 -90.4901962280273,38.7591285705566,0 -90.5339508056641,38.7234191894531,0 -90.5476531982422,38.6920280456543,0 -90.6023330688477,38.6820335388184,0 -90.6396484375,38.6930274963379,0 -90.6800918579102,38.6781425476074,0 -90.6886138916016,38.6585693359375,0 -90.7377090454102,38.6345176696777,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_36">
+<name>kml_36</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17025</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Clay</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>025</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17025</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>93388</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>75023</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>86899</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17025</SimpleData>
+<SimpleData name="NAME">Clay</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">025</SimpleData>
+<SimpleData name="FIPS">17025</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">0</SimpleData>
+<SimpleData name="HC8893">0</SimpleData>
+<SimpleData name="PO7984">93388</SimpleData>
+<SimpleData name="PO8488">75023</SimpleData>
+<SimpleData name="PO8893">86899</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.7020263671875,38.611400604248,0 -88.7025909423828,38.830322265625,0 -88.7010345458984,38.9177932739258,0 -88.3651580810547,38.9151725769043,0 -88.3654556274414,38.8580627441406,0 -88.2621154785156,38.8539009094238,0 -88.2616424560547,38.7423896789551,0 -88.2888336181641,38.7394866943359,0 -88.2771606445312,38.6614112854004,0 -88.2939605712891,38.6434440612793,0 -88.2860870361328,38.6207046508789,0 -88.2657012939453,38.6069030761719,0 -88.7020263671875,38.611400604248,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_37">
+<name>kml_37</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29189</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>St. Louis</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>189</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29189</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>407</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>289</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>441</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>5863876</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>4931038</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>5977251</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29189</SimpleData>
+<SimpleData name="NAME">St. Louis</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">189</SimpleData>
+<SimpleData name="FIPS">29189</SimpleData>
+<SimpleData name="HC7984">407</SimpleData>
+<SimpleData name="HC8488">289</SimpleData>
+<SimpleData name="HC8893">441</SimpleData>
+<SimpleData name="PO7984">5863876</SimpleData>
+<SimpleData name="PO8488">4931038</SimpleData>
+<SimpleData name="PO8893">5977251</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.7395248413086,38.4636154174805,0 -90.7377090454102,38.6345176696777,0 -90.6886138916016,38.6585693359375,0 -90.6800918579102,38.6781425476074,0 -90.6396484375,38.6930274963379,0 -90.6023330688477,38.6820335388184,0 -90.5476531982422,38.6920280456543,0 -90.5339508056641,38.7234191894531,0 -90.4901962280273,38.7591285705566,0 -90.4521255493164,38.8265113830566,0 -90.4332885742188,38.8311882019043,0 -90.4030914306641,38.8255195617676,0 -90.3600616455078,38.8330764770508,0 -90.3381271362305,38.878101348877,0 -90.3181610107422,38.8895645141602,0 -90.2879638671875,38.8852272033691,0 -90.2604675292969,38.8559379577637,0 -90.1998977661133,38.8250198364258,0 -90.1349105834961,38.8226509094238,0 -90.1217269897461,38.8005104064941,0 -90.1711959838867,38.7866554260254,0 -90.1921997070312,38.7607040405273,0 -90.2396926879883,38.7300605773926,0 -90.3027420043945,38.6702919006348,0 -90.3164672851562,38.580005645752,0 -90.26123046875,38.5327682495117,0 -90.2657852172852,38.5186882019043,0 -90.3018417358398,38.4273567199707,0 -90.3396072387695,38.3908462524414,0 -90.3505401611328,38.4220428466797,0 -90.338508605957,38.4488716125488,0 -90.4073638916016,38.4569931030273,0 -90.4199905395508,38.4795608520508,0 -90.4088897705078,38.4855346679688,0 -90.4096603393555,38.5000343322754,0 -90.5931396484375,38.5008087158203,0 -90.6138763427734,38.4725227355957,0 -90.6581115722656,38.481632232666,0 -90.6692428588867,38.4425468444824,0 -90.6845321655273,38.4433059692383,0 -90.6901931762695,38.4659194946289,0 -90.7395248413086,38.4636154174805,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_38">
+<name>kml_38</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17159</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Richland</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>159</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17159</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>109086</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>87163</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>99614</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17159</SimpleData>
+<SimpleData name="NAME">Richland</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">159</SimpleData>
+<SimpleData name="FIPS">17159</SimpleData>
+<SimpleData name="HC7984">5</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">109086</SimpleData>
+<SimpleData name="PO8488">87163</SimpleData>
+<SimpleData name="PO8893">99614</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-87.9589462280273,38.5753517150879,0 -88.1490783691406,38.5762176513672,0 -88.1479644775391,38.6043090820312,0 -88.2657012939453,38.6069030761719,0 -88.2860870361328,38.6207046508789,0 -88.2939605712891,38.6434440612793,0 -88.2771606445312,38.6614112854004,0 -88.2888336181641,38.7394866943359,0 -88.2616424560547,38.7423896789551,0 -88.2621154785156,38.8539009094238,0 -87.9553909301758,38.8554420471191,0 -87.9175720214844,38.8554191589355,0 -87.9165725708008,38.5748138427734,0 -87.9589462280273,38.5753517150879,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_39">
+<name>kml_39</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17121</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Marion</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>121</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17121</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>10</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>265200</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>216094</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>250780</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17121</SimpleData>
+<SimpleData name="NAME">Marion</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">121</SimpleData>
+<SimpleData name="FIPS">17121</SimpleData>
+<SimpleData name="HC7984">10</SimpleData>
+<SimpleData name="HC8488">8</SimpleData>
+<SimpleData name="HC8893">8</SimpleData>
+<SimpleData name="PO7984">265200</SimpleData>
+<SimpleData name="PO8488">216094</SimpleData>
+<SimpleData name="PO8893">250780</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.1454238891602,38.501522064209,0 -89.1448516845703,38.7412796020508,0 -89.1432571411133,38.8255767822266,0 -88.7025909423828,38.830322265625,0 -88.7020263671875,38.611400604248,0 -88.7035217285156,38.4740753173828,0 -89.1443786621094,38.4743232727051,0 -89.1454238891602,38.501522064209,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_40">
+<name>kml_40</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29510</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>St. Louis City</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>510</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29510</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>1238</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>763</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1090</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>2658090</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>2119437</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>2374448</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29510</SimpleData>
+<SimpleData name="NAME">St. Louis City</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">510</SimpleData>
+<SimpleData name="FIPS">29510</SimpleData>
+<SimpleData name="HC7984">1238</SimpleData>
+<SimpleData name="HC8488">763</SimpleData>
+<SimpleData name="HC8893">1090</SimpleData>
+<SimpleData name="PO7984">2658090</SimpleData>
+<SimpleData name="PO8488">2119437</SimpleData>
+<SimpleData name="PO8893">2374448</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.26123046875,38.5327682495117,0 -90.3164672851562,38.580005645752,0 -90.3027420043945,38.6702919006348,0 -90.2396926879883,38.7300605773926,0 -90.1921997070312,38.7607040405273,0 -90.1711959838867,38.7866554260254,0 -90.1217269897461,38.8005104064941,0 -90.1351776123047,38.7854843139648,0 -90.1633987426758,38.7730979919434,0 -90.1965713500977,38.7239646911621,0 -90.2022399902344,38.7003631591797,0 -90.1835784912109,38.6587715148926,0 -90.183708190918,38.6102714538574,0 -90.2409439086914,38.5628051757812,0 -90.26123046875,38.5327682495117,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_41">
+<name>kml_41</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17027</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Clinton</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>027</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17027</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>199528</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>168910</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>204282</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17027</SimpleData>
+<SimpleData name="NAME">Clinton</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">027</SimpleData>
+<SimpleData name="FIPS">17027</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">199528</SimpleData>
+<SimpleData name="PO8488">168910</SimpleData>
+<SimpleData name="PO8893">204282</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.1448516845703,38.7412796020508,0 -89.1454238891602,38.501522064209,0 -89.2653579711914,38.5086059570312,0 -89.297721862793,38.5023193359375,0 -89.3570938110352,38.512825012207,0 -89.3982925415039,38.4883918762207,0 -89.4306259155273,38.4934005737305,0 -89.4570846557617,38.4861602783203,0 -89.4811935424805,38.4662246704102,0 -89.5241012573242,38.4802742004395,0 -89.5423202514648,38.4734687805176,0 -89.5723037719727,38.4811592102051,0 -89.6187210083008,38.4661674499512,0 -89.626335144043,38.449390411377,0 -89.6457061767578,38.4407577514648,0 -89.6645126342773,38.4420928955078,0 -89.6697692871094,38.4275856018066,0 -89.7096862792969,38.4189109802246,0 -89.7145004272461,38.6577568054199,0 -89.6043090820312,38.6601638793945,0 -89.605598449707,38.7412948608398,0 -89.2628402709961,38.742015838623,0 -89.1448516845703,38.7412796020508,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_42">
+<name>kml_42</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29051</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Cole</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>051</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29051</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>14</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>19</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>347829</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>309422</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>386113</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29051</SimpleData>
+<SimpleData name="NAME">Cole</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">051</SimpleData>
+<SimpleData name="FIPS">29051</SimpleData>
+<SimpleData name="HC7984">14</SimpleData>
+<SimpleData name="HC8488">19</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">347829</SimpleData>
+<SimpleData name="PO8488">309422</SimpleData>
+<SimpleData name="PO8893">386113</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.954345703125,38.5972900390625,0 -92.0287933349609,38.553165435791,0 -92.0125045776367,38.507251739502,0 -92.0349197387695,38.4750556945801,0 -92.0747299194336,38.4701499938965,0 -92.1095352172852,38.4567260742188,0 -92.1434555053711,38.4682426452637,0 -92.1675491333008,38.4677238464355,0 -92.1594467163086,38.4388809204102,0 -92.1280136108398,38.4146194458008,0 -92.124382019043,38.3951988220215,0 -92.1379928588867,38.3817596435547,0 -92.178337097168,38.3768081665039,0 -92.1925048828125,38.3628959655762,0 -92.1961135864258,38.3333435058594,0 -92.2319564819336,38.3343658447266,0 -92.2556610107422,38.3247718811035,0 -92.2824249267578,38.3341445922852,0 -92.4087371826172,38.3371124267578,0 -92.4038619995117,38.4215698242188,0 -92.4957046508789,38.4257164001465,0 -92.3951187133789,38.736011505127,0 -92.3495483398438,38.7175712585449,0 -92.3555450439453,38.6748123168945,0 -92.292121887207,38.6662864685059,0 -92.2661972045898,38.6509971618652,0 -92.2197494506836,38.638427734375,0 -92.198356628418,38.6017189025879,0 -92.1705322265625,38.581916809082,0 -92.1021041870117,38.562068939209,0 -92.0333404541016,38.565315246582,0 -91.984733581543,38.5903358459473,0 -91.954345703125,38.5972900390625,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_43">
+<name>kml_43</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29073</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Gasconade</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>073</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29073</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>79838</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>68250</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>84273</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29073</SimpleData>
+<SimpleData name="NAME">Gasconade</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">073</SimpleData>
+<SimpleData name="FIPS">29073</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">79838</SimpleData>
+<SimpleData name="PO8488">68250</SimpleData>
+<SimpleData name="PO8893">84273</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.3772735595703,38.2107582092285,0 -91.5401916503906,38.2131462097168,0 -91.5427474975586,38.157341003418,0 -91.6381607055664,38.1570777893066,0 -91.652229309082,38.1577377319336,0 -91.6514053344727,38.2896766662598,0 -91.653564453125,38.7035446166992,0 -91.6535415649414,38.7044715881348,0 -91.593994140625,38.6828079223633,0 -91.5614547729492,38.6788215637207,0 -91.4937438964844,38.7039604187012,0 -91.4249877929688,38.7132110595703,0 -91.3750762939453,38.6990165710449,0 -91.3696212768555,38.4166831970215,0 -91.3772735595703,38.2107582092285,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_44">
+<name>kml_44</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29151</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Osage</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>151</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29151</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>72381</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>60665</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>72569</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29151</SimpleData>
+<SimpleData name="NAME">Osage</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">151</SimpleData>
+<SimpleData name="FIPS">29151</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">3</SimpleData>
+<SimpleData name="PO7984">72381</SimpleData>
+<SimpleData name="PO8488">60665</SimpleData>
+<SimpleData name="PO8893">72569</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.1956405639648,38.2884674072266,0 -92.1961135864258,38.3333435058594,0 -92.1925048828125,38.3628959655762,0 -92.178337097168,38.3768081665039,0 -92.1379928588867,38.3817596435547,0 -92.124382019043,38.3951988220215,0 -92.1280136108398,38.4146194458008,0 -92.1594467163086,38.4388809204102,0 -92.1675491333008,38.4677238464355,0 -92.1434555053711,38.4682426452637,0 -92.1095352172852,38.4567260742188,0 -92.0747299194336,38.4701499938965,0 -92.0349197387695,38.4750556945801,0 -92.0125045776367,38.507251739502,0 -92.0287933349609,38.553165435791,0 -91.954345703125,38.5972900390625,0 -91.8555526733398,38.6753807067871,0 -91.8020324707031,38.6795616149902,0 -91.7605590820312,38.6921157836914,0 -91.7409362792969,38.7060737609863,0 -91.653564453125,38.7035446166992,0 -91.6514053344727,38.2896766662598,0 -92.1956405639648,38.2884674072266,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_45">
+<name>kml_45</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29071</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Franklin</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>071</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29071</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>18</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>21</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>432159</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>381345</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>488564</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29071</SimpleData>
+<SimpleData name="NAME">Franklin</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">071</SimpleData>
+<SimpleData name="FIPS">29071</SimpleData>
+<SimpleData name="HC7984">18</SimpleData>
+<SimpleData name="HC8488">17</SimpleData>
+<SimpleData name="HC8893">21</SimpleData>
+<SimpleData name="PO7984">432159</SimpleData>
+<SimpleData name="PO8488">381345</SimpleData>
+<SimpleData name="PO8893">488564</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.7826614379883,38.2079811096191,0 -91.1023941040039,38.2042236328125,0 -91.3442993164062,38.2040061950684,0 -91.3777084350586,38.2048606872559,0 -91.3772735595703,38.2107582092285,0 -91.3696212768555,38.4166831970215,0 -91.3750762939453,38.6990165710449,0 -91.3344650268555,38.7023468017578,0 -91.2963790893555,38.6884002685547,0 -91.2478713989258,38.656909942627,0 -91.2253112792969,38.6250419616699,0 -91.2049713134766,38.6117286682129,0 -91.1422805786133,38.6003379821777,0 -91.0888900756836,38.6096496582031,0 -91.0605621337891,38.6068344116211,0 -91.0137176513672,38.5629959106445,0 -90.9686508178711,38.5463180541992,0 -90.9120483398438,38.5406303405762,0 -90.8227767944336,38.5819625854492,0 -90.8022155761719,38.5844459533691,0 -90.7838363647461,38.5773887634277,0 -90.7377090454102,38.6345176696777,0 -90.7395248413086,38.4636154174805,0 -90.7406845092773,38.3933486938477,0 -90.7826614379883,38.2079811096191,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_46">
+<name>kml_46</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17163</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>St. Clair</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>163</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17163</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>369</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>268</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>435</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>1605518</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>1329466</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>1582749</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17163</SimpleData>
+<SimpleData name="NAME">St. Clair</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">163</SimpleData>
+<SimpleData name="FIPS">17163</SimpleData>
+<SimpleData name="HC7984">369</SimpleData>
+<SimpleData name="HC8488">268</SimpleData>
+<SimpleData name="HC8893">435</SimpleData>
+<SimpleData name="PO7984">1605518</SimpleData>
+<SimpleData name="PO8488">1329466</SimpleData>
+<SimpleData name="PO8893">1582749</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.9041976928711,38.2230796813965,0 -89.9302825927734,38.2764739990234,0 -89.9233016967773,38.2851104736328,0 -89.9109573364258,38.279712677002,0 -89.9175720214844,38.3091506958008,0 -90.0313720703125,38.3118858337402,0 -90.0315017700195,38.3295593261719,0 -90.1454238891602,38.4087867736816,0 -90.1461639404297,38.4269142150879,0 -90.2657852172852,38.5186882019043,0 -90.26123046875,38.5327682495117,0 -90.2409439086914,38.5628051757812,0 -90.183708190918,38.6102714538574,0 -90.1835784912109,38.6587715148926,0 -89.7145004272461,38.6577568054199,0 -89.7096862792969,38.4189109802246,0 -89.7143859863281,38.2190246582031,0 -89.9041976928711,38.2230796813965,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_47">
+<name>kml_47</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17191</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Wayne</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>191</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17191</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>110883</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>90557</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>103115</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17191</SimpleData>
+<SimpleData name="NAME">Wayne</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">191</SimpleData>
+<SimpleData name="FIPS">17191</SimpleData>
+<SimpleData name="HC7984">5</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">110883</SimpleData>
+<SimpleData name="PO8488">90557</SimpleData>
+<SimpleData name="PO8893">103115</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.1537246704102,38.2594299316406,0 -88.374153137207,38.2566604614258,0 -88.7076034545898,38.2597160339355,0 -88.7035217285156,38.4740753173828,0 -88.7020263671875,38.611400604248,0 -88.2657012939453,38.6069030761719,0 -88.1479644775391,38.6043090820312,0 -88.1490783691406,38.5762176513672,0 -88.1537246704102,38.2594299316406,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_48">
+<name>kml_48</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17047</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Edwards</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>047</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17047</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>48352</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>39966</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>44762</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17047</SimpleData>
+<SimpleData name="NAME">Edwards</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">047</SimpleData>
+<SimpleData name="FIPS">17047</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">0</SimpleData>
+<SimpleData name="PO7984">48352</SimpleData>
+<SimpleData name="PO8488">39966</SimpleData>
+<SimpleData name="PO8893">44762</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.1537246704102,38.2594299316406,0 -88.1490783691406,38.5762176513672,0 -87.9589462280273,38.5753517150879,0 -87.9497299194336,38.5380668640137,0 -87.9635467529297,38.4965362548828,0 -87.9527282714844,38.451976776123,0 -87.9595260620117,38.4361991882324,0 -87.9515380859375,38.4247665405273,0 -87.9790573120117,38.4010848999023,0 -87.9789428710938,38.3779678344727,0 -87.9636764526367,38.3501243591309,0 -87.9607086181641,38.2956924438477,0 -87.9884262084961,38.2597732543945,0 -88.1537246704102,38.2594299316406,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_49">
+<name>kml_49</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17133</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Monroe</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>133</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17133</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>121762</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>105142</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>136311</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17133</SimpleData>
+<SimpleData name="NAME">Monroe</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">133</SimpleData>
+<SimpleData name="FIPS">17133</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">4</SimpleData>
+<SimpleData name="PO7984">121762</SimpleData>
+<SimpleData name="PO8488">105142</SimpleData>
+<SimpleData name="PO8893">136311</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.9041976928711,38.2230796813965,0 -90.0401077270508,38.2234649658203,0 -90.0388870239258,38.1369018554688,0 -90.2075271606445,38.0889053344727,0 -90.2540588378906,38.1221694946289,0 -90.2896347045898,38.1668167114258,0 -90.3367156982422,38.1887130737305,0 -90.3647689819336,38.2342987060547,0 -90.3693466186523,38.323558807373,0 -90.3586883544922,38.3653297424316,0 -90.3396072387695,38.3908462524414,0 -90.3018417358398,38.4273567199707,0 -90.2657852172852,38.5186882019043,0 -90.1461639404297,38.4269142150879,0 -90.1454238891602,38.4087867736816,0 -90.0315017700195,38.3295593261719,0 -90.0313720703125,38.3118858337402,0 -89.9175720214844,38.3091506958008,0 -89.9109573364258,38.279712677002,0 -89.9233016967773,38.2851104736328,0 -89.9302825927734,38.2764739990234,0 -89.9041976928711,38.2230796813965,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_50">
+<name>kml_50</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17189</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Washington</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>189</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17189</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>92348</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>75846</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>89758</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17189</SimpleData>
+<SimpleData name="NAME">Washington</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">189</SimpleData>
+<SimpleData name="FIPS">17189</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">0</SimpleData>
+<SimpleData name="HC8893">4</SimpleData>
+<SimpleData name="PO7984">92348</SimpleData>
+<SimpleData name="PO8488">75846</SimpleData>
+<SimpleData name="PO8893">89758</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.5972366333008,38.2169075012207,0 -89.7143859863281,38.2190246582031,0 -89.7096862792969,38.4189109802246,0 -89.6697692871094,38.4275856018066,0 -89.6645126342773,38.4420928955078,0 -89.6457061767578,38.4407577514648,0 -89.626335144043,38.449390411377,0 -89.6187210083008,38.4661674499512,0 -89.5723037719727,38.4811592102051,0 -89.5423202514648,38.4734687805176,0 -89.5241012573242,38.4802742004395,0 -89.4811935424805,38.4662246704102,0 -89.4570846557617,38.4861602783203,0 -89.4306259155273,38.4934005737305,0 -89.3982925415039,38.4883918762207,0 -89.3570938110352,38.512825012207,0 -89.297721862793,38.5023193359375,0 -89.2653579711914,38.5086059570312,0 -89.1454238891602,38.501522064209,0 -89.1443786621094,38.4743232727051,0 -89.1509094238281,38.2137336730957,0 -89.5972366333008,38.2169075012207,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_51">
+<name>kml_51</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29099</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Jefferson</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>099</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29099</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>40</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>33</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>48</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>891502</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>793412</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>1036882</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29099</SimpleData>
+<SimpleData name="NAME">Jefferson</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">099</SimpleData>
+<SimpleData name="FIPS">29099</SimpleData>
+<SimpleData name="HC7984">40</SimpleData>
+<SimpleData name="HC8488">33</SimpleData>
+<SimpleData name="HC8893">48</SimpleData>
+<SimpleData name="PO7984">891502</SimpleData>
+<SimpleData name="PO8488">793412</SimpleData>
+<SimpleData name="PO8893">1036882</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.6389389038086,38.0802154541016,0 -90.6577377319336,38.0859336853027,0 -90.6562194824219,38.1009063720703,0 -90.6847839355469,38.0951957702637,0 -90.6874084472656,38.1128463745117,0 -90.7826614379883,38.2079811096191,0 -90.7406845092773,38.3933486938477,0 -90.7395248413086,38.4636154174805,0 -90.6901931762695,38.4659194946289,0 -90.6845321655273,38.4433059692383,0 -90.6692428588867,38.4425468444824,0 -90.6581115722656,38.481632232666,0 -90.6138763427734,38.4725227355957,0 -90.5931396484375,38.5008087158203,0 -90.4096603393555,38.5000343322754,0 -90.4088897705078,38.4855346679688,0 -90.4199905395508,38.4795608520508,0 -90.4073638916016,38.4569931030273,0 -90.338508605957,38.4488716125488,0 -90.3505401611328,38.4220428466797,0 -90.3396072387695,38.3908462524414,0 -90.3586883544922,38.3653297424316,0 -90.3693466186523,38.323558807373,0 -90.3647689819336,38.2342987060547,0 -90.3367156982422,38.1887130737305,0 -90.2896347045898,38.1668167114258,0 -90.2540588378906,38.1221694946289,0 -90.2970199584961,38.091983795166,0 -90.3292770385742,38.099925994873,0 -90.415153503418,38.0453758239746,0 -90.6026916503906,38.0025863647461,0 -90.6244125366211,38.0096397399902,0 -90.6128921508789,38.0206260681152,0 -90.6179733276367,38.0473213195801,0 -90.6095962524414,38.0732345581055,0 -90.6389389038086,38.0802154541016,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_52">
+<name>kml_52</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17081</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Jefferson</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>081</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17081</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>19</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>11</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>225007</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>189705</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>222603</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17081</SimpleData>
+<SimpleData name="NAME">Jefferson</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">081</SimpleData>
+<SimpleData name="FIPS">17081</SimpleData>
+<SimpleData name="HC7984">9</SimpleData>
+<SimpleData name="HC8488">19</SimpleData>
+<SimpleData name="HC8893">11</SimpleData>
+<SimpleData name="PO7984">225007</SimpleData>
+<SimpleData name="PO8488">189705</SimpleData>
+<SimpleData name="PO8893">222603</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.7084274291992,38.1291847229004,0 -89.133186340332,38.1275634765625,0 -89.1518936157227,38.1294326782227,0 -89.1509094238281,38.2137336730957,0 -89.1443786621094,38.4743232727051,0 -88.7035217285156,38.4740753173828,0 -88.7076034545898,38.2597160339355,0 -88.7084274291992,38.1291847229004,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_53">
+<name>kml_53</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29131</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Miller</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>131</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29131</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>113880</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>101495</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>125312</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29131</SimpleData>
+<SimpleData name="NAME">Miller</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">131</SimpleData>
+<SimpleData name="FIPS">29131</SimpleData>
+<SimpleData name="HC7984">7</SimpleData>
+<SimpleData name="HC8488">4</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">113880</SimpleData>
+<SimpleData name="PO8488">101495</SimpleData>
+<SimpleData name="PO8893">125312</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.4044342041016,38.0207099914551,0 -92.516227722168,38.0248069763184,0 -92.517822265625,38.0351982116699,0 -92.5552597045898,38.049690246582,0 -92.5586853027344,38.0618476867676,0 -92.5757217407227,38.0636901855469,0 -92.5758972167969,38.0958824157715,0 -92.5899963378906,38.097339630127,0 -92.5893630981445,38.1100540161133,0 -92.5999221801758,38.1106948852539,0 -92.5998001098633,38.1356391906738,0 -92.6103897094727,38.1367301940918,0 -92.6088027954102,38.168514251709,0 -92.6405487060547,38.1713333129883,0 -92.6438369750977,38.2070770263672,0 -92.7006759643555,38.2205696105957,0 -92.6937713623047,38.3450088500977,0 -92.6374740600586,38.3464584350586,0 -92.6257629394531,38.4297409057617,0 -92.4957046508789,38.4257164001465,0 -92.4038619995117,38.4215698242188,0 -92.4087371826172,38.3371124267578,0 -92.2824249267578,38.3341445922852,0 -92.2556610107422,38.3247718811035,0 -92.2319564819336,38.3343658447266,0 -92.1961135864258,38.3333435058594,0 -92.1956405639648,38.2884674072266,0 -92.1993179321289,38.1650543212891,0 -92.1823043823242,38.1640701293945,0 -92.1880569458008,38.017032623291,0 -92.4044342041016,38.0207099914551,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_54">
+<name>kml_54</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29125</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Maries</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>125</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29125</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>46260</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>39803</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>48442</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29125</SimpleData>
+<SimpleData name="NAME">Maries</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">125</SimpleData>
+<SimpleData name="FIPS">29125</SimpleData>
+<SimpleData name="HC7984">1</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">1</SimpleData>
+<SimpleData name="PO7984">46260</SimpleData>
+<SimpleData name="PO8488">39803</SimpleData>
+<SimpleData name="PO8893">48442</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.1880569458008,38.017032623291,0 -92.1823043823242,38.1640701293945,0 -92.1993179321289,38.1650543212891,0 -92.1956405639648,38.2884674072266,0 -91.6514053344727,38.2896766662598,0 -91.652229309082,38.1577377319336,0 -91.6381607055664,38.1570777893066,0 -91.6397857666016,38.0518684387207,0 -91.9034957885742,38.0537796020508,0 -91.9237518310547,38.0474891662598,0 -91.9333114624023,38.0359649658203,0 -91.9586410522461,38.041805267334,0 -91.9745635986328,38.0111045837402,0 -92.0306777954102,38.0117721557617,0 -92.1880569458008,38.017032623291,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_55">
+<name>kml_55</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17193</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>White</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>193</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17193</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>108510</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>88139</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>98676</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17193</SimpleData>
+<SimpleData name="NAME">White</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">193</SimpleData>
+<SimpleData name="FIPS">17193</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">3</SimpleData>
+<SimpleData name="PO7984">108510</SimpleData>
+<SimpleData name="PO8488">88139</SimpleData>
+<SimpleData name="PO8893">98676</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.37646484375,37.914005279541,0 -88.374153137207,38.2566604614258,0 -88.1537246704102,38.2594299316406,0 -87.9884262084961,38.2597732543945,0 -87.9800186157227,38.2410850524902,0 -87.9860076904297,38.2348136901855,0 -87.9779281616211,38.2007141113281,0 -87.9322891235352,38.1711311340332,0 -87.9319915771484,38.157527923584,0 -87.950569152832,38.1369132995605,0 -87.973503112793,38.1317596435547,0 -88.0185470581055,38.1033020019531,0 -88.0123291015625,38.0923461914062,0 -87.9648666381836,38.0967483520508,0 -87.9752960205078,38.0733070373535,0 -88.0347290039062,38.054084777832,0 -88.0430908203125,38.0451202392578,0 -88.0414733886719,38.0383033752441,0 -88.0216979980469,38.0335311889648,0 -88.0292129516602,38.0082359313965,0 -88.0217056274414,37.9750556945801,0 -88.0425109863281,37.9562644958496,0 -88.0417709350586,37.934497833252,0 -88.0646209716797,37.9297828674316,0 -88.0789413452148,37.9440002441406,0 -88.0839996337891,37.9236602783203,0 -88.0304412841797,37.9175910949707,0 -88.0265884399414,37.9057579040527,0 -88.0448684692383,37.8960037231445,0 -88.1000823974609,37.9061698913574,0 -88.1014556884766,37.8953056335449,0 -88.1441421508789,37.9211692810059,0 -88.1530075073242,37.9149208068848,0 -88.37646484375,37.914005279541,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_56">
+<name>kml_56</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17065</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Hamilton</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>065</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17065</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>55620</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>44731</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>51211</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17065</SimpleData>
+<SimpleData name="NAME">Hamilton</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">065</SimpleData>
+<SimpleData name="FIPS">17065</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">55620</SimpleData>
+<SimpleData name="PO8488">44731</SimpleData>
+<SimpleData name="PO8893">51211</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.37646484375,37.914005279541,0 -88.7084426879883,37.9098052978516,0 -88.7084274291992,38.1291847229004,0 -88.7076034545898,38.2597160339355,0 -88.374153137207,38.2566604614258,0 -88.37646484375,37.914005279541,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_57">
+<name>kml_57</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17157</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Randolph</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>157</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17157</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>213680</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>176412</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>207716</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17157</SimpleData>
+<SimpleData name="NAME">Randolph</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">157</SimpleData>
+<SimpleData name="FIPS">17157</SimpleData>
+<SimpleData name="HC7984">8</SimpleData>
+<SimpleData name="HC8488">8</SimpleData>
+<SimpleData name="HC8893">9</SimpleData>
+<SimpleData name="PO7984">213680</SimpleData>
+<SimpleData name="PO8488">176412</SimpleData>
+<SimpleData name="PO8893">207716</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.2075271606445,38.0889053344727,0 -90.0388870239258,38.1369018554688,0 -90.0401077270508,38.2234649658203,0 -89.9041976928711,38.2230796813965,0 -89.7143859863281,38.2190246582031,0 -89.5972366333008,38.2169075012207,0 -89.6027221679688,37.9540214538574,0 -89.6672515869141,37.8397331237793,0 -89.6858749389648,37.8288269042969,0 -89.6910552978516,37.8047943115234,0 -89.7284469604492,37.840991973877,0 -89.8517150878906,37.9050636291504,0 -89.8610458374023,37.9054870605469,0 -89.866813659668,37.8918762207031,0 -89.9005508422852,37.875904083252,0 -89.937873840332,37.878044128418,0 -89.9789123535156,37.9118843078613,0 -89.9582290649414,37.9636344909668,0 -90.0108108520508,37.9693183898926,0 -90.0419235229492,37.9932060241699,0 -90.1193389892578,38.0322723388672,0 -90.1347122192383,38.0539512634277,0 -90.2075271606445,38.0889053344727,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_58">
+<name>kml_58</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17145</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Perry</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>145</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17145</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>131792</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>109815</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>128399</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17145</SimpleData>
+<SimpleData name="NAME">Perry</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">145</SimpleData>
+<SimpleData name="FIPS">17145</SimpleData>
+<SimpleData name="HC7984">5</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">131792</SimpleData>
+<SimpleData name="PO8488">109815</SimpleData>
+<SimpleData name="PO8893">128399</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.133186340332,38.1275634765625,0 -89.1403045654297,38.1076431274414,0 -89.1234130859375,38.093090057373,0 -89.1400146484375,38.0473594665527,0 -89.1455383300781,37.9911727905273,0 -89.1790084838867,37.9491157531738,0 -89.6027221679688,37.9540214538574,0 -89.5972366333008,38.2169075012207,0 -89.1509094238281,38.2137336730957,0 -89.1518936157227,38.1294326782227,0 -89.133186340332,38.1275634765625,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_59">
+<name>kml_59</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29055</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Crawford</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>055</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29055</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>11</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>9</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>109953</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>93317</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>117151</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29055</SimpleData>
+<SimpleData name="NAME">Crawford</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">055</SimpleData>
+<SimpleData name="FIPS">29055</SimpleData>
+<SimpleData name="HC7984">11</SimpleData>
+<SimpleData name="HC8488">9</SimpleData>
+<SimpleData name="HC8893">8</SimpleData>
+<SimpleData name="PO7984">109953</SimpleData>
+<SimpleData name="PO8488">93317</SimpleData>
+<SimpleData name="PO8893">117151</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.1103744506836,37.7394752502441,0 -91.1557388305664,37.7379608154297,0 -91.1559677124023,37.6962471008301,0 -91.1641082763672,37.6961364746094,0 -91.3207244873047,37.7016067504883,0 -91.3186645507812,37.7832412719727,0 -91.5354309082031,37.7870750427246,0 -91.5315551757812,38.1548080444336,0 -91.5427474975586,38.157341003418,0 -91.5401916503906,38.2131462097168,0 -91.3772735595703,38.2107582092285,0 -91.3777084350586,38.2048606872559,0 -91.3442993164062,38.2040061950684,0 -91.1023941040039,38.2042236328125,0 -91.1103744506836,37.7394752502441,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_60">
+<name>kml_60</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29221</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Washington</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>221</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29221</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>12</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>108864</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>95227</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>122551</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29221</SimpleData>
+<SimpleData name="NAME">Washington</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">221</SimpleData>
+<SimpleData name="FIPS">29221</SimpleData>
+<SimpleData name="HC7984">12</SimpleData>
+<SimpleData name="HC8488">8</SimpleData>
+<SimpleData name="HC8893">4</SimpleData>
+<SimpleData name="PO7984">108864</SimpleData>
+<SimpleData name="PO8488">95227</SimpleData>
+<SimpleData name="PO8893">122551</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.6499252319336,37.7351608276367,0 -91.1103744506836,37.7394752502441,0 -91.1023941040039,38.2042236328125,0 -90.7826614379883,38.2079811096191,0 -90.6874084472656,38.1128463745117,0 -90.6847839355469,38.0951957702637,0 -90.6562194824219,38.1009063720703,0 -90.6577377319336,38.0859336853027,0 -90.6389389038086,38.0802154541016,0 -90.6499252319336,37.7351608276367,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_61">
+<name>kml_61</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29161</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Phelps</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>161</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29161</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>205880</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>173439</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>213274</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29161</SimpleData>
+<SimpleData name="NAME">Phelps</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">161</SimpleData>
+<SimpleData name="FIPS">29161</SimpleData>
+<SimpleData name="HC7984">8</SimpleData>
+<SimpleData name="HC8488">7</SimpleData>
+<SimpleData name="HC8893">7</SimpleData>
+<SimpleData name="PO7984">205880</SimpleData>
+<SimpleData name="PO8488">173439</SimpleData>
+<SimpleData name="PO8893">213274</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.0306777954102,38.0117721557617,0 -91.9745635986328,38.0111045837402,0 -91.9586410522461,38.041805267334,0 -91.9333114624023,38.0359649658203,0 -91.9237518310547,38.0474891662598,0 -91.9034957885742,38.0537796020508,0 -91.6397857666016,38.0518684387207,0 -91.6381607055664,38.1570777893066,0 -91.5427474975586,38.157341003418,0 -91.5315551757812,38.1548080444336,0 -91.5354309082031,37.7870750427246,0 -91.8161926269531,37.7870559692383,0 -91.8102722167969,37.7468147277832,0 -91.8185577392578,37.7140121459961,0 -91.8201904296875,37.5988159179688,0 -92.0312881469727,37.6041297912598,0 -92.0226745605469,37.7779769897461,0 -92.0299377441406,37.7859878540039,0 -92.0306777954102,38.0117721557617,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_62">
+<name>kml_62</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17055</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Franklin</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>055</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17055</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>10</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>16</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>260154</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>212112</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>242736</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17055</SimpleData>
+<SimpleData name="NAME">Franklin</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">055</SimpleData>
+<SimpleData name="FIPS">17055</SimpleData>
+<SimpleData name="HC7984">10</SimpleData>
+<SimpleData name="HC8488">16</SimpleData>
+<SimpleData name="HC8893">8</SimpleData>
+<SimpleData name="PO7984">260154</SimpleData>
+<SimpleData name="PO8488">212112</SimpleData>
+<SimpleData name="PO8893">242736</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.7084426879883,37.9098052978516,0 -88.7094802856445,37.8672027587891,0 -89.1548919677734,37.8656463623047,0 -89.1550827026367,37.949047088623,0 -89.1790084838867,37.9491157531738,0 -89.1455383300781,37.9911727905273,0 -89.1400146484375,38.0473594665527,0 -89.1234130859375,38.093090057373,0 -89.1403045654297,38.1076431274414,0 -89.133186340332,38.1275634765625,0 -88.7084274291992,38.1291847229004,0 -88.7084426879883,37.9098052978516,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_63">
+<name>kml_63</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29186</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Ste. Genevieve</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>186</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29186</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>90841</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>78039</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>96556</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29186</SimpleData>
+<SimpleData name="NAME">Ste. Genevieve</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">186</SimpleData>
+<SimpleData name="FIPS">29186</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">4</SimpleData>
+<SimpleData name="HC8893">7</SimpleData>
+<SimpleData name="PO7984">90841</SimpleData>
+<SimpleData name="PO8488">78039</SimpleData>
+<SimpleData name="PO8893">96556</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.116325378418,37.6723937988281,0 -90.1602401733398,37.7066116333008,0 -90.202995300293,37.6760025024414,0 -90.463249206543,37.8800163269043,0 -90.3250732421875,37.9861869812012,0 -90.415153503418,38.0453758239746,0 -90.3292770385742,38.099925994873,0 -90.2970199584961,38.091983795166,0 -90.2540588378906,38.1221694946289,0 -90.2075271606445,38.0889053344727,0 -90.1347122192383,38.0539512634277,0 -90.1193389892578,38.0322723388672,0 -90.0419235229492,37.9932060241699,0 -90.0108108520508,37.9693183898926,0 -89.9582290649414,37.9636344909668,0 -89.9789123535156,37.9118843078613,0 -89.937873840332,37.878044128418,0 -90.007438659668,37.8193016052246,0 -90.116325378418,37.6723937988281,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_64">
+<name>kml_64</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29187</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>St. Francois</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>187</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29187</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>8</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>10</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>255875</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>225821</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>295873</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29187</SimpleData>
+<SimpleData name="NAME">St. Francois</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">187</SimpleData>
+<SimpleData name="FIPS">29187</SimpleData>
+<SimpleData name="HC7984">8</SimpleData>
+<SimpleData name="HC8488">10</SimpleData>
+<SimpleData name="HC8893">9</SimpleData>
+<SimpleData name="PO7984">255875</SimpleData>
+<SimpleData name="PO8488">225821</SimpleData>
+<SimpleData name="PO8893">295873</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.1521224975586,37.643196105957,0 -90.5392150878906,37.6427764892578,0 -90.6537017822266,37.6417465209961,0 -90.6499252319336,37.7351608276367,0 -90.6389389038086,38.0802154541016,0 -90.6095962524414,38.0732345581055,0 -90.6179733276367,38.0473213195801,0 -90.6128921508789,38.0206260681152,0 -90.6244125366211,38.0096397399902,0 -90.6026916503906,38.0025863647461,0 -90.415153503418,38.0453758239746,0 -90.3250732421875,37.9861869812012,0 -90.463249206543,37.8800163269043,0 -90.202995300293,37.6760025024414,0 -90.1602401733398,37.7066116333008,0 -90.116325378418,37.6723937988281,0 -90.1521224975586,37.643196105957,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_65">
+<name>kml_65</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29169</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Pulaski</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>169</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29169</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>7</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>253540</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>204130</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>247216</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29169</SimpleData>
+<SimpleData name="NAME">Pulaski</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">169</SimpleData>
+<SimpleData name="FIPS">29169</SimpleData>
+<SimpleData name="HC7984">7</SimpleData>
+<SimpleData name="HC8488">7</SimpleData>
+<SimpleData name="HC8893">4</SimpleData>
+<SimpleData name="PO7984">253540</SimpleData>
+<SimpleData name="PO8488">204130</SimpleData>
+<SimpleData name="PO8893">247216</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.2493209838867,37.6071090698242,0 -92.2491226196289,37.6488342285156,0 -92.4098052978516,37.7126731872559,0 -92.4080810546875,37.8614540100098,0 -92.4044342041016,38.0207099914551,0 -92.1880569458008,38.017032623291,0 -92.0306777954102,38.0117721557617,0 -92.0299377441406,37.7859878540039,0 -92.0226745605469,37.7779769897461,0 -92.0312881469727,37.6041297912598,0 -92.2493209838867,37.6071090698242,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_66">
+<name>kml_66</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17077</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Jackson</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>077</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17077</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>25</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>18</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>372227</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>306435</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>366539</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17077</SimpleData>
+<SimpleData name="NAME">Jackson</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">077</SimpleData>
+<SimpleData name="FIPS">17077</SimpleData>
+<SimpleData name="HC7984">25</SimpleData>
+<SimpleData name="HC8488">8</SimpleData>
+<SimpleData name="HC8893">18</SimpleData>
+<SimpleData name="PO7984">372227</SimpleData>
+<SimpleData name="PO8488">306435</SimpleData>
+<SimpleData name="PO8893">366539</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.1531982421875,37.6041030883789,0 -89.4593353271484,37.6064033508301,0 -89.4610900878906,37.5832862854004,0 -89.4767761230469,37.5701446533203,0 -89.5249710083008,37.5719566345215,0 -89.5133666992188,37.6159286499023,0 -89.5191802978516,37.6503753662109,0 -89.5133743286133,37.6798400878906,0 -89.5215225219727,37.6947975158691,0 -89.5814361572266,37.7061042785645,0 -89.6664581298828,37.7454528808594,0 -89.6758575439453,37.7839698791504,0 -89.6910552978516,37.8047943115234,0 -89.6858749389648,37.8288269042969,0 -89.6672515869141,37.8397331237793,0 -89.6027221679688,37.9540214538574,0 -89.1790084838867,37.9491157531738,0 -89.1550827026367,37.949047088623,0 -89.1548919677734,37.8656463623047,0 -89.1531982421875,37.6041030883789,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_67">
+<name>kml_67</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29157</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Perry</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>157</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29157</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>100389</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>82931</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>100429</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29157</SimpleData>
+<SimpleData name="NAME">Perry</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">157</SimpleData>
+<SimpleData name="FIPS">29157</SimpleData>
+<SimpleData name="HC7984">6</SimpleData>
+<SimpleData name="HC8488">6</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">100389</SimpleData>
+<SimpleData name="PO8488">82931</SimpleData>
+<SimpleData name="PO8893">100429</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.1521224975586,37.643196105957,0 -90.116325378418,37.6723937988281,0 -90.007438659668,37.8193016052246,0 -89.937873840332,37.878044128418,0 -89.9005508422852,37.875904083252,0 -89.866813659668,37.8918762207031,0 -89.8610458374023,37.9054870605469,0 -89.8517150878906,37.9050636291504,0 -89.7284469604492,37.840991973877,0 -89.6910552978516,37.8047943115234,0 -89.6758575439453,37.7839698791504,0 -89.6664581298828,37.7454528808594,0 -89.5814361572266,37.7061042785645,0 -89.5215225219727,37.6947975158691,0 -89.5133743286133,37.6798400878906,0 -89.5191802978516,37.6503753662109,0 -89.5133666992188,37.6159286499023,0 -89.5249710083008,37.5719566345215,0 -89.5911636352539,37.5741958618164,0 -89.6091995239258,37.5968437194824,0 -89.6335830688477,37.5909271240234,0 -89.641731262207,37.6004333496094,0 -89.6852645874023,37.5867767333984,0 -89.6910934448242,37.5953826904297,0 -89.7102737426758,37.5994300842285,0 -89.7212905883789,37.5930633544922,0 -89.7335052490234,37.598934173584,0 -89.773551940918,37.5893325805664,0 -89.8096084594727,37.6010284423828,0 -89.8653793334961,37.6013298034668,0 -90.1494140625,37.5992393493652,0 -90.1521224975586,37.643196105957,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_68">
+<name>kml_68</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17199</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Williamson</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>199</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17199</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>19</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>20</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>11</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>345641</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>292302</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>349629</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17199</SimpleData>
+<SimpleData name="NAME">Williamson</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">199</SimpleData>
+<SimpleData name="FIPS">17199</SimpleData>
+<SimpleData name="HC7984">19</SimpleData>
+<SimpleData name="HC8488">20</SimpleData>
+<SimpleData name="HC8893">11</SimpleData>
+<SimpleData name="PO7984">345641</SimpleData>
+<SimpleData name="PO8488">292302</SimpleData>
+<SimpleData name="PO8893">349629</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-88.7128601074219,37.6052284240723,0 -89.0463180541992,37.6032981872559,0 -89.1531982421875,37.6041030883789,0 -89.1548919677734,37.8656463623047,0 -88.7094802856445,37.8672027587891,0 -88.7128601074219,37.6052284240723,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_69">
+<name>kml_69</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29065</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Dent</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>065</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29065</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>87410</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>70004</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>82569</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29065</SimpleData>
+<SimpleData name="NAME">Dent</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">065</SimpleData>
+<SimpleData name="FIPS">29065</SimpleData>
+<SimpleData name="HC7984">6</SimpleData>
+<SimpleData name="HC8488">1</SimpleData>
+<SimpleData name="HC8893">6</SimpleData>
+<SimpleData name="PO7984">87410</SimpleData>
+<SimpleData name="PO8488">70004</SimpleData>
+<SimpleData name="PO8893">82569</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.6546859741211,37.4218521118164,0 -91.7608489990234,37.4249076843262,0 -91.7643051147461,37.5953330993652,0 -91.8201904296875,37.5988159179688,0 -91.8185577392578,37.7140121459961,0 -91.8102722167969,37.7468147277832,0 -91.8161926269531,37.7870559692383,0 -91.5354309082031,37.7870750427246,0 -91.3186645507812,37.7832412719727,0 -91.3207244873047,37.7016067504883,0 -91.1641082763672,37.6961364746094,0 -91.1646423339844,37.5904998779297,0 -91.3209381103516,37.5918884277344,0 -91.3188247680664,37.5057792663574,0 -91.2218322753906,37.5017509460449,0 -91.2232513427734,37.4128684997559,0 -91.6546859741211,37.4218521118164,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_70">
+<name>kml_70</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29093</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Iron</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>093</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29093</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>5</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>66694</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>53592</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>64290</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29093</SimpleData>
+<SimpleData name="NAME">Iron</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">093</SimpleData>
+<SimpleData name="FIPS">29093</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">5</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">66694</SimpleData>
+<SimpleData name="PO8488">53592</SimpleData>
+<SimpleData name="PO8893">64290</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.5392150878906,37.6427764892578,0 -90.5432205200195,37.5969543457031,0 -90.5542526245117,37.5964088439941,0 -90.5554351806641,37.3121566772461,0 -90.5600891113281,37.2735786437988,0 -90.7428283691406,37.2718467712402,0 -90.7555694580078,37.2730751037598,0 -90.7508239746094,37.3692359924316,0 -90.7786407470703,37.3703079223633,0 -90.7779846191406,37.6019706726074,0 -91.0057678222656,37.6043548583984,0 -91.1100311279297,37.5898742675781,0 -91.1646423339844,37.5904998779297,0 -91.1641082763672,37.6961364746094,0 -91.1559677124023,37.6962471008301,0 -91.1557388305664,37.7379608154297,0 -91.1103744506836,37.7394752502441,0 -90.6499252319336,37.7351608276367,0 -90.6537017822266,37.6417465209961,0 -90.5392150878906,37.6427764892578,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_71">
+<name>kml_71</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29123</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Madison</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>123</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29123</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>64680</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>55187</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>67108</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29123</SimpleData>
+<SimpleData name="NAME">Madison</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">123</SimpleData>
+<SimpleData name="FIPS">29123</SimpleData>
+<SimpleData name="HC7984">2</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">64680</SimpleData>
+<SimpleData name="PO8488">55187</SimpleData>
+<SimpleData name="PO8893">67108</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.2221298217773,37.3118782043457,0 -90.5554351806641,37.3121566772461,0 -90.5542526245117,37.5964088439941,0 -90.5432205200195,37.5969543457031,0 -90.5392150878906,37.6427764892578,0 -90.1521224975586,37.643196105957,0 -90.1494140625,37.5992393493652,0 -90.1497955322266,37.3118362426758,0 -90.2221298217773,37.3118782043457,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_72">
+<name>kml_72</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29215</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Texas</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>215</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29215</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>127071</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>106418</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>129307</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29215</SimpleData>
+<SimpleData name="NAME">Texas</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">215</SimpleData>
+<SimpleData name="FIPS">29215</SimpleData>
+<SimpleData name="HC7984">6</SimpleData>
+<SimpleData name="HC8488">7</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">127071</SimpleData>
+<SimpleData name="PO8488">106418</SimpleData>
+<SimpleData name="PO8893">129307</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-92.0906677246094,37.058235168457,0 -92.2598266601562,37.0617485046387,0 -92.2490615844727,37.2552032470703,0 -92.2572326660156,37.2572822570801,0 -92.2520751953125,37.4778060913086,0 -92.2493209838867,37.6071090698242,0 -92.0312881469727,37.6041297912598,0 -91.8201904296875,37.5988159179688,0 -91.7643051147461,37.5953330993652,0 -91.7608489990234,37.4249076843262,0 -91.6546859741211,37.4218521118164,0 -91.6669921875,37.0488891601562,0 -92.0906677246094,37.058235168457,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_73">
+<name>kml_73</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>17181</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Union</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Illinois</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>17</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>181</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>17181</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>9</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>107508</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>91073</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>107043</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">17181</SimpleData>
+<SimpleData name="NAME">Union</SimpleData>
+<SimpleData name="STATE_NAME">Illinois</SimpleData>
+<SimpleData name="STATE_FIPS">17</SimpleData>
+<SimpleData name="CNTY_FIPS">181</SimpleData>
+<SimpleData name="FIPS">17181</SimpleData>
+<SimpleData name="HC7984">9</SimpleData>
+<SimpleData name="HC8488">4</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">107508</SimpleData>
+<SimpleData name="PO8488">91073</SimpleData>
+<SimpleData name="PO8893">107043</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.4687423706055,37.3394088745117,0 -89.4357376098633,37.3557167053223,0 -89.4275741577148,37.411018371582,0 -89.4536209106445,37.4531860351562,0 -89.4947814941406,37.4917259216309,0 -89.5249710083008,37.5719566345215,0 -89.4767761230469,37.5701446533203,0 -89.4610900878906,37.5832862854004,0 -89.4593353271484,37.6064033508301,0 -89.1531982421875,37.6041030883789,0 -89.0463180541992,37.6032981872559,0 -89.0496826171875,37.3372192382812,0 -89.2458953857422,37.3377914428711,0 -89.4687423706055,37.3394088745117,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_74">
+<name>kml_74</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29179</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Reynolds</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>179</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29179</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>43056</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>34153</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>39755</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29179</SimpleData>
+<SimpleData name="NAME">Reynolds</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">179</SimpleData>
+<SimpleData name="FIPS">29179</SimpleData>
+<SimpleData name="HC7984">0</SimpleData>
+<SimpleData name="HC8488">2</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">43056</SimpleData>
+<SimpleData name="PO8488">34153</SimpleData>
+<SimpleData name="PO8893">39755</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.7428283691406,37.2718467712402,0 -90.7433853149414,37.1666526794434,0 -90.7583847045898,37.1655921936035,0 -90.760856628418,37.1410827636719,0 -90.7839431762695,37.1408424377441,0 -90.7881927490234,37.0523796081543,0 -90.9716644287109,37.0570869445801,0 -90.9713439941406,37.0992584228516,0 -91.0244445800781,37.0999641418457,0 -91.0270080566406,37.140739440918,0 -91.040885925293,37.1414680480957,0 -91.0431594848633,37.1677398681641,0 -91.0754470825195,37.1650543212891,0 -91.0768280029297,37.1759185791016,0 -91.095329284668,37.1765823364258,0 -91.097038269043,37.2024078369141,0 -91.1369018554688,37.2018737792969,0 -91.1382827758789,37.2385787963867,0 -91.1302108764648,37.2395973205566,0 -91.1293334960938,37.2523040771484,0 -91.1618041992188,37.2563972473145,0 -91.1619567871094,37.314884185791,0 -91.1810836791992,37.3164329528809,0 -91.1826477050781,37.4111709594727,0 -91.2232513427734,37.4128684997559,0 -91.2218322753906,37.5017509460449,0 -91.3188247680664,37.5057792663574,0 -91.3209381103516,37.5918884277344,0 -91.1646423339844,37.5904998779297,0 -91.1100311279297,37.5898742675781,0 -91.0057678222656,37.6043548583984,0 -90.7779846191406,37.6019706726074,0 -90.7786407470703,37.3703079223633,0 -90.7508239746094,37.3692359924316,0 -90.7555694580078,37.2730751037598,0 -90.7428283691406,37.2718467712402,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_75">
+<name>kml_75</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29017</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Bollinger</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>017</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29017</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>5</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>61456</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>52049</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>64073</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29017</SimpleData>
+<SimpleData name="NAME">Bollinger</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">017</SimpleData>
+<SimpleData name="FIPS">29017</SimpleData>
+<SimpleData name="HC7984">1</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">5</SimpleData>
+<SimpleData name="PO7984">61456</SimpleData>
+<SimpleData name="PO8488">52049</SimpleData>
+<SimpleData name="PO8893">64073</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.8694229125977,37.1316757202148,0 -89.9606246948242,37.1313591003418,0 -89.9642562866211,37.0651550292969,0 -89.995964050293,37.0632171630859,0 -89.9976043701172,37.0496063232422,0 -90.1146392822266,37.0486145019531,0 -90.1149520874023,37.0866966247559,0 -90.2216720581055,37.086109161377,0 -90.2221298217773,37.3118782043457,0 -90.1497955322266,37.3118362426758,0 -90.1494140625,37.5992393493652,0 -89.8653793334961,37.6013298034668,0 -89.8694229125977,37.1316757202148,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_76">
+<name>kml_76</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29031</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Cape Girardeau</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>031</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29031</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>13</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>13</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>353841</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>301770</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>374479</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29031</SimpleData>
+<SimpleData name="NAME">Cape Girardeau</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">031</SimpleData>
+<SimpleData name="FIPS">29031</SimpleData>
+<SimpleData name="HC7984">13</SimpleData>
+<SimpleData name="HC8488">8</SimpleData>
+<SimpleData name="HC8893">13</SimpleData>
+<SimpleData name="PO7984">353841</SimpleData>
+<SimpleData name="PO8488">301770</SimpleData>
+<SimpleData name="PO8893">374479</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-89.8653793334961,37.6013298034668,0 -89.8096084594727,37.6010284423828,0 -89.773551940918,37.5893325805664,0 -89.7335052490234,37.598934173584,0 -89.7212905883789,37.5930633544922,0 -89.7102737426758,37.5994300842285,0 -89.6910934448242,37.5953826904297,0 -89.6852645874023,37.5867767333984,0 -89.641731262207,37.6004333496094,0 -89.6335830688477,37.5909271240234,0 -89.6091995239258,37.5968437194824,0 -89.5911636352539,37.5741958618164,0 -89.5249710083008,37.5719566345215,0 -89.4947814941406,37.4917259216309,0 -89.4536209106445,37.4531860351562,0 -89.4275741577148,37.411018371582,0 -89.4357376098633,37.3557167053223,0 -89.4687423706055,37.3394088745117,0 -89.5005798339844,37.3294410705566,0 -89.5138854980469,37.3049621582031,0 -89.5138854980469,37.2764015197754,0 -89.4895935058594,37.2560005187988,0 -89.5127182006836,37.2424011230469,0 -89.5930633544922,37.2355651855469,0 -89.5936279296875,37.2274055480957,0 -89.6271514892578,37.226016998291,0 -89.6265563964844,37.2169494628906,0 -89.6531372070312,37.2141990661621,0 -89.6530990600586,37.1965179443359,0 -89.6906509399414,37.195556640625,0 -89.6906127929688,37.1810493469238,0 -89.7113952636719,37.178295135498,0 -89.7119216918945,37.1601600646973,0 -89.726936340332,37.1592254638672,0 -89.7280578613281,37.1483421325684,0 -89.7598037719727,37.1464691162109,0 -89.7609024047852,37.1305961608887,0 -89.7770614624023,37.1301078796387,0 -89.8694229125977,37.1316757202148,0 -89.8653793334961,37.6013298034668,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_77">
+<name>kml_77</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29203</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Shannon</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>203</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29203</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>3</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>2</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>47507</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>38491</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>46138</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29203</SimpleData>
+<SimpleData name="NAME">Shannon</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">203</SimpleData>
+<SimpleData name="FIPS">29203</SimpleData>
+<SimpleData name="HC7984">3</SimpleData>
+<SimpleData name="HC8488">3</SimpleData>
+<SimpleData name="HC8893">2</SimpleData>
+<SimpleData name="PO7984">47507</SimpleData>
+<SimpleData name="PO8488">38491</SimpleData>
+<SimpleData name="PO8893">46138</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-91.6669921875,37.0488891601562,0 -91.6546859741211,37.4218521118164,0 -91.2232513427734,37.4128684997559,0 -91.1826477050781,37.4111709594727,0 -91.1810836791992,37.3164329528809,0 -91.1619567871094,37.314884185791,0 -91.1618041992188,37.2563972473145,0 -91.1293334960938,37.2523040771484,0 -91.1302108764648,37.2395973205566,0 -91.1382827758789,37.2385787963867,0 -91.1369018554688,37.2018737792969,0 -91.097038269043,37.2024078369141,0 -91.095329284668,37.1765823364258,0 -91.0768280029297,37.1759185791016,0 -91.0754470825195,37.1650543212891,0 -91.0431594848633,37.1677398681641,0 -91.040885925293,37.1414680480957,0 -91.0270080566406,37.140739440918,0 -91.0244445800781,37.0999641418457,0 -91.112419128418,37.0852203369141,0 -91.2254943847656,37.085018157959,0 -91.2294464111328,36.8818092346191,0 -91.6674652099609,36.8860702514648,0 -91.6669921875,37.0488891601562,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark id="kml_78">
+<name>kml_78</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>FIPSNO</th>
+<td>29223</td>
+</tr><tr bgcolor="">
+<th>NAME</th>
+<td>Wayne</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>STATE_NAME</th>
+<td>Missouri</td>
+</tr><tr bgcolor="">
+<th>STATE_FIPS</th>
+<td>29</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>CNTY_FIPS</th>
+<td>223</td>
+</tr><tr bgcolor="">
+<th>FIPS</th>
+<td>29223</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC7984</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>HC8488</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>HC8893</th>
+<td>6</td>
+</tr><tr bgcolor="">
+<th>PO7984</th>
+<td>68218</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>PO8488</th>
+<td>57181</td>
+</tr><tr bgcolor="">
+<th>PO8893</th>
+<td>70993</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_stl_hom">
+<SimpleData name="FIPSNO">29223</SimpleData>
+<SimpleData name="NAME">Wayne</SimpleData>
+<SimpleData name="STATE_NAME">Missouri</SimpleData>
+<SimpleData name="STATE_FIPS">29</SimpleData>
+<SimpleData name="CNTY_FIPS">223</SimpleData>
+<SimpleData name="FIPS">29223</SimpleData>
+<SimpleData name="HC7984">4</SimpleData>
+<SimpleData name="HC8488">0</SimpleData>
+<SimpleData name="HC8893">6</SimpleData>
+<SimpleData name="PO7984">68218</SimpleData>
+<SimpleData name="PO8488">57181</SimpleData>
+<SimpleData name="PO8893">70993</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-90.6806564331055,36.9256134033203,0 -90.6979522705078,36.9268035888672,0 -90.6991653442383,36.9666938781738,0 -90.7181930541992,36.9678649902344,0 -90.7186279296875,36.9946098327637,0 -90.7393951416016,36.9962158203125,0 -90.7402954101562,37.050163269043,0 -90.7881927490234,37.0523796081543,0 -90.7839431762695,37.1408424377441,0 -90.760856628418,37.1410827636719,0 -90.7583847045898,37.1655921936035,0 -90.7433853149414,37.1666526794434,0 -90.7428283691406,37.2718467712402,0 -90.5600891113281,37.2735786437988,0 -90.5554351806641,37.3121566772461,0 -90.2221298217773,37.3118782043457,0 -90.2216720581055,37.086109161377,0 -90.1149520874023,37.0866966247559,0 -90.1146392822266,37.0486145019531,0 -90.1521224975586,37.0488700866699,0 -90.1546859741211,37.0125885009766,0 -90.1690902709961,37.0116004943848,0 -90.1712036132812,36.9907341003418,0 -90.1884765625,36.9892768859863,0 -90.1906356811523,36.9733963012695,0 -90.2061767578125,36.9723968505859,0 -90.2072296142578,36.9619636535645,0 -90.2262191772461,36.9600372314453,0 -90.2277221679688,36.9369049072266,0 -90.2627105712891,36.924446105957,0 -90.6806564331055,36.9256134033203,0 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+</Document></kml>

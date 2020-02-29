@@ -1,0 +1,2720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>pitt94</name>
+<visibility>1</visibility>
+<Schema name="pitt94" id="kml_schema_ft_pitt94">
+<SimpleField type="xsd:string" name="CASEID">
+<displayName>CASEID</displayName>
+</SimpleField>
+<SimpleField type="xsd:double" name="NEWID">
+<displayName>NEWID</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="EVENT_YR">
+<displayName>EVENT_YR</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="GUN">
+<displayName>GUN</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="GANG">
+<displayName>GANG</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="DRUG">
+<displayName>DRUG</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="X_COORD">
+<displayName>X_COORD</displayName>
+</SimpleField>
+<SimpleField type="xsd:float" name="Y_COORD">
+<displayName>Y_COORD</displayName>
+</SimpleField>
+</Schema>
+<Folder id="kml_ft_pitt94">
+<name>pitt94</name>
+<Placemark id="kml_1">
+<name>kml_1</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94001</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94001</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>82365.4053</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>103673.01636</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94001</SimpleData>
+<SimpleData name="NEWID">94001</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">82365.4053</SimpleData>
+<SimpleData name="Y_COORD">103673.01636</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-74.5947040150204,-6.9836376150779,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_2">
+<name>kml_2</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94002</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94002</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>91339.42207</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>121630.06113</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94002</SimpleData>
+<SimpleData name="NEWID">94002</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">91339.42207</SimpleData>
+<SimpleData name="Y_COORD">121630.06113</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-100.577929687497,-49.9388671875058,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_3">
+<name>kml_3</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94003</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94003</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>102635.5625</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>120524.23462</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94003</SimpleData>
+<SimpleData name="NEWID">94003</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">102635.5625</SimpleData>
+<SimpleData name="Y_COORD">120524.23462</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>35.5625,-75.765380859375,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_4">
+<name>kml_4</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94004</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94004</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>101247.95078</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>119129.11816</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94004</SimpleData>
+<SimpleData name="NEWID">94004</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">101247.95078</SimpleData>
+<SimpleData name="Y_COORD">119129.11816</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>87.9507812499942,-30.8818359375,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_5">
+<name>kml_5</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94005</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94005</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>79887.57031</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>113368.75513</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94005</SimpleData>
+<SimpleData name="NEWID">94005</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">79887.57031</SimpleData>
+<SimpleData name="Y_COORD">113368.75513</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-32.4296875,-31.244873046875,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_6">
+<name>kml_6</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94007</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94007</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>102189.34229</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>116512.66121</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94007</SimpleData>
+<SimpleData name="NEWID">94007</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">102189.34229</SimpleData>
+<SimpleData name="Y_COORD">116512.66121</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-50.6577093329397,52.6612112633011,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_7">
+<name>kml_7</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94008</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94008</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>102189.34229</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>116512.66121</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94008</SimpleData>
+<SimpleData name="NEWID">94008</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">102189.34229</SimpleData>
+<SimpleData name="Y_COORD">116512.66121</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-50.6577093329397,52.6612112633011,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_8">
+<name>kml_8</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94009</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94009</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>96439.89453</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>119029.54297</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94009</SimpleData>
+<SimpleData name="NEWID">94009</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">96439.89453</SimpleData>
+<SimpleData name="Y_COORD">119029.54297</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-40.10546875,49.54296875,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_9">
+<name>kml_9</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94010</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94010</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>100864.20645</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>120556.44648</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94010</SimpleData>
+<SimpleData name="NEWID">94010</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">100864.20645</SimpleData>
+<SimpleData name="Y_COORD">120556.44648</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>64.2064470812475,-43.5535170721705,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_10">
+<name>kml_10</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94011</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94011</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>84377.8877</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>109301.72129</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94011</SimpleData>
+<SimpleData name="NEWID">94011</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">84377.8877</SimpleData>
+<SimpleData name="Y_COORD">109301.72129</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>137.8876953125,41.7212890624942,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_11">
+<name>kml_11</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94012</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94012</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>99294.57852</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>119093.82031</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94012</SimpleData>
+<SimpleData name="NEWID">94012</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">99294.57852</SimpleData>
+<SimpleData name="Y_COORD">119093.82031</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-65.4214843749942,-66.1796875,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_12">
+<name>kml_12</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94013</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94013</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>50670.13633</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>115957.66074</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94013</SimpleData>
+<SimpleData name="NEWID">94013</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">50670.13633</SimpleData>
+<SimpleData name="Y_COORD">115957.66074</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-89.8636718749985,37.6607421874942,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_13">
+<name>kml_13</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94014</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94014</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>91663.31095</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>120251.81172</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94014</SimpleData>
+<SimpleData name="NEWID">94014</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">91663.31095</SimpleData>
+<SimpleData name="Y_COORD">120251.81172</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-136.689048318978,11.8117160671391,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_14">
+<name>kml_14</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94015</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94015</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>75990.3245</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>97776.3224</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94015</SimpleData>
+<SimpleData name="NEWID">94015</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">75990.3245</SimpleData>
+<SimpleData name="Y_COORD">97776.3224</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>30.3244961035816,36.3224041115318,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_15">
+<name>kml_15</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94016</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94016</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>107581.98769</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>115720.99777</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94016</SimpleData>
+<SimpleData name="NEWID">94016</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">107581.98769</SimpleData>
+<SimpleData name="Y_COORD">115720.99777</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-58.01231466842,-19.0022317707044,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_16">
+<name>kml_16</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94017</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94017</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>67462.49314</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>116233.88027</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94017</SimpleData>
+<SimpleData name="NEWID">94017</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">67462.49314</SimpleData>
+<SimpleData name="Y_COORD">116233.88027</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>142.493136926118,-46.119730384773,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_17">
+<name>kml_17</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94018</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94018</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>74844.92969</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>102756.96875</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94018</SimpleData>
+<SimpleData name="NEWID">94018</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">74844.92969</SimpleData>
+<SimpleData name="Y_COORD">102756.96875</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-35.0703125,-23.03125,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_18">
+<name>kml_18</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94019</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94019</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>82894.31913</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>112524.62045</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94019</SimpleData>
+<SimpleData name="NEWID">94019</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">82894.31913</SimpleData>
+<SimpleData name="Y_COORD">112524.62045</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>94.3191344957741,24.6204534433637,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_19">
+<name>kml_19</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94020</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94020</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>95041.83998</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>121594.4893</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94020</SimpleData>
+<SimpleData name="NEWID">94020</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">95041.83998</SimpleData>
+<SimpleData name="Y_COORD">121594.4893</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>1.83997520474077,-85.5107025000325,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_20">
+<name>kml_20</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94022</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94022</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>93395.13457</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>127711.16426</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94022</SimpleData>
+<SimpleData name="NEWID">94022</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">93395.13457</SimpleData>
+<SimpleData name="Y_COORD">127711.16426</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>155.134570312497,-88.8357421874971,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_21">
+<name>kml_21</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94023</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94023</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>103955.28386</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>121561.05827</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94023</SimpleData>
+<SimpleData name="NEWID">94023</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">103955.28386</SimpleData>
+<SimpleData name="Y_COORD">121561.05827</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-84.7161379217723,61.05827466755,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_22">
+<name>kml_22</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94024</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94024</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>89344.34757</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>114944.03573</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94024</SimpleData>
+<SimpleData name="NEWID">94024</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">89344.34757</SimpleData>
+<SimpleData name="Y_COORD">114944.03573</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>64.3475746909244,-75.9642732860229,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_23">
+<name>kml_23</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94025</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94025</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>80215.73557</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>112839.72729</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94025</SimpleData>
+<SimpleData name="NEWID">94025</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">80215.73557</SimpleData>
+<SimpleData name="Y_COORD">112839.72729</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-64.2644258388755,-20.2727080150216,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_24">
+<name>kml_24</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94026</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94026</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>87452.4903</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>126199.49634</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94026</SimpleData>
+<SimpleData name="NEWID">94026</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">87452.4903</SimpleData>
+<SimpleData name="Y_COORD">126199.49634</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-27.5097006693541,19.4963446420443,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_25">
+<name>kml_25</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94027</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94027</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>91830.3439</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>124420.43289</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94027</SimpleData>
+<SimpleData name="NEWID">94027</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">91830.3439</SimpleData>
+<SimpleData name="Y_COORD">124420.43289</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>30.3439032043098,40.4328880698013,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_26">
+<name>kml_26</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94028</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94028</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>77173.22123</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>114332.03711</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94028</SimpleData>
+<SimpleData name="NEWID">94028</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">77173.22123</SimpleData>
+<SimpleData name="Y_COORD">114332.03711</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>133.221234349374,32.03711092085,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_27">
+<name>kml_27</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94029</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94029</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>61735.09304</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>99293.74304</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94029</SimpleData>
+<SimpleData name="NEWID">94029</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">61735.09304</SimpleData>
+<SimpleData name="Y_COORD">99293.74304</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>175.09304120599,-66.25695525216,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_28">
+<name>kml_28</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94030</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94030</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>73837.58594</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>103793.66699</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94030</SimpleData>
+<SimpleData name="NEWID">94030</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">73837.58594</SimpleData>
+<SimpleData name="Y_COORD">103793.66699</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>37.5859375,-66.3330078125,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_29">
+<name>kml_29</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94031</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94031</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>79151.83472</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>113200.7231</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94031</SimpleData>
+<SimpleData name="NEWID">94031</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">79151.83472</SimpleData>
+<SimpleData name="Y_COORD">113200.7231</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-48.1652784563776,-19.2768964096613,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_30">
+<name>kml_30</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94032</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94032</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>103986.51244</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>117787.11537</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94032</SimpleData>
+<SimpleData name="NEWID">94032</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">103986.51244</SimpleData>
+<SimpleData name="Y_COORD">117787.11537</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-53.4875626128924,67.115374810106,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_31">
+<name>kml_31</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94033</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94033</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>103998.48527</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>117783.10484</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94033</SimpleData>
+<SimpleData name="NEWID">94033</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">103998.48527</SimpleData>
+<SimpleData name="Y_COORD">117783.10484</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-41.5147319352982,63.1048415676632,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_32">
+<name>kml_32</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94034</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94034</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>103998.48527</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>117783.10484</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94034</SimpleData>
+<SimpleData name="NEWID">94034</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">103998.48527</SimpleData>
+<SimpleData name="Y_COORD">117783.10484</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-41.5147319352982,63.1048415676632,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_33">
+<name>kml_33</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94035</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94035</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>89845</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>97248.77344</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94035</SimpleData>
+<SimpleData name="NEWID">94035</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">89845</SimpleData>
+<SimpleData name="Y_COORD">97248.77344</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-155,48.7734375,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_34">
+<name>kml_34</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94036</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94036</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>67379.55781</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>117635.23047</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94036</SimpleData>
+<SimpleData name="NEWID">94036</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">67379.55781</SimpleData>
+<SimpleData name="Y_COORD">117635.23047</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>59.5578125000029,-84.76953125,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_35">
+<name>kml_35</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94037</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94037</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>80943.2877</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>110650.70391</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94037</SimpleData>
+<SimpleData name="NEWID">94037</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">80943.2877</SimpleData>
+<SimpleData name="Y_COORD">110650.70391</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-56.7123046875058,-49.2960937500029,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_36">
+<name>kml_36</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94038</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94038</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>110182.60059</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>114151.58027</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94038</SimpleData>
+<SimpleData name="NEWID">94038</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">110182.60059</SimpleData>
+<SimpleData name="Y_COORD">114151.58027</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>22.6005859375,31.5802734375029,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_37">
+<name>kml_37</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94039</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94039</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>62896.46084</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>110724.7627</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94039</SimpleData>
+<SimpleData name="NEWID">94039</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">62896.46084</SimpleData>
+<SimpleData name="Y_COORD">110724.7627</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-103.539160156251,24.7626953125,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_38">
+<name>kml_38</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94040</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94040</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>62890.03398</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>110727.05867</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94040</SimpleData>
+<SimpleData name="NEWID">94040</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">62890.03398</SimpleData>
+<SimpleData name="Y_COORD">110727.05867</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-109.966022751534,27.0586660496483,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_39">
+<name>kml_39</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94041</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94041</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>74055.10996</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>124422.77575</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94041</SimpleData>
+<SimpleData name="NEWID">94041</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">74055.10996</SimpleData>
+<SimpleData name="Y_COORD">124422.77575</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-104.890040266488,42.7757540952298,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_40">
+<name>kml_40</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94042</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94042</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>102930.71395</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>116649.30375</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94042</SimpleData>
+<SimpleData name="NEWID">94042</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">102930.71395</SimpleData>
+<SimpleData name="Y_COORD">116649.30375</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-29.2860495473142,9.30374970829871,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_41">
+<name>kml_41</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94044</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94044</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>109762.74824</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>115853.75977</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94044</SimpleData>
+<SimpleData name="NEWID">94044</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">109762.74824</SimpleData>
+<SimpleData name="Y_COORD">115853.75977</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-37.2517578124971,-66.240234375,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_42">
+<name>kml_42</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94045</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94045</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>97724.35938</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>119703.40625</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94045</SimpleData>
+<SimpleData name="NEWID">94045</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">97724.35938</SimpleData>
+<SimpleData name="Y_COORD">119703.40625</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>164.359375,3.40625,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_43">
+<name>kml_43</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94046</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94046</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>74681.73749</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>124311.884</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94046</SimpleData>
+<SimpleData name="NEWID">94046</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">74681.73749</SimpleData>
+<SimpleData name="Y_COORD">124311.884</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>161.737493321576,-68.1159972593305,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_44">
+<name>kml_44</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94047</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94047</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>103704.74792</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>117706.65589</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94047</SimpleData>
+<SimpleData name="NEWID">94047</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">0</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">103704.74792</SimpleData>
+<SimpleData name="Y_COORD">117706.65589</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>24.7479213120387,-13.344112741921,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_45">
+<name>kml_45</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94048</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94048</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>74269.75781</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>102613.17969</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94048</SimpleData>
+<SimpleData name="NEWID">94048</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">74269.75781</SimpleData>
+<SimpleData name="Y_COORD">102613.17969</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>109.7578125,13.1796875,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_46">
+<name>kml_46</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94050</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94050</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>70421.69355</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>117708.50352</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94050</SimpleData>
+<SimpleData name="NEWID">94050</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">70421.69355</SimpleData>
+<SimpleData name="Y_COORD">117708.50352</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-138.306445312497,-11.4964843750058,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_47">
+<name>kml_47</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94051</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94051</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>70982.02862</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>121101.0101</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94051</SimpleData>
+<SimpleData name="NEWID">94051</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">70982.02862</SimpleData>
+<SimpleData name="Y_COORD">121101.0101</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>62.0286215392262,-38.9898964565655,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_48">
+<name>kml_48</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94054</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94054</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>80758.87305</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>99577.72383</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94054</SimpleData>
+<SimpleData name="NEWID">94054</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">80758.87305</SimpleData>
+<SimpleData name="Y_COORD">99577.72383</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>118.873046875,37.7238281250029,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_49">
+<name>kml_49</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94055</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94055</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>73841.68418</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>103475.70176</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94055</SimpleData>
+<SimpleData name="NEWID">94055</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">73841.68418</SimpleData>
+<SimpleData name="Y_COORD">103475.70176</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>41.6841796874942,-24.2982421875058,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_50">
+<name>kml_50</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94056</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94056</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>73225.08984</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>126646.20781</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94056</SimpleData>
+<SimpleData name="NEWID">94056</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">73225.08984</SimpleData>
+<SimpleData name="Y_COORD">126646.20781</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>145.08984375,-73.7921875000029,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_51">
+<name>kml_51</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94057</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94057</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>72641.52734</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>123778.26953</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94057</SimpleData>
+<SimpleData name="NEWID">94057</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">72641.52734</SimpleData>
+<SimpleData name="Y_COORD">123778.26953</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-78.47265625,-61.73046875,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_52">
+<name>kml_52</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94058</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94058</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>83860.00441</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>102809.14251</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94058</SimpleData>
+<SimpleData name="NEWID">94058</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">83860.00441</SimpleData>
+<SimpleData name="Y_COORD">102809.14251</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-19.9955923561211,29.1425130194111,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_53">
+<name>kml_53</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94059</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94059</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>80064.57084</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>99505.52473</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94059</SimpleData>
+<SimpleData name="NEWID">94059</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">80064.57084</SimpleData>
+<SimpleData name="Y_COORD">99505.52473</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>144.570844245041,-34.4752704498678,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_54">
+<name>kml_54</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94060</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94060</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>74266.18802</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>103590.35957</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94060</SimpleData>
+<SimpleData name="NEWID">94060</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">74266.18802</SimpleData>
+<SimpleData name="Y_COORD">103590.35957</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>106.188023779046,-89.6404292192165,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_55">
+<name>kml_55</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94061</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94061</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>68018.2841</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>116015.40762</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94061</SimpleData>
+<SimpleData name="NEWID">94061</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">68018.2841</SimpleData>
+<SimpleData name="Y_COORD">116015.40762</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-21.7158996219805,-84.5923787388165,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_56">
+<name>kml_56</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94062</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94062</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>95447.67411</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>118050.12595</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94062</SimpleData>
+<SimpleData name="NEWID">94062</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">95447.67411</SimpleData>
+<SimpleData name="Y_COORD">118050.12595</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>47.6741136704513,-29.8740490639902,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_57">
+<name>kml_57</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94063</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94063</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>103717.31602</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>115649.38008</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94063</SimpleData>
+<SimpleData name="NEWID">94063</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">103717.31602</SimpleData>
+<SimpleData name="Y_COORD">115649.38008</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>37.3160156249942,89.3800781250029,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_58">
+<name>kml_58</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94064</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94064</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>71890.28227</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>118727.54628</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94064</SimpleData>
+<SimpleData name="NEWID">94064</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">1</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">71890.28227</SimpleData>
+<SimpleData name="Y_COORD">118727.54628</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-109.717734407226,-72.4537154819263,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_59">
+<name>kml_59</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94065</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94065</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>73844.32813</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>102874.27793</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94065</SimpleData>
+<SimpleData name="NEWID">94065</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">1</SimpleData>
+<SimpleData name="X_COORD">73844.32813</SimpleData>
+<SimpleData name="Y_COORD">102874.27793</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>44.328125,-85.7220703125058,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_60">
+<name>kml_60</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94066</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94066</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>90991.59746</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>121249.67162</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94066</SimpleData>
+<SimpleData name="NEWID">94066</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">90991.59746</SimpleData>
+<SimpleData name="Y_COORD">121249.67162</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-88.4025449141627,-70.3283765567903,0 </coordinates>
+</Point>
+</Placemark>
+<Placemark id="kml_61">
+<name>kml_61</name>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Attributes</em></th></tr><tr bgcolor="#E3E3F3">
+<th>CASEID</th>
+<td>94067</td>
+</tr><tr bgcolor="">
+<th>NEWID</th>
+<td>94067</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>EVENT_YR</th>
+<td>94</td>
+</tr><tr bgcolor="">
+<th>GUN</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>GANG</th>
+<td>0</td>
+</tr><tr bgcolor="">
+<th>DRUG</th>
+<td>0</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>X_COORD</th>
+<td>61901.73961</td>
+</tr><tr bgcolor="">
+<th>Y_COORD</th>
+<td>112972.5505</td>
+</tr></table></center>]]></description>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_pitt94">
+<SimpleData name="CASEID">94067</SimpleData>
+<SimpleData name="NEWID">94067</SimpleData>
+<SimpleData name="EVENT_YR">94</SimpleData>
+<SimpleData name="GUN">1</SimpleData>
+<SimpleData name="GANG">0</SimpleData>
+<SimpleData name="DRUG">0</SimpleData>
+<SimpleData name="X_COORD">61901.73961</SimpleData>
+<SimpleData name="Y_COORD">112972.5505</SimpleData>
+</SchemaData>
+</ExtendedData>
+<Point>
+<coordinates>-18.2603931978738,-67.4494979760057,0 </coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document></kml>

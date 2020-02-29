@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:fme="http://www.safe.com/gml/fme" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.safe.com/gml/fme" elementFormDefault="qualified">
+<import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/gml.xsd"/>
+<element name="baltim" type="fme:baltimType" substitutionGroup="gml:_Feature"/>
+<complexType name="baltimType">
+<complexContent>
+<extension base="gml:AbstractFeatureType">
+<sequence>
+<element name="STATION" minOccurs="0" type="int"/>
+<element name="PRICE" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="10"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="NROOM" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="DWELL" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="NBATH" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="PATIO" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="FIREPL" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="AC" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="BMENT" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="NSTOR" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="GAR" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="AGE" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="10"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="CITCOU" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="8"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="LOTSZ" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="10"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="SQFT" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="9"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="X" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="10"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element name="Y" minOccurs="0">
+<simpleType>
+<restriction base="decimal">
+<totalDigits value="10"/>
+<fractionDigits value="6"/>
+</restriction>
+</simpleType></element>
+<element ref="gml:pointProperty" minOccurs="0"/>
+<element ref="gml:multiPointProperty" minOccurs="0"/>
+</sequence>
+</extension>
+</complexContent>
+</complexType>
+</schema>

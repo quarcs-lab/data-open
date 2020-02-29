@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Ohio Lung Cancer Data</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1348.17">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    td.td1 {width: 96.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 641.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 51.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 443.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Ohio Lung Cancer Data</b></span></h1>
+<p class="p2"><span class="s1"><i>Data provided "as is," no warranties.</i></span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><b>File Description</b></span></p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">ohdat.dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Data set with lung mortality for Ohio (OH) counties, 1968, 1978, 1988 (for joining with OH base map); 88 observations, 39 variables</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">ohioutmbnd.txt:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Ohio County ASCII boundary files in UTM Zone 17 projection</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">ohutm.shp shx dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Shape file constructed from ohioutmbnd.txt (contains no data); 88 observations, 4 variables</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">ohlung.shp shx dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Shape file for OH counties with all data; 88 observations, 42 variables</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p2"><span class="s1">Type = Polygon shape files</span></p>
+<p class="p2"><span class="s1"><b>Source</b><br>
+Boundary file: Data manipulation by Luc Anselin and through GeoDa.<br>
+Lung cancer mortality data from Brad Carlin's web site (file ohio.dat), available at http://www.biostat.umn.edu/~brad/data2.html. Conversion to GeoDa input format by Luc Anselin.</span></p>
+<p class="p2"><span class="s1"><b>Reference</b><br>
+Xia, Hong and Bradley P. Carlin (1998). Spatio-temporal models with errors in covariates: mapping Ohio lung cancer mortality. <i>Statistics in Medicine</i> 17, 2025-043.</span></p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1"><b>Variable</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p5"><span class="s1"><b>Description</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">CountyID<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Sequential county ID (alphabetic order)<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">Name<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">County name<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">FIPSNO<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Fips code as numeric<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p6"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1"><b>For each year, there are 12 variables:</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">LGRyy<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Lung cancer cases for gender G (M or F) and race R (W or B) in year yy (1968, 1978, 1988)<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">POPGRyy<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Population at risk for gender G (M or F) and race R (W or B) in year yy (1968, 1978, 1988)<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">LGyy<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Total male and female lung cancer cases for each year<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">POPGyy<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Total population at risk by gender<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">Prepared by Luc Anselin.</span></p>
+<p class="p2"><span class="s1">Last updated June 3, 2004</span></p>
+</body>
+</html>

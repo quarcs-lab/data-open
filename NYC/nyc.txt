@@ -1,0 +1,10 @@
+FORHIS06-09 : percentage of hispanic population, not born in US
+FORWH06-09  : percentage of white population, not born in US
+HHSIZ1990   : average number of people per household
+HHSIZ00     : same
+HHSIZ02-05-08  : same
+KIDS2000,KIDS2005-2009  : percentage households w kids under 18
+RENT2002,2005,2008  :  median monthly contract rent
+RENTPCT02,05,08  : percentage of housing stock that is market rate rental
+PUBAST90,00  : percentage of households receiving public assistance
+YRHOMO02,05,08  : average number of years living in current residence

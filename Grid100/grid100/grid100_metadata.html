@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Grid with Simulated Variables</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1348.17">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 6.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    td.td1 {width: 104.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 496.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td3 {width: 54.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td4 {width: 642.0px; margin: 0.5px 0.5px 0.5px 0.5px; padding: 1.0px 1.0px 1.0px 1.0px}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Grid with Simulated Variables</b></span></h1>
+<p class="p2"><span class="s1"><i>Data provided "as is," no warranties.</i></span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><b>File Description</b></span></p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">grid10x10.dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Simulated random variables with spatial autocorrelation, base data set, to be joined with grid base map.</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">grid100.shp shx dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Base map with 10 by 10 regular grid, no data.</span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="s1">grid100s.shp shx dbf:</span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p4"><span class="s1">Regular 10 by 10 grid with spatially autocorrelated data.</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p2"><span class="s1">Type = polygon shape file, unprojected<br>
+Observations = 100<br>
+Variables = 34</span></p>
+<p class="p2"><span class="s1"><b>Source</b><br>
+The grid was created in GeoDa. The variables were simulated using R and its spdep package.</span></p>
+<table cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p5"><span class="s1"><b>Variable</b></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p5"><span class="s1"><b>Description</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">PolyID<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Grid cell identifier<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">z</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Random variables for standard normal distribution<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">zmaxx</span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Standard normal variates transformed to follow a spatial moving average with parameter xx (xx is 02, 05, 07, 09 for 0.2, 0.5, 0.7, 0.9)<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">ranzmaxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Randomly permuted observations matching the variable zmaxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">zmanxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Standard normal variates transformed to follow a spatial moving average with negative parameter xx (same as above)<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">ranzmanxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Randomly permuted counterpart of zmanxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">zarxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Standard normal variates transformed to follow a spatial autoregressive process with parameter xx (same as above)<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">ranzarxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Randomly permuted counterpart of zarxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">zarnxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Standard normal variates transformed to follow a spatial autoregressive process with negative parameter xx (same as above)<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td3">
+        <p class="p4"><span class="s1">ranzarnxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p4"><span class="s1">Randomly permuted counterpart of zarnxx<span class="Apple-converted-space"> </span></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><span class="s1"></span><br></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">Prepared by Luc Anselin.</span></p>
+<p class="p2"><span class="s1">Last updated June 3, 2004</span></p>
+</body>
+</html>
