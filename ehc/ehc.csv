@@ -1,0 +1,387 @@
+id,country,year,ehc,sur,fh,edu,lea,region,isoUNstats,isoPWT
+1,Afghanistan,1990,1,30,41,2,61,Asia,4,AFG
+1,Afghanistan,2016,4,34,45,7,64,Asia,4,AFG
+2,Albania,1990,11,41,63,10,76,Europe,8,ALB
+2,Albania,2016,14,43,69,11,78,Europe,8,ALB
+3,Algeria,1990,8,40,61,10,63,Africa,12,DZA
+3,Algeria,2016,14,42,70,12,68,Africa,12,DZA
+4,American Samoa,1990,13,41,66,12,73,Oceania,16,ASM
+4,American Samoa,2016,16,41,70,13,76,Oceania,16,ASM
+5,Andorra,1990,21,43,88,12,85,Europe,20,AND
+5,Andorra,2016,24,44,89,13,86,Europe,20,AND
+6,Angola,1990,2,29,39,6,62,Africa,24,AGO
+6,Angola,2016,7,37,50,10,66,Africa,24,AGO
+7,Antigua and Barbuda,1990,10,42,74,9,70,Americas,28,ATG
+7,Antigua and Barbuda,2016,14,42,76,11,70,Americas,28,ATG
+8,Argentina,1990,12,41,76,10,71,Americas,32,ARG
+8,Argentina,2016,16,42,81,12,72,Americas,32,ARG
+9,Armenia,1990,15,40,71,13,76,Asia,51,ARM
+9,Armenia,2016,17,42,72,13,78,Asia,51,ARM
+10,Australia,1990,20,43,84,11,88,Oceania,36,AUS
+10,Australia,2016,23,44,87,13,87,Oceania,36,AUS
+11,Austria,1990,20,42,86,11,87,Europe,40,AUT
+11,Austria,2016,24,44,88,13,87,Europe,40,AUT
+12,Azerbaijan,1990,11,38,63,11,75,Asia,31,AZE
+12,Azerbaijan,2016,14,41,69,11,76,Asia,31,AZE
+13,Bahrain,1990,9,41,67,8,69,Asia,48,BHR
+13,Bahrain,2016,14,43,77,11,74,Asia,48,BHR
+14,Bangladesh,1990,2,34,40,5,65,Asia,50,BGD
+14,Bangladesh,2016,6,41,48,8,69,Asia,50,BGD
+15,Barbados,1990,15,42,75,12,72,Americas,52,BRB
+15,Barbados,2016,18,42,76,14,74,Americas,52,BRB
+16,Belarus,1990,18,40,79,12,81,Europe,112,BLR
+16,Belarus,2016,23,42,82,15,84,Europe,112,BLR
+17,Belgium,1990,22,42,87,12,87,Europe,56,BEL
+17,Belgium,2016,25,44,88,13,88,Europe,56,BEL
+18,Belize,1990,7,40,69,8,63,Americas,84,BLZ
+18,Belize,2016,11,41,73,10,65,Americas,84,BLZ
+19,Benin,1990,1,32,35,4,55,Africa,204,BEN
+19,Benin,2016,4,37,48,8,58,Africa,204,BEN
+20,Bermuda,1990,11,41,77,9,70,Americas,60,BMU
+20,Bermuda,2016,12,43,79,9,68,Americas,60,BMU
+21,Bhutan,1990,4,34,49,7,67,Asia,64,BTN
+21,Bhutan,2016,9,41,54,11,70,Asia,64,BTN
+22,Bolivia,1990,7,35,62,9,64,Americas,68,BOL
+22,Bolivia,2016,12,41,68,12,67,Americas,68,BOL
+23,Bosnia and Herzegovina,1990,14,42,70,11,80,Europe,70,BIH
+23,Bosnia and Herzegovina,2016,17,43,73,12,81,Europe,70,BIH
+24,Botswana,1990,6,37,55,9,60,Africa,72,BWA
+24,Botswana,2016,8,37,50,12,65,Africa,72,BWA
+25,Brazil,1990,9,39,70,9,69,Americas,76,BRA
+25,Brazil,2016,16,41,78,12,73,Americas,76,BRA
+26,Brunei,1990,18,42,76,12,87,Asia,96,BRN
+26,Brunei,2016,23,43,81,13,92,Asia,96,BRN
+27,Bulgaria,1990,17,41,75,12,83,Europe,100,BGR
+27,Bulgaria,2016,20,42,77,13,83,Europe,100,BGR
+28,Burkina Faso,1990,1,29,27,2,69,Africa,854,BFA
+28,Burkina Faso,2016,3,35,43,5,65,Africa,854,BFA
+29,Burundi,1990,2,28,40,5,68,Africa,108,BDI
+29,Burundi,2016,4,35,47,6,75,Africa,108,BDI
+30,Cambodia,1990,3,34,42,6,67,Asia,116,KHM
+30,Cambodia,2016,7,40,50,9,71,Asia,116,KHM
+31,Cameroon,1990,4,34,43,6,78,Africa,120,CMR
+31,Cameroon,2016,7,35,50,11,71,Africa,120,CMR
+32,Canada,1990,23,43,89,13,87,Americas,124,CAN
+32,Canada,2016,25,44,88,13,89,Americas,124,CAN
+33,Cape Verde,1990,4,39,58,5,65,Africa,132,CPV
+33,Cape Verde,2016,9,41,68,9,67,Africa,132,CPV
+34,Central African Republic,1990,2,28,36,5,62,Africa,140,CAF
+34,Central African Republic,2016,4,29,37,10,66,Africa,140,CAF
+35,Chad,1990,1,31,34,2,59,Africa,148,TCD
+35,Chad,2016,2,34,40,6,59,Africa,148,TCD
+36,Chile,1990,15,41,82,11,72,Americas,152,CHL
+36,Chile,2016,19,43,88,11,78,Americas,152,CHL
+37,China,1990,11,39,61,10,85,Asia,156,CHN
+37,China,2016,20,43,72,13,89,Asia,156,CHN
+38,Colombia,1990,9,40,71,9,66,Americas,170,COL
+38,Colombia,2016,14,42,76,11,72,Americas,170,COL
+39,Comoros,1990,3,34,46,5,59,Africa,174,COM
+39,Comoros,2016,7,39,53,10,64,Africa,174,COM
+40,Congo,1990,5,32,50,10,58,Africa,178,COG
+40,Congo,2016,7,36,53,11,62,Africa,178,COG
+41,Costa Rica,1990,11,42,75,8,74,Americas,188,CRI
+41,Costa Rica,2016,16,43,79,11,76,Americas,188,CRI
+42,Cote d'Ivoire,1990,2,32,38,4,64,Africa,384,CIV
+42,Cote d'Ivoire,2016,4,35,45,7,60,Africa,384,CIV
+43,Croatia,1990,19,41,77,13,84,Europe,191,HRV
+43,Croatia,2016,22,43,79,14,85,Europe,191,HRV
+44,Cuba,1990,18,42,79,12,85,Americas,192,CUB
+44,Cuba,2016,20,43,79,12,87,Americas,192,CUB
+45,Cyprus,1990,19,43,85,12,81,Asia,196,CYP
+45,Cyprus,2016,24,44,88,13,83,Asia,196,CYP
+46,Czech Republic,1990,20,42,81,12,89,Europe,203,CZE
+46,Czech Republic,2016,23,43,83,13,87,Europe,203,CZE
+47,Democratic Republic of Congo,1990,3,31,34,8,58,Africa,180,ZAR
+47,Democratic Republic of Congo,2016,5,36,40,10,64,Africa,180,ZAR
+48,Denmark,1990,23,42,88,13,85,Europe,208,DNK
+48,Denmark,2016,27,44,89,14,88,Europe,208,DNK
+49,Djibouti,1990,3,35,53,5,62,Africa,262,DJI
+49,Djibouti,2016,6,38,50,9,66,Africa,262,DJI
+50,Dominica,1990,12,41,71,10,73,Americas,212,DMA
+50,Dominica,2016,15,41,76,12,74,Americas,212,DMA
+51,Dominican Republic,1990,8,39,71,9,61,Americas,214,DOM
+51,Dominican Republic,2016,11,41,76,10,63,Americas,214,DOM
+52,Ecuador,1990,9,39,67,9,66,Americas,218,ECU
+52,Ecuador,2016,12,42,72,10,69,Americas,218,ECU
+53,Egypt,1990,6,38,54,9,65,Africa,818,EGY
+53,Egypt,2016,12,41,64,12,66,Africa,818,EGY
+54,El Salvador,1990,7,38,65,8,65,Americas,222,SLV
+54,El Salvador,2016,12,41,74,11,68,Americas,222,SLV
+55,Equatorial Guinea,1990,4,28,43,8,64,Africa,226,GNQ
+55,Equatorial Guinea,2016,9,37,57,12,68,Africa,226,GNQ
+56,Eritrea,1990,2,31,38,5,60,Africa,232,ERI
+56,Eritrea,2016,7,37,51,10,64,Africa,232,ERI
+57,Estonia,1990,19,40,76,13,88,Europe,233,EST
+57,Estonia,2016,24,43,81,14,90,Europe,233,EST
+58,Ethiopia,1990,1,27,45,3,58,Africa,231,ETH
+58,Ethiopia,2016,5,38,49,7,62,Africa,231,ETH
+59,Fiji,1990,10,38,65,9,76,Oceania,242,FJI
+59,Fiji,2016,14,38,72,12,78,Oceania,242,FJI
+60,Finland,1990,25,42,86,14,89,Europe,246,FIN
+60,Finland,2016,28,44,89,15,91,Europe,246,FIN
+61,France,1990,22,42,87,13,85,Europe,250,FRA
+61,France,2016,25,43,89,13,87,Europe,250,FRA
+62,Gabon,1990,7,35,54,9,78,Africa,266,GAB
+62,Gabon,2016,12,38,58,11,83,Africa,266,GAB
+63,Georgia,1990,15,40,74,13,72,Asia,268,GEO
+63,Georgia,2016,18,42,76,13,75,Asia,268,GEO
+64,Germany,1990,20,42,88,11,86,Europe,276,GER
+64,Germany,2016,23,44,89,12,88,Europe,276,GER
+65,Ghana,1990,3,34,43,6,55,Africa,288,GHA
+65,Ghana,2016,7,38,54,11,55,Africa,288,GHA
+66,Greece,1990,21,43,85,13,82,Europe,300,GRC
+66,Greece,2016,23,44,88,13,83,Europe,300,GRC
+67,Greenland,1990,12,37,86,8,83,Americas,304,GRL
+67,Greenland,2016,16,41,86,10,84,Americas,304,GRL
+68,Grenada,1990,7,41,67,7,68,Americas,308,GRD
+68,Grenada,2016,12,41,76,10,71,Americas,308,GRD
+69,Guam,1990,17,41,72,13,79,Oceania,316,GUM
+69,Guam,2016,17,41,74,13,80,Oceania,316,GUM
+70,Guatemala,1990,4,36,54,6,65,Americas,320,GTM
+70,Guatemala,2016,8,40,64,9,69,Americas,320,GTM
+71,Guinea,1990,1,30,43,3,68,Africa,324,GIN
+71,Guinea,2016,5,35,46,8,69,Africa,324,GIN
+72,Guinea-Bissau,1990,1,29,39,3,60,Africa,624,GNB
+72,Guinea-Bissau,2016,4,34,45,8,63,Africa,624,GNB
+73,Guyana,1990,7,37,60,8,71,Americas,328,GUY
+73,Guyana,2016,10,39,65,10,72,Americas,328,GUY
+74,Haiti,1990,3,32,51,5,66,Americas,332,HTI
+74,Haiti,2016,7,37,59,9,68,Americas,332,HTI
+75,Honduras,1990,6,38,64,7,62,Americas,340,HND
+75,Honduras,2016,10,41,69,9,67,Americas,340,HND
+76,Hungary,1990,17,40,81,11,87,Europe,348,HUN
+76,Hungary,2016,22,43,82,13,87,Europe,348,HUN
+77,Iceland,1990,24,43,87,14,84,Europe,352,ISL
+77,Iceland,2016,27,44,89,14,86,Europe,352,ISL
+78,India,1990,3,35,36,6,63,Asia,356,IND
+78,India,2016,7,39,43,10,66,Asia,356,IND
+79,Indonesia,1990,6,37,50,9,68,Asia,360,IDN
+79,Indonesia,2016,10,41,57,11,70,Asia,360,IDN
+80,Iran,1990,9,38,60,10,69,Asia,364,IRN
+80,Iran,2016,15,42,73,12,73,Asia,364,IRN
+81,Iraq,1990,6,38,55,8,65,Asia,368,IRQ
+81,Iraq,2016,9,39,62,10,67,Asia,368,IRQ
+82,Ireland,1990,20,43,86,12,86,Europe,372,IRL
+82,Ireland,2016,24,44,89,13,89,Europe,372,IRL
+83,Israel,1990,19,43,85,11,85,Asia,376,ISR
+83,Israel,2016,21,44,87,12,85,Asia,376,ISR
+84,Italy,1990,19,43,86,11,85,Europe,380,ITA
+84,Italy,2016,22,44,88,12,86,Europe,380,ITA
+85,Jamaica,1990,10,41,72,9,72,Americas,388,JAM
+85,Jamaica,2016,14,42,77,11,73,Americas,388,JAM
+86,Japan,1990,21,43,82,11,93,Asia,392,JPN
+86,Japan,2016,24,44,85,12,94,Asia,392,JPN
+87,Jordan,1990,12,41,64,11,73,Asia,400,JOR
+87,Jordan,2016,16,42,72,13,71,Asia,400,JOR
+88,Kazakhstan,1990,13,39,67,11,82,Asia,398,KAZ
+88,Kazakhstan,2016,18,41,74,13,84,Asia,398,KAZ
+89,Kenya,1990,5,35,49,8,61,Africa,404,KEN
+89,Kenya,2016,8,38,54,11,66,Africa,404,KEN
+90,Kiribati,1990,4,35,55,5,72,Oceania,296,KIR
+90,Kiribati,2016,7,36,61,8,75,Oceania,296,KIR
+91,Kuwait,1990,9,42,70,8,65,Asia,414,KWT
+91,Kuwait,2016,17,43,82,13,65,Asia,414,KWT
+92,Kyrgyz Republic,1990,11,38,63,12,68,Asia,417,KGZ
+92,Kyrgyz Republic,2016,14,41,69,13,70,Asia,417,KGZ
+93,Laos,1990,3,31,45,6,68,Asia,418,LAO
+93,Laos,2016,7,39,54,9,71,Asia,418,LAO
+94,Latvia,1990,18,40,75,13,84,Europe,428,LVA
+94,Latvia,2016,23,42,80,14,87,Europe,428,LVA
+95,Lebanon,1990,14,39,69,13,69,Asia,422,LBN
+95,Lebanon,2016,18,43,72,15,72,Asia,422,LBN
+96,Lesotho,1990,3,35,47,7,54,Africa,426,LSO
+96,Lesotho,2016,4,28,45,10,59,Africa,426,LSO
+97,Liberia,1990,2,28,34,5,62,Africa,430,LBR
+97,Liberia,2016,5,37,39,9,63,Africa,430,LBR
+98,Libya,1990,8,41,65,8,68,Africa,434,LBY
+98,Libya,2016,16,42,68,14,74,Africa,434,LBY
+99,Lithuania,1990,18,41,75,13,84,Europe,440,LTU
+99,Lithuania,2016,21,42,81,13,86,Europe,440,LTU
+100,Luxembourg,1990,21,42,87,12,85,Europe,442,LUX
+100,Luxembourg,2016,25,44,89,13,87,Europe,442,LUX
+101,Macedonia,1990,15,41,78,11,75,Europe,807,MKD
+101,Macedonia,2016,18,43,77,13,75,Europe,807,MKD
+102,Madagascar,1990,3,32,42,5,80,Africa,450,MDG
+102,Madagascar,2016,5,36,40,7,81,Africa,450,MDG
+103,Malawi,1990,2,28,38,6,51,Africa,454,MWI
+103,Malawi,2016,4,34,45,9,54,Africa,454,MWI
+104,Malaysia,1990,8,41,54,8,78,Asia,458,MYS
+104,Malaysia,2016,15,43,66,12,78,Asia,458,MYS
+105,Maldives,1990,4,36,43,7,68,Asia,462,MDV
+105,Maldives,2016,12,43,58,11,74,Asia,462,MDV
+106,Mali,1990,1,29,28,1,60,Africa,466,MLI
+106,Mali,2016,3,35,44,5,62,Africa,466,MLI
+107,Malta,1990,17,43,85,10,82,Europe,470,MLT
+107,Malta,2016,21,44,88,12,82,Europe,470,MLT
+108,Marshall Islands,1990,9,38,60,9,73,Oceania,584,MHL
+108,Marshall Islands,2016,12,38,64,11,76,Oceania,584,MHL
+109,Mauritania,1990,3,35,43,5,69,Africa,478,MRT
+109,Mauritania,2016,7,40,53,9,71,Africa,478,MRT
+110,Mauritius,1990,8,41,56,10,66,Africa,480,MUS
+110,Mauritius,2016,12,42,64,11,73,Africa,480,MUS
+111,Mexico,1990,10,40,72,9,70,Americas,484,MEX
+111,Mexico,2016,13,42,77,10,74,Americas,484,MEX
+112,Micronesia,1990,8,37,58,10,73,Oceania,583,FSM
+112,Micronesia,2016,12,39,65,11,76,Oceania,583,FSM
+113,Moldova,1990,13,39,70,11,78,Europe,498,MDA
+113,Moldova,2016,18,41,75,13,80,Europe,498,MDA
+114,Mongolia,1990,9,36,60,10,73,Asia,496,MNG
+114,Mongolia,2016,12,39,71,11,74,Asia,496,MNG
+115,Montenegro,1990,17,42,77,12,80,Europe,499,MNE
+115,Montenegro,2016,19,43,77,13,79,Europe,499,MNE
+116,Morocco,1990,5,38,60,6,58,Africa,504,MAR
+116,Morocco,2016,10,42,66,11,62,Africa,504,MAR
+117,Mozambique,1990,1,29,41,4,55,Africa,508,MOZ
+117,Mozambique,2016,4,34,45,8,59,Africa,508,MOZ
+118,Myanmar,1990,3,34,40,6,68,Asia,104,MMR
+118,Myanmar,2016,8,40,56,9,72,Asia,104,MMR
+119,Namibia,1990,4,36,51,8,51,Africa,516,NAM
+119,Namibia,2016,6,37,51,11,57,Africa,516,NAM
+120,Nepal,1990,2,34,37,5,65,Asia,524,NPL
+120,Nepal,2016,7,40,47,9,69,Asia,524,NPL
+121,Netherlands,1990,23,43,88,12,89,Europe,528,NLD
+121,Netherlands,2016,27,44,90,14,89,Europe,528,NLD
+122,New Zealand,1990,19,42,84,11,85,Oceania,554,NZL
+122,New Zealand,2016,22,43,86,13,86,Oceania,554,NZL
+123,Nicaragua,1990,7,39,70,7,66,Americas,558,NIC
+123,Nicaragua,2016,11,42,73,9,68,Americas,558,NIC
+124,Niger,1990,1,27,37,2,53,Africa,562,NER
+124,Niger,2016,2,35,38,4,52,Africa,562,NER
+125,Nigeria,1990,3,31,37,8,64,Africa,566,NGA
+125,Nigeria,2016,5,36,45,9,66,Africa,566,NGA
+126,North Korea,1990,8,41,50,9,78,Asia,408,PRK
+126,North Korea,2016,12,40,57,11,83,Asia,408,PRK
+128,Norway,1990,21,43,88,12,83,Europe,578,NOR
+128,Norway,2016,25,44,90,13,86,Europe,578,NOR
+129,Oman,1990,6,40,54,8,67,Asia,512,OMN
+129,Oman,2016,14,43,68,12,74,Asia,512,OMN
+130,Pakistan,1990,3,36,43,5,66,Asia,586,PAK
+130,Pakistan,2016,6,39,45,9,68,Asia,586,PAK
+131,Palestine,1990,10,41,65,10,68,Asia,275,PSE
+131,Palestine,2016,15,42,71,14,69,Asia,275,PSE
+132,Panama,1990,11,41,74,10,68,Americas,591,PAN
+132,Panama,2016,15,42,75,12,69,Americas,591,PAN
+133,Papua New Guinea,1990,2,33,51,4,71,Oceania,598,PNG
+133,Papua New Guinea,2016,4,36,47,6,73,Oceania,598,PNG
+134,Paraguay,1990,9,41,73,8,64,Americas,600,PRY
+134,Paraguay,2016,14,42,78,11,67,Americas,600,PRY
+135,Peru,1990,9,38,65,10,66,Americas,604,PER
+135,Peru,2016,13,43,71,11,70,Americas,604,PER
+136,Philippines,1990,7,38,52,10,63,Asia,608,PHL
+136,Philippines,2016,10,40,58,12,64,Asia,608,PHL
+137,Poland,1990,17,41,74,12,86,Europe,616,POL
+137,Poland,2016,23,43,78,14,87,Europe,616,POL
+138,Portugal,1990,15,42,83,9,82,Europe,620,PRT
+138,Portugal,2016,20,43,86,11,86,Europe,620,PRT
+139,Puerto Rico,1990,16,41,77,13,71,Americas,630,PRI
+139,Puerto Rico,2016,18,43,80,13,73,Americas,630,PRI
+140,Qatar,1990,10,42,73,10,64,Asia,634,QAT
+140,Qatar,2016,15,43,77,11,70,Asia,634,QAT
+141,Romania,1990,15,40,73,11,80,Europe,642,ROM
+141,Romania,2016,18,42,73,13,79,Europe,642,ROM
+142,Russia,1990,15,40,72,11,86,Europe,810,RUS
+142,Russia,2016,19,40,78,12,90,Europe,810,RUS
+143,Rwanda,1990,2,29,46,4,61,Africa,646,RWA
+143,Rwanda,2016,6,39,56,8,62,Africa,646,RWA
+144,Saint Lucia,1990,7,41,69,7,70,Americas,662,LCA
+144,Saint Lucia,2016,14,42,79,11,72,Americas,662,LCA
+145,Saint Vincent and the Grenadines,1990,7,40,69,6,68,Americas,670,VCT
+145,Saint Vincent and the Grenadines,2016,11,41,74,9,71,Americas,670,VCT
+146,Samoa,1990,11,40,71,9,76,Oceania,882,WSM
+146,Samoa,2016,15,41,75,11,78,Oceania,882,WSM
+147,Sao Tome and Principe,1990,4,36,51,7,62,Africa,678,STP
+147,Sao Tome and Principe,2016,7,40,57,9,66,Africa,678,STP
+148,Saudi Arabia,1990,7,40,63,8,63,Asia,682,SAU
+148,Saudi Arabia,2016,17,43,73,14,68,Asia,682,SAU
+149,Senegal,1990,2,33,46,3,72,Africa,686,SEN
+149,Senegal,2016,5,38,50,6,70,Africa,686,SEN
+150,Yugoslavia,1990,17,42,76,12,81,Europe,890,SRB
+150,Yugoslavia,2016,20,43,76,13,82,Europe,890,SRB
+151,Seychelles,1990,10,40,74,10,67,Africa,690,SYC
+151,Seychelles,2016,14,41,74,11,72,Africa,690,SYC
+152,Sierra Leone,1990,1,29,39,3,61,Africa,694,SLE
+152,Sierra Leone,2016,5,34,46,8,65,Africa,694,SLE
+153,Singapore,1990,17,43,78,10,94,Asia,702,SGP
+153,Singapore,2016,24,44,82,12,98,Asia,702,SGP
+154,Slovak Republic,1990,18,41,76,12,87,Europe,703,SVK
+154,Slovak Republic,2016,21,43,79,13,85,Europe,703,SVK
+155,Slovenia,1990,18,42,77,12,86,Europe,705,SVN
+155,Slovenia,2016,23,44,79,14,86,Europe,705,SVN
+156,Solomon Islands,1990,4,36,51,5,72,Oceania,90,SLB
+156,Solomon Islands,2016,7,37,61,8,75,Oceania,90,SLB
+157,Somalia,1990,1,30,44,3,59,Africa,706,SOM
+157,Somalia,2016,4,34,43,7,63,Africa,706,SOM
+158,South Africa,1990,6,36,60,10,53,Africa,710,ZAF
+158,South Africa,2016,7,35,54,12,58,Africa,710,ZAF
+159,South Korea,1990,20,41,80,12,93,Asia,410,KOR
+159,South Korea,2016,26,43,84,13,96,Asia,410,KOR
+160,South Sudan,1990,1,30,34,2,58,Africa,728,
+160,South Sudan,2016,2,35,40,4,60,Africa,728,
+161,Spain,1990,18,43,83,10,85,Europe,724,ESP
+161,Spain,2016,20,44,85,11,86,Europe,724,ESP
+162,Sri Lanka,1990,7,40,49,9,70,Asia,144,LKA
+162,Sri Lanka,2016,13,42,59,13,75,Asia,144,LKA
+163,Sudan,1990,3,34,39,6,62,Africa,736,SDN
+163,Sudan,2016,7,39,46,10,67,Africa,736,SDN
+164,Suriname,1990,8,39,66,8,68,Americas,740,SUR
+164,Suriname,2016,11,40,72,10,70,Americas,740,SUR
+165,Swaziland,1990,5,37,59,8,54,Africa,748,SWZ
+165,Swaziland,2016,5,33,50,10,56,Africa,748,SWZ
+166,Sweden,1990,22,43,87,12,87,Europe,752,SWE
+166,Sweden,2016,24,44,89,13,87,Europe,752,SWE
+167,Switzerland,1990,20,43,86,11,88,Europe,756,CHE
+167,Switzerland,2016,25,44,87,13,88,Europe,756,CHE
+168,Syria,1990,7,40,53,9,64,Asia,760,SYR
+168,Syria,2016,12,37,62,13,69,Asia,760,SYR
+169,Taiwan,1990,21,42,76,13,93,Asia,158,TWN
+169,Taiwan,2016,26,43,82,14,95,Asia,158,TWN
+170,Tajikistan,1990,10,37,56,11,76,Asia,762,TJK
+170,Tajikistan,2016,11,40,59,11,76,Asia,762,TJK
+171,Tanzania,1990,2,32,40,6,58,Africa,834,TZA
+171,Tanzania,2016,6,37,49,9,64,Africa,834,TZA
+172,Thailand,1990,8,40,57,9,76,Asia,764,THA
+172,Thailand,2016,16,42,67,13,77,Asia,764,THA
+173,Bahamas,1990,12,40,76,10,72,Americas,44,BHS
+173,Bahamas,2016,14,41,77,11,73,Americas,44,BHS
+174,Gambia,1990,3,35,44,5,62,Africa,270,GMB
+174,Gambia,2016,5,38,45,9,65,Africa,270,GMB
+175,Timor,1990,4,33,39,7,69,Asia,626,TLS
+175,Timor,2016,8,41,47,11,72,Asia,626,TLS
+176,Togo,1990,3,33,42,5,63,Africa,768,TGO
+176,Togo,2016,6,36,49,9,64,Africa,768,TGO
+177,Tonga,1990,11,39,66,10,76,Oceania,776,TON
+177,Tonga,2016,14,40,71,11,77,Oceania,776,TON
+178,Trinidad and Tobago,1990,10,40,77,8,75,Americas,780,TTO
+178,Trinidad and Tobago,2016,12,41,80,9,76,Americas,780,TTO
+179,Tunisia,1990,8,40,63,9,64,Africa,788,TUN
+179,Tunisia,2016,15,43,75,13,68,Africa,788,TUN
+180,Turkey,1990,8,39,65,8,73,Asia,792,TUR
+180,Turkey,2016,20,43,75,14,79,Asia,792,TUR
+181,Turkmenistan,1990,10,37,63,11,75,Asia,795,TKM
+181,Turkmenistan,2016,13,40,72,10,77,Asia,795,TKM
+182,United Kingdom,1990,19,43,85,11,87,Europe,826,GBR
+182,United Kingdom,2016,22,44,87,12,88,Europe,826,GBR
+183,United States,1990,22,42,87,13,87,Americas,840,USA
+183,United States,2016,23,43,88,12,89,Americas,840,USA
+184,Uganda,1990,2,28,37,6,55,Africa,800,UGA
+184,Uganda,2016,5,36,49,9,57,Africa,800,UGA
+185,Ukraine,1990,17,40,72,13,80,Europe,804,UKR
+185,Ukraine,2016,20,41,74,14,82,Europe,804,UKR
+186,United Arab Emirates,1990,10,41,59,11,72,Asia,784,ARE
+186,United Arab Emirates,2016,16,42,68,13,77,Asia,784,ARE
+187,Uruguay,1990,12,41,77,9,75,Americas,858,URY
+187,Uruguay,2016,15,42,79,11,76,Americas,858,URY
+188,Uzbekistan,1990,11,39,57,11,76,Asia,860,UZB
+188,Uzbekistan,2016,14,40,67,12,78,Asia,860,UZB
+189,Vanuatu,1990,5,37,55,7,72,Oceania,548,VUT
+189,Vanuatu,2016,8,38,60,9,75,Oceania,548,VUT
+190,Venezuela,1990,10,41,73,9,66,Americas,862,VEN
+190,Venezuela,2016,15,41,76,12,71,Americas,862,VEN
+191,Vietnam,1990,7,39,52,8,77,Asia,704,VNM
+191,Vietnam,2016,14,42,67,11,82,Asia,704,VNM
+193,Yemen,1990,2,34,39,5,53,Asia,887,YEM
+193,Yemen,2016,4,38,36,9,55,Asia,887,YEM
+194,Zambia,1990,3,30,44,7,51,Africa,894,ZMB
+194,Zambia,2016,5,34,46,10,55,Africa,894,ZMB
+195,Zimbabwe,1990,5,35,50,9,54,Africa,716,ZWE
+195,Zimbabwe,2016,5,34,49,11,56,Africa,716,ZWE
