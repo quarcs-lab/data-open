@@ -50,7 +50,7 @@ grmap Income, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(loh
 grmap Insurance, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(lohi) legstyle(2) legcount
 grmap r, fcolor(Heat) clmethod(kmeans) clnumber(5) legenda(on) legorder(lohi) legstyle(2) legcount
 
-* Create a contiguity weights matrix (need Stata>=15)
+* Create weight matrix (need Stata>=15)
 spmatrix create contiguity Wqueen, normalize(row) replace
 spmatrix summarize Wqueen
 
@@ -58,13 +58,15 @@ spmatrix create idistance Widist, normalize(row) replace
 spmatrix summarize Widist
 
 
-* Export weight matrix to .txt format
-spmatrix export Wqueen using WqueenStata.txt
-spmatrix export Widist using WidistStata.txt
+* Export standardized weight matrix to .txt format
+spmatrix create contiguity WqueenStata, normalize(none)  replace
+spmatrix create idistance  WidistStata, normalize(none)  replace
+spmatrix export WqueenStata using WqueenStata.txt, replace
+spmatrix export WidistStata using WidistStata.txt, replace
 
-* Import weight matrix from .txt format
-spmatrix import Wqueen using WqueenStata.txt, replace
-spmatrix import Widist using WidistStata.txt, replace
+* Import standardized weight matrix from .txt format
+spmatrix import WqueenStata using WqueenStata.txt, replace
+spmatrix import WidistStata using WidistStata.txt, replace
 spmatrix dir
 
 * Run the Moran test based on the residuals of an OLS regression
@@ -72,8 +74,8 @@ regress Income Insurance
 estat moran, errorlag(Wqueen)
 
 * Run LM spatial diagnostics (needs spatreg package, not working)
-*spatwmat using weightsFile.dta, name(WqueenForLM) standardize eigenval(E)
-*spatdiag, weights(WqueenForLM)
+spatwmat using "WqueenGeoda.dta", name(WqueenGeodaForLMtests) standardize
+spatdiag, weights(WqueenGeodaForLMtests)
 
 
 
