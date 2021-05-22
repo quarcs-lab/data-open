@@ -4,6 +4,7 @@ macro drop _all
 
 * Install packages
 *findit spatreg
+*findit spwmatrix
 
 * From Github, donwload a ZIP file containing the shape file
 *copy "https://github.com/quarcs-lab/data-open/raw/master/grekousis/CityGeoDa.zip" CityGeoDa.zip, replace
@@ -47,7 +48,7 @@ regress Income Insurance
 grmap, activate
 grmap Income, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(lohi) legstyle(2) legcount
 grmap Insurance, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(lohi) legstyle(2) legcount
-
+grmap r, fcolor(Heat) clmethod(kmeans) clnumber(5) legenda(on) legorder(lohi) legstyle(2) legcount
 
 * Create a contiguity weights matrix (need Stata>=15)
 spmatrix create contiguity Wqueen, normalize(row) replace
@@ -59,9 +60,11 @@ spmatrix summarize Widist
 
 * Export weight matrix to .txt format
 spmatrix export Wqueen using WqueenStata.txt
+spmatrix export Widist using WidistStata.txt
 
 * Import weight matrix from .txt format
 spmatrix import Wqueen using WqueenStata.txt, replace
+spmatrix import Widist using WidistStata.txt, replace
 spmatrix dir
 
 * Run the Moran test based on the residuals of an OLS regression
