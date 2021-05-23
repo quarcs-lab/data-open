@@ -31,7 +31,7 @@ list in 1/3
 summarize Income Insurance
 
 * OLS regression
-regress Income Insurance
+regress Income Insurance, robust
   * information criteria
   estat ic
   * evaluate residuals (pnorm should be along the line)
@@ -74,8 +74,9 @@ regress Income Insurance
 estat moran, errorlag(Wqueen)
 
 * Run LM spatial diagnostics (needs spatreg package, not working)
-spatwmat using "WqueenGeoda.dta", name(WqueenGeodaForLMtests) standardize
-spatdiag, weights(WqueenGeodaForLMtests)
+*spatwmat using "WqueenGeoda.dta", name(WqueenGeodaForLMtests) standardize
+*spatdiag, weights(WqueenGeodaForLMtests)
+spwmatrix import using "WqueenGeoda.dta", wname(WqueenGeodaForLMtests)
 
 
 

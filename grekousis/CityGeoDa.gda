@@ -66,11 +66,11 @@
             <custom_classifications/>
             <weights_entries>
                 <weights>
-                    <title>Wqueen</title>
+                    <title>WqueenGeoda</title>
                     <default/>
                     <meta_info>
                         <weights_type>custom</weights_type>
-                        <path>Wqueen.gal</path>
+                        <path>WqueenGeoda.gal</path>
                         <id_variable>POLY_ID</id_variable>
                         <symmetry>unknown</symmetry>
                         <num_observations>90</num_observations>
