@@ -48,9 +48,9 @@ regress Income Insurance
 
 * Create a map of the spatial distribution
 grmap, activate
-grmap Income, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(lohi) legstyle(2) legcount
-grmap Insurance, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(lohi) legstyle(2) legcount
-grmap r, fcolor(Heat) clmethod(kmeans) clnumber(5) legenda(on) legorder(lohi) legstyle(2) legcount
+*grmap Income, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(lohi) legstyle(2) legcount
+*grmap Insurance, fcolor(Heat) clmethod(kmeans) clnumber(3) legenda(on) legorder(lohi) legstyle(2) legcount
+*grmap r, fcolor(Heat) clmethod(kmeans) clnumber(5) legenda(on) legorder(lohi) legstyle(2) legcount
 
 * Create weight matrix (need Stata>=15)
 spmatrix create contiguity Wqueen, normalize(row) replace
@@ -65,17 +65,25 @@ spmatrix create contiguity WqueenStata, normalize(none)  replace
 spmatrix create idistance  WidistStata, normalize(none)  replace
 
 spmatrix export WqueenStata using WqueenStata.txt, replace
+spmatrix export WidistStata using WidistStata.txt, replace
+
+
+* Import weight matrix and save it as .dta
 import delimited "WqueenStata.txt", delimiter(space) rowrange(2) clear
 drop v1
 rename v# m#, renumber
 save "WqueenStata.dta", replace
 
-spmatrix export WidistStata using WidistStata.txt, replace
+import delimited "W8nn_fromGeoda_MAT.csv", delimiter(comma) rowrange(2) clear
+drop v1
+rename v# m#, renumber
+save "W8nn_fromGeoda_MAT.dta", replace
+
 
 * Import standardized weight matrix from .txt format
-spmatrix import WqueenStata using WqueenStata.txt, replace
-spmatrix import WidistStata using WidistStata.txt, replace
-spmatrix dir
+*spmatrix import WqueenStata using WqueenStata.txt, replace
+*spmatrix import WidistStata using WidistStata.txt, replace
+*spmatrix dir
 
 * Run the Moran test based on the residuals of an OLS regression
 use CityGeoDa, clear
@@ -87,8 +95,6 @@ estat moran, errorlag(Wqueen)
     spatwmat using "WqueenStata.dta", name(WqueenStata_spatwmat) eigenval(eWqueenStata_spatwmat) standardize
 reg Income Insurance
 spatdiag, weights(WqueenStata_spatwmat)
-
-
 
 * Fit SLM(SAR) model: spatial lag of the dependent variable
 spregress Income Insurance, ml dvarlag(Wqueen) vce(robust)
