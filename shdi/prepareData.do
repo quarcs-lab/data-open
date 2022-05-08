@@ -50,18 +50,19 @@ drop sgdi shdif shdim healthindexf healthindexm incindexf incindexm edindexf edi
 ** Add corrected continent identifiers
 kountry country, from(other) geo(un)
 
-** Drop unnecesary variables
-drop country
-drop continent
 
 ** Rename variables 
 rename GDLCODE GDLcode
-rename GEO continent
-rename NAMES_STD country
+rename GEO continent2
+rename NAMES_STD country2
+
+** Replace missing observations in continent2
+replace continent2 = continent if missing(continent2) 
+replace continent2 = "Americas" if continent == "America"
 
 ** Order variables
-order continent, after(GDLcode)
-order country, after(continent)
+order continent2, after(GDLcode)
+order country2, after(continent)
 
 ** Add labels
 label variable shdi "Subnational human development index"

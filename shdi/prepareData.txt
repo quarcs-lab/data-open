@@ -2,7 +2,7 @@
       name:  <unnamed>
        log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
   log type:  text
- opened on:   8 May 2022, 18:31:13
+ opened on:   8 May 2022, 18:52:07
 
 . 
 . ** 3. Install modules
@@ -195,24 +195,27 @@ The new variables are named NAMES_STD and GEO.
 ---------------------------------------------------
 
 . 
-. ** Drop unnecesary variables
-. drop country
-
-. drop continent
-
 . 
 . ** Rename variables 
 . rename GDLCODE GDLcode
 
-. rename GEO continent
+. rename GEO continent2
 
-. rename NAMES_STD country
+. rename NAMES_STD country2
+
+. 
+. ** Replace missing observations in continent2
+. replace continent2 = continent if missing(continent2) 
+(1,456 real changes made)
+
+. replace continent2 = "Americas" if continent == "America"
+(420 real changes made)
 
 . 
 . ** Order variables
-. order continent, after(GDLcode)
+. order continent2, after(GDLcode)
 
-. order country, after(continent)
+. order country2, after(continent)
 
 . 
 . ** Add labels
@@ -250,5 +253,5 @@ file SHDI.csv saved
       name:  <unnamed>
        log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
   log type:  text
- closed on:   8 May 2022, 18:31:19
+ closed on:   8 May 2022, 18:52:14
 ----------------------------------------------------------------------------------------------------------------------
