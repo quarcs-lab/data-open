@@ -54,7 +54,7 @@ kountry country, from(other) geo(un)
 ** Rename variables 
 rename GDLCODE GDLcode
 rename GEO continent2
-rename NAMES_STD country2
+rename NAMES_STD CountryName_std
 
 ** Replace missing observations in continent2
 replace continent2 = continent if missing(continent2) 
@@ -62,7 +62,7 @@ replace continent2 = "Americas" if continent == "America"
 
 ** Order variables
 order continent2, after(GDLcode)
-order country2, after(continent)
+order CountryName_std, after(continent)
 
 ** Add labels
 label variable shdi "Subnational human development index"
@@ -75,6 +75,56 @@ label variable healthindex "Health index"
 label variable incindex "Income index"
 label variable edindex "Education index"
 label variable pop "Population"
+
+
+** Add more country identifiers
+merge m:1 CountryName_std using "country_identifiers.dta"
+
+** Add missing identifiers
+replace Continent_std = continent2 if missing(Continent_std) 
+replace Continent = continent2 if missing(Continent) 
+
+replace SubContinent   = "Middle Africa"            if  country == "Central African Republic CAR" 
+replace CountryName    = "Central African Republic" if  country == "Central African Republic CAR" 
+replace status         = "Member State"             if  country == "Central African Republic CAR" 
+replace iso3           = "CAF"                      if  country == "Central African Republic CAR"
+replace POLY_IDcountry =  84                        if  country == "Central African Republic CAR"
+
+replace SubContinent   = "Southern Europe"          if  country == "North Macedonia" 
+replace CountryName    = "The former Yugoslav Republic of Macedonia" if  country == "North Macedonia" 
+replace status         = "Member State"             if  country == "North Macedonia" 
+replace iso3           = "MKD"                      if  country == "North Macedonia"
+replace POLY_IDcountry =  15                        if  country == "North Macedonia"
+
+replace SubContinent   = "Southern Africa"          if  country == "Eswatini" 
+replace CountryName    = "Swaziland"			    if  country == "Eswatini" 
+replace status         = "Member State"             if  country == "Eswatini" 
+replace iso3           = "SWZ"                      if  country == "Eswatini"
+replace POLY_IDcountry =  127                       if  country == "Eswatini"
+
+replace SubContinent   = "Western Africa"          	if  country == "Cote d'Ivoire" 
+replace CountryName    = "CÃ´te d'Ivoire"		    if  country == "Cote d'Ivoire" 
+replace status         = "Member State"             if  country == "Cote d'Ivoire" 
+replace iso3           = "CIV"                      if  country == "Cote d'Ivoire"
+replace POLY_IDcountry =  233                       if  country == "Cote d'Ivoire"
+
+replace SubContinent   = "Northern Europe"          	if  country == "United Kingdom" 
+replace CountryName    = "U.K. of Great Britain and Northern Ireland"		    if  country == "United Kingdom" 
+replace status         = "Member State"             if  country == "United Kingdom" 
+replace iso3           = "GBR"                      if  country == "United Kingdom"
+replace POLY_IDcountry =  192                       if  country == "United Kingdom"
+
+replace SubContinent   = "Middle Africa"          if  country == "Congo Democratic Republic" 
+replace CountryName    = "Democratic Republic of the Congo"		    if  country == "Congo Democratic Republic" 
+replace status         = "Member State"             if  country == "Congo Democratic Republic" 
+replace iso3           = "COD"                      if  country == "Congo Democratic Republic"
+replace POLY_IDcountry =  209                       if  country == "Congo Democratic Republic"
+
+replace SubContinent   = "South America"            if  country == "Chili" 
+replace CountryName    = "Chile"		            if  country == "Chili" 
+replace status         = "Member State"             if  country == "Chili" 
+replace iso3           = "CHL"                      if  country == "Chili"
+replace POLY_IDcountry =  29                        if  country == "Chili"
 
 ** X. Save dataset
 save             "SHDI.dta", replace

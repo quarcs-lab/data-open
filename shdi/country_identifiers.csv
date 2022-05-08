@@ -1,0 +1,257 @@
+POLY_IDcountry,iso3,status,CountryName,SubContinent,Continent,CountryName_std,Continent_std
+1,SMR,Member State,San Marino,Southern Europe,Europe,San Marino,Europe
+2,SYR,Member State,Syrian Arab Republic,Western Asia,Asia,Syria,Asia
+3,LVA,Member State,Latvia,Northern Europe,Europe,Latvia,Europe
+4,CPV,Member State,Cape Verde,Western Africa,Africa,Cape Verde,Africa
+5,ZMB,Member State,Zambia,Eastern Africa,Africa,Zambia,Africa
+6,BRN,Member State,Brunei Darussalam,South-Eastern Asia,Asia,Brunei,Asia
+7,IRN,Member State,Iran (Islamic Republic of),Southern Asia,Asia,Iran,Asia
+8,ITA,Member State,Italy,Southern Europe,Europe,Italy,Europe
+9,LKA,Member State,Sri Lanka,Southern Asia,Asia,Sri Lanka,Asia
+10,MHL,Member State,Marshall Islands,Micronesia,Oceania,Marshall Islands,Oceania
+11,VGB,UK Non-Self-Governing Territory,British Virgin Islands,Caribbean,Americas,British Virgin Islands,Americas
+12,ARE,Member State,United Arab Emirates,Western Asia,Asia,United Arab Emirates,Asia
+13,KWT,Member State,Kuwait,Western Asia,Asia,Kuwait,Asia
+14,AUS,Member State,Australia,Australia and New Zealand,Oceania,Australia,Oceania
+15,MKD,Member State,The former Yugoslav Republic of Macedonia,Southern Europe,Europe,Macedonia,Europe
+16,BEN,Member State,Benin,Western Africa,Africa,Benin,Africa
+17,PRY,Member State,Paraguay,South America,Americas,Paraguay,Americas
+18,BVT,NO Territory,Bouvet Island, ,Antarctica,bouvet island,
+19,AND,Member State,Andorra,Southern Europe,Europe,Andorra,Europe
+20,PER,Member State,Peru,South America,Americas,Peru,Americas
+21,SLB,Member State,Solomon Islands,Melanesia,Oceania,Solomon Islands,Oceania
+22,COG,Member State,Congo,Middle Africa,Africa,Congo,Africa
+23,TKM,Member State,Turkmenistan,Central Asia,Asia,Turkmenistan,Asia
+24,LCA,Member State,Saint Lucia,Caribbean,Americas,Saint Lucia,Americas
+25,SLV,Member State,El Salvador,Central America,Americas,El Salvador,Americas
+26,PCN,UK Non-Self-Governing Territory,Pitcairn Island,Polynesia,Oceania,pitcairn island,
+27,KNA,Member State,Saint Kitts and Nevis,Caribbean,Americas,Saint Kitts and Nevis,Americas
+28,ATF,FR Territory,French Southern and Antarctic Territories, ,Antarctica,french sourn and antarctic territories,
+29,CHL,Member State,Chile,South America,Americas,Chile,Americas
+30,GIN,Member State,Guinea,Western Africa,Africa,Guinea,Africa
+31,SVN,Member State,Slovenia,Southern Europe,Europe,Slovenia,Europe
+32,BHS,Member State,Bahamas,Caribbean,Americas,Bahamas,Americas
+33,ARG,Member State,Argentina,South America,Americas,Argentina,Americas
+34,IOT,UK Territory,British Indian Ocean Territory,Eastern Africa,Africa,british indian ocean territory,
+35,COK,NZ Territory,Cook Islands,Polynesia,Oceania,Cook Islands,Oceania
+36,TCD,Member State,Chad,Middle Africa,Africa,Chad,Africa
+37,TTO,Member State,Trinidad and Tobago,Caribbean,Americas,Trinidad and Tobago,Americas
+38,ALB,Member State,Albania,Southern Europe,Europe,Albania,Europe
+39,SVK,Member State,Slovakia,Eastern Europe,Europe,Slovak Republic,Europe
+40,ARM,Member State,Armenia,Western Asia,Asia,Armenia,Asia
+41,NLD,Member State,Netherlands,Western Europe,Europe,Netherlands,Europe
+42,GIB,UK Non-Self-Governing Territory,Gibraltar,Southern Europe,Europe,Gibraltar,Europe
+43,MLI,Member State,Mali,Western Africa,Africa,Mali,Africa
+44,ERI,Member State,Eritrea,Eastern Africa,Africa,Eritrea,Africa
+45,IRL,Member State,Ireland,Northern Europe,Europe,Ireland,Europe
+46,UGA,Member State,Uganda,Eastern Africa,Africa,Uganda,Africa
+47,UZB,Member State,Uzbekistan,Central Asia,Asia,Uzbekistan,Asia
+48,IDN,Member State,Indonesia,South-Eastern Asia,Asia,Indonesia,Asia
+49, ,US Territory,Guantanamo,Caribbean,Americas,guantanamo,
+50,MWI,Member State,Malawi,Eastern Africa,Africa,Malawi,Africa
+51,FJI,Member State,Fiji,Melanesia,Oceania,Fiji,Oceania
+52,LIE,Member State,Liechtenstein,Western Europe,Europe,Liechtenstein,Europe
+53,KIR,Member State,Kiribati,Micronesia,Oceania,Kiribati,Oceania
+54,CRI,Member State,Costa Rica,Central America,Americas,Costa Rica,Americas
+55,GRL,DK Territory,Greenland,Northern America,Americas,Greenland,Americas
+56, ,FR Territory,Glorioso Islands,Eastern Africa,Africa,glorioso islands,
+57,CAN,Member State,Canada,Northern America,Americas,Canada,Americas
+58, ,UK Territory,Guernsey,Northern Europe,Europe,guernsey,
+59,GTM,Member State,Guatemala,Central America,Americas,Guatemala,Americas
+60, ,Sovereignty unsettled,Paracel Islands,South-Eastern Asia,Asia,paracel islands,
+61, , ,Abyei,Northern Africa,Africa,abyei,
+62,ETH,Member State,Ethiopia,Eastern Africa,Africa,Ethiopia,Africa
+63,COM,Member State,Comoros,Eastern Africa,Africa,Comoros,Africa
+64,POL,Member State,Poland,Eastern Europe,Europe,Poland,Europe
+65,KGZ,Member State,Kyrgyzstan,Central Asia,Asia,Kyrgyz Republic,Asia
+66,PLW,Member State,Palau,Micronesia,Oceania,Palau,Oceania
+67,SUR,Member State,Suriname,South America,Americas,Suriname,Americas
+68,TUV,Member State,Tuvalu,Polynesia,Oceania,Tuvalu,Oceania
+69,PSE,Occupied Territory (under review),Gaza Strip,Western Asia,Asia,gaza strip,
+70,VCT,Member State,Saint Vincent and the Grenadines,Caribbean,Americas,Saint Vincent and the Grenadines,Americas
+71,QAT,Member State,Qatar,Western Asia,Asia,Qatar,Asia
+72,JOR,Member State,Jordan,Western Asia,Asia,Jordan,Asia
+73,BIH,Member State,Bosnia & Herzegovina,Southern Europe,Europe,Bosnia and Herzegovina,Europe
+74,ROU,Member State,Romania,Eastern Europe,Europe,Romania,Europe
+75,BLR,Member State,Belarus,Eastern Europe,Europe,Belarus,Europe
+76,TZA,Member State,United Republic of Tanzania,Eastern Africa,Africa,Tanzania,Africa
+77,SDN,Member State,Sudan,Northern Africa,Africa,Sudan,Africa
+78,ECU,Member State,Ecuador,South America,Americas,Ecuador,Americas
+79,MEX,Member State,Mexico,Central America,Americas,Mexico,Americas
+80,FSM,Member State,Micronesia (Federated States of),Micronesia,Oceania,Micronesia,Oceania
+81,BRA,Member State,Brazil,South America,Americas,Brazil,Americas
+82,REU,FR Territory,Reunion,Eastern Africa,Africa,Reunion,Africa
+83,PYF,FR Territory,French Polynesia,Polynesia,Oceania,French Polynesia,Oceania
+84,CAF,Member State,Central African Republic,Middle Africa,Africa,Central African Republic,Africa
+85,HTI,Member State,Haiti,Caribbean,Americas,Haiti,Americas
+86, ,US Territory,Midway Is.,Northern America,Americas,midway is,
+87,GLP,FR Territory,Guadeloupe,Caribbean,Americas,Guadeloupe,Americas
+88,SAU,Member State,Saudi Arabia,Western Asia,Asia,Saudi Arabia,Asia
+89,TWN,CN Province,Taiwan,Eastern Asia,Asia,Taiwan,
+90,PRT,PT Territory,Azores Islands,Southern Europe,Europe,azores islands,
+91,HRV,Member State,Croatia,Southern Europe,Europe,Croatia,Europe
+92,MNE,Member State,Montenegro,Southern Europe,Europe,Montenegro,
+93,VNM,Member State,Vietnam,South-Eastern Asia,Asia,Vietnam,Asia
+94, ,US Territory,Jarvis Island,Northern America,Americas,jarvis island,
+95,SJM,NO Territory,Svalbard and Jan Mayen Islands,Northern Europe,Europe,svalbard and jan mayen islands,
+96,GUY,Member State,Guyana,South America,Americas,Guyana,Americas
+97, ,Adm. by SDN,Hala'ib Triangle,Northern Africa,Africa,hala'ib triangle,
+98,AFG,Member State,Afghanistan,Southern Asia,Asia,Afghanistan,Asia
+99,MUS,Member State,Mauritius,Eastern Africa,Africa,Mauritius,Africa
+100,JPN,Member State,Japan,Eastern Asia,Asia,Japan,Asia
+101,STP,Member State,Sao Tome and Principe,Middle Africa,Africa,Sao Tome and Principe,Africa
+102,GAB,Member State,Gabon,Middle Africa,Africa,Gabon,Africa
+103,CCK,AU Territory,Cocos (Keeling) Islands,South-Eastern Asia,Asia,Cocos Islands,
+104,CZE,Member State,Czech Republic,Eastern Europe,Europe,Czech Republic,Europe
+105,TUN,Member State,Tunisia,Northern Africa,Africa,Tunisia,Africa
+106,COL,Member State,Colombia,South America,Americas,Colombia,Americas
+107,MMR,Member State,Myanmar,South-Eastern Asia,Asia,Myanmar,Asia
+108,LAO,Member State,Lao People's Democratic Republic,South-Eastern Asia,Asia,Laos,Asia
+109,TLS,Member State,Timor-Leste,South-Eastern Asia,Asia,Timor,Asia
+110,HND,Member State,Honduras,Central America,Americas,Honduras,Americas
+111,NGA,Member State,Nigeria,Western Africa,Africa,Nigeria,Africa
+112,GMB,Member State,Gambia,Western Africa,Africa,Gambia,Africa
+113,BWA,Member State,Botswana,Southern Africa,Africa,Botswana,Africa
+114, ,Sovereignty unsettled JammuK-China,Aksai Chin,Eastern Asia,Asia,aksai chin,
+115,MCO,Member State,Monaco,Western Europe,Europe,Monaco,Europe
+116,NFK,AU Territory,Norfolk Island,Australia and New Zealand,Oceania,norfolk island,
+117,BFA,Member State,Burkina Faso,Western Africa,Africa,Burkina Faso,Africa
+118,UKR,Member State,Ukraine,Eastern Europe,Europe,Ukraine,Europe
+119,ISL,Member State,Iceland,Northern Europe,Europe,Iceland,Europe
+120,NRU,Member State,Nauru,Micronesia,Oceania,Nauru,Oceania
+121,NAM,Member State,Namibia,Southern Africa,Africa,Namibia,Africa
+122,NPL,Member State,Nepal,Southern Asia,Asia,Nepal,Asia
+123,IMY,UK Territory,Isle of Man,Northern Europe,Europe,isle of man,
+124,MDA,Member State,"Moldova, Republic of",Eastern Europe,Europe,Moldova,Europe
+125,THA,Member State,Thailand,South-Eastern Asia,Asia,Thailand,Asia
+126,ASM,US Non-Self-Governing Territory,American Samoa,Polynesia,Oceania,American Samoa,Oceania
+127,SWZ,Member State,Swaziland,Southern Africa,Africa,Swaziland,Africa
+128,LBN,Member State,Lebanon,Western Asia,Asia,Lebanon,Asia
+129,NCL,FR Non-Self-Governing Territory,New Caledonia,Melanesia,Oceania,New Caledonia,Oceania
+130,ZAF,Member State,South Africa,Southern Africa,Africa,South Africa,Africa
+131,MDV,Member State,Maldives,Southern Asia,Asia,Maldives,Asia
+132,PRK,Member State,Democratic People's Republic of Korea,Eastern Asia,Asia,North Korea,Asia
+133,FLK,UK Non-Self-Governing Territory,Falkland Islands (Malvinas),South America,Americas,Falkland Islands,Americas
+134,PAK,Member State,Pakistan,Southern Asia,Asia,Pakistan,Asia
+135,KHM,Member State,Cambodia,South-Eastern Asia,Asia,Cambodia,Asia
+136,HUN,Member State,Hungary,Eastern Europe,Europe,Hungary,Europe
+137,VUT,Member State,Vanuatu,Melanesia,Oceania,Vanuatu,Oceania
+138,DJI,Member State,Djibouti,Eastern Africa,Africa,Djibouti,Africa
+139,GEO,Member State,Georgia,Western Asia,Asia,Georgia,Asia
+140,ABW,NL Territory,Aruba,Caribbean,Americas,Aruba,Americas
+141,VAT,Permanent Observer to the UN,Holy See,Southern Europe,Europe,Vatican,Europe
+142,MAR,Member State,Morocco,Northern Africa,Africa,Morocco,Africa
+143,PRT,Member State,Portugal,Southern Europe,Europe,Portugal,Europe
+144,BLZ,Member State,Belize,Central America,Americas,Belize,Americas
+145,LUX,Member State,Luxembourg,Western Europe,Europe,Luxembourg,Europe
+146,EST,Member State,Estonia,Northern Europe,Europe,Estonia,Europe
+147,JAM,Member State,Jamaica,Caribbean,Americas,Jamaica,Americas
+148,CHE,Member State,Switzerland,Western Europe,Europe,Switzerland,Europe
+149,GNQ,Member State,Equatorial Guinea,Middle Africa,Africa,Equatorial Guinea,Africa
+150,AUT,Member State,Austria,Western Europe,Europe,Austria,Europe
+151,NER,Member State,Niger,Western Africa,Africa,Niger,Africa
+152, ,Adm. by EGY,Ma'tan al-Sarra,Northern Africa,Africa,ma'tan alsarra,
+153,KAZ,Member State,Kazakhstan,Central Asia,Asia,Kazakhstan,Asia
+154, ,UK Territory,Jersey,Northern Europe,Europe,jersey,
+155,ANT,NL Territory,Netherlands Antilles,Caribbean,Americas,Netherlands Antilles,Americas
+156,FRA,Member State,France,Western Europe,Europe,France,Europe
+157,MNP,US Territory,Northern Mariana Islands,Micronesia,Oceania,norrn mariana islands,
+158,SRB,Member State,Serbia,Southern Europe,Europe,Yugoslavia,Europe
+159, ,Sovereignty unsettled,Kuril Islands,Eastern Asia,Asia,kuril islands,
+160,GUM,US Non-Self-Governing Territory,Guam,Micronesia,Oceania,Guam,Oceania
+161,DZA,Member State,Algeria,Northern Africa,Africa,Algeria,Africa
+162,URY,Member State,Uruguay,South America,Americas,Uruguay,Americas
+163,PAN,Member State,Panama,Central America,Americas,Panama,Americas
+164,TGO,Member State,Togo,Western Africa,Africa,Togo,Africa
+165,CMR,Member State,Cameroon,Middle Africa,Africa,Cameroon,Africa
+166,CYM,UK Non-Self-Governing Territory,Cayman Islands,Caribbean,Americas,Cayman Islands,Americas
+167,USA,Member State,United States of America,Northern America,Americas,United States,Americas
+168,ESH,Non-Self-Governing Territory,Western Sahara,Northern Africa,Africa,Western Sahara,Africa
+169,GRD,Member State,Grenada,Caribbean,Americas,Grenada,Americas
+170,TKL,NZ Non-Self-Governing Territory,Tokelau,Polynesia,Oceania,tokelau,
+171,HKG,CN Special Administrative Region,Hong Kong,Eastern Asia,Asia,Hong Kong,Asia
+172,DOM,Member State,Dominican Republic,Caribbean,Americas,Dominican Republic,Americas
+173,MYT,FR Territory,Mayotte,Eastern Africa,Africa,Mayotte,Africa
+174,YEM,Member State,Yemen,Western Asia,Asia,Yemen,Asia
+175,SGP,Member State,Singapore,South-Eastern Asia,Asia,Singapore,Asia
+176,TUR,Member State,Turkey,Western Asia,Asia,Turkey,Asia
+177,MLT,Member State,Malta,Southern Europe,Europe,Malta,Europe
+178,RUS,Member State,Russian Federation,Eastern Europe,Europe,Russia,Europe
+179,ZWE,Member State,Zimbabwe,Eastern Africa,Africa,Zimbabwe,Africa
+180,LTU,Member State,Lithuania,Northern Europe,Europe,Lithuania,Europe
+181,FIN,Member State,Finland,Northern Europe,Europe,Finland,Europe
+182,LSO,Member State,Lesotho,Southern Africa,Africa,Lesotho,Africa
+183,CXR,AU Territory,Christmas Island,South-Eastern Asia,Asia,Christmas Islands,
+184,MRT,Member State,Mauritania,Western Africa,Africa,Mauritania,Africa
+185,AZE,Member State,Azerbaijan,Western Asia,Asia,Azerbaijan,Asia
+186,BDI,Member State,Burundi,Eastern Africa,Africa,Burundi,Africa
+187,PHL,Member State,Philippines,South-Eastern Asia,Asia,Philippines,Asia
+188,TJK,Member State,Tajikistan,Central Asia,Asia,Tajikistan,Asia
+189,MDG,Member State,Madagascar,Eastern Africa,Africa,Madagascar,Africa
+190,FRO,DK Territory,Faroe Islands,Northern Europe,Europe,Faeroe Islands,Europe
+191,VIR,US Non-Self-Governing Territory,United States Virgin Islands,Caribbean,Americas,United States Virgin Islands,Americas
+192,GBR,Member State,U.K. of Great Britain and Northern Ireland,Northern Europe,Europe,uk of great britain and norrn ireland,
+193, ,Adm. by KEN,Ilemi Triangle,Northern Africa,Africa,ilemi triangle,
+194,GRC,Member State,Greece,Southern Europe,Europe,Greece,Europe
+195,SSD,Member State,South Sudan,Middle Africa,Africa,South Sudan,Africa
+196,BHR,Member State,Bahrain,Western Asia,Asia,Bahrain,Asia
+197, ,Sovereignty unsettled,Arunachal Pradesh,Eastern Asia,Asia,arunachal pradesh,
+198,BGR,Member State,Bulgaria,Eastern Europe,Europe,Bulgaria,Europe
+199,SEN,Member State,Senegal,Western Africa,Africa,Senegal,Africa
+200,SYC,Member State,Seychelles,Eastern Africa,Africa,Seychelles,Africa
+201,PRI,US Territory,Puerto Rico,Caribbean,Americas,Puerto Rico,Americas
+202,PSE,Occupied Territory,West Bank,Western Asia,Asia,west bank,
+203, ,Sovereignty unsettled,Spratly Islands,South-Eastern Asia,Asia,spratly islands,
+204,NIU,NZ Territory,Niue,Polynesia,Oceania,Niue,Oceania
+205,BMU,UK Non-Self-Governing Territory,Bermuda,Northern America,Americas,Bermuda,Americas
+206,SOM,Member State,Somalia,Eastern Africa,Africa,Somalia,Africa
+207,BRB,Member State,Barbados,Caribbean,Americas,Barbados,Americas
+208,ESP,Member State,Spain,Southern Europe,Europe,Spain,Europe
+209,COD,Member State,Democratic Republic of the Congo,Middle Africa,Africa,Democratic Republic of Congo,Africa
+210,GNB,Member State,Guinea-Bissau,Western Africa,Africa,Guinea-Bissau,Africa
+211,MAC,CN Special Administrative Region,Macao,Eastern Asia,Asia,Macao,Asia
+212,PNG,Member State,Papua New Guinea,Melanesia,Oceania,Papua New Guinea,Oceania
+213,CYP,Member State,Cyprus,Western Asia,Asia,Cyprus,Asia
+214,HMD,AU Territory,Heard Island and McDonald Islands, ,Antarctica,heard island and mcdonald islands,
+215, ,Sovereignty unsettled,Jammu-Kashmir,Eastern Asia,Asia,jammukashmir,
+216, ,UK Territory,South Georgia & the South Sandwich Islands, ,Antarctica,south georgia south sandwich islands,
+217,MNG,Member State,Mongolia,Eastern Asia,Asia,Mongolia,Asia
+218,GUF,FR Territory,French Guiana,South America,Americas,French Guiana,Americas
+219,MOZ,Member State,Mozambique,Eastern Africa,Africa,Mozambique,Africa
+220,NIC,Member State,Nicaragua,Central America,Americas,Nicaragua,Americas
+221,LBR,Member State,Liberia,Western Africa,Africa,Liberia,Africa
+222,OMN,Member State,Oman,Western Asia,Asia,Oman,Asia
+223,RWA,Member State,Rwanda,Eastern Africa,Africa,Rwanda,Africa
+224,MSR,UK Non-Self-Governing Territory,Montserrat,Caribbean,Americas,Montserrat,Americas
+225,KOR,Member State,Republic of Korea,Eastern Asia,Asia,South Korea,Asia
+226,VEN,Member State,Venezuela,South America,Americas,Venezuela,Americas
+227,IND,Member State,India,Southern Asia,Asia,India,Asia
+228,EGY,Member State,Egypt,Northern Africa,Africa,Egypt,Africa
+229,DMA,Member State,Dominica,Caribbean,Americas,Dominica,Americas
+230,TON,Member State,Tonga,Polynesia,Oceania,Tonga,Oceania
+231,DEU,Member State,Germany,Western Europe,Europe,Germany,Europe
+232,SLE,Member State,Sierra Leone,Western Africa,Africa,Sierra Leone,Africa
+233,CIV,Member State,CÃ´te d'Ivoire,Western Africa,Africa,cÃ´te d'ivoire,
+234,BTN,Member State,Bhutan,Southern Asia,Asia,Bhutan,Asia
+235,WSM,Member State,Samoa,Polynesia,Oceania,Samoa,Oceania
+236,BEL,Member State,Belgium,Western Europe,Europe,Belgium,Europe
+237,BGD,Member State,Bangladesh,Southern Asia,Asia,Bangladesh,Asia
+238,ISR,Member State,Israel,Western Asia,Asia,Israel,Asia
+239,NOR,Member State,Norway,Northern Europe,Europe,Norway,Europe
+240,ATG,Member State,Antigua & Barbuda,Caribbean,Americas,Antigua and Barbuda,Americas
+241,AIA,UK Non-Self-Governing Territory,Anguilla,Caribbean,Americas,Anguilla,Americas
+242,LBY,Member State,Libyan Arab Jamahiriya,Northern Africa,Africa,Libya,Africa
+243,DNK,Member State,Denmark,Northern Europe,Europe,Denmark,Europe
+244,SWE,Member State,Sweden,Northern Europe,Europe,Sweden,Europe
+245,TCA,UK Non-Self-Governing Territory,Turks and Caicos Islands,Caribbean,Americas,Turks and Caicos Islands,Americas
+246,BOL,Member State,Bolivia,South America,Americas,Bolivia,Americas
+247,CHN,Member State,China,Eastern Asia,Asia,China,Asia
+248,GHA,Member State,Ghana,Western Africa,Africa,Ghana,Africa
+249,IRQ,Member State,Iraq,Western Asia,Asia,Iraq,Asia
+250,AGO,Member State,Angola,Middle Africa,Africa,Angola,Africa
+251,CUB,Member State,Cuba,Caribbean,Americas,Cuba,Americas
+252,MTQ,FR Territory,Martinique,Caribbean,Americas,Martinique,Americas
+253,MYS,Member State,Malaysia,South-Eastern Asia,Asia,Malaysia,Asia
+254,KEN,Member State,Kenya,Eastern Africa,Africa,Kenya,Africa
+255, ,PT Territory,Madeira Islands,Southern Europe,Europe,madeira islands,
+256,NZL,Member State,New Zealand,Australia and New Zealand,Oceania,New Zealand,Oceania
