@@ -2,7 +2,7 @@
       name:  <unnamed>
        log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
   log type:  text
- opened on:   9 May 2022, 02:16:52
+ opened on:   9 May 2022, 03:07:16
 
 . 
 . ** 3. Install modules
@@ -254,6 +254,9 @@ The new variables are named NAMES_STD and GEO.
     Matched                            52,380  (_merge==3)
     -----------------------------------------
 
+. drop if _merge == 2
+(80 observations deleted)
+
 . 
 . ** Add missing identifiers
 . replace Continent_std = continent2 if missing(Continent_std) 
@@ -376,6 +379,55 @@ The new variables are named NAMES_STD and GEO.
 (420 real changes made)
 
 . 
+. replace SubContinent   = "Western Asia"             if  country == "Palestine" 
+(112 real changes made)
+
+. replace CountryName    = "West Bank"                    if  country == "Palestine" 
+(112 real changes made)
+
+. replace status         = "Occupied Territory"       if  country == "Palestine" 
+(112 real changes made)
+
+. replace iso3           = "PSE"                      if  country == "Palestine"
+(112 real changes made)
+
+. replace POLY_IDcountry =  202                       if  country == "Palestine"
+(112 real changes made)
+
+. 
+. replace SubContinent   = "Southern Europe"          if  country == "Kosovo" 
+(80 real changes made)
+
+. replace CountryName    = "Kosovo"                           if  country == "Kosovo" 
+(80 real changes made)
+
+. replace status         = "Partially recognised state"       if  country == "Kosovo" 
+(80 real changes made)
+
+. replace iso3           = "XKO"                      if  country == "Kosovo"
+(80 real changes made)
+
+. replace POLY_IDcountry =  .                         if  country == "Kosovo"
+(0 real changes made)
+
+. 
+. replace SubContinent   = "Southern Europe"          if  country == "Monte Negro" 
+(56 real changes made)
+
+. replace CountryName    = "Montenegro"                   if  country == "Monte Negro" 
+(56 real changes made)
+
+. replace status         = "Member State"             if  country == "Monte Negro" 
+(56 real changes made)
+
+. replace iso3           = "MNE"                      if  country == "Monte Negro"
+(56 real changes made)
+
+. replace POLY_IDcountry =  92                        if  country == "Monte Negro"
+(56 real changes made)
+
+. 
+. 
 . ** X. Save dataset
 . save             "SHDI.dta", replace
 file SHDI.dta saved
@@ -389,5 +441,5 @@ file SHDI.csv saved
       name:  <unnamed>
        log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
   log type:  text
- closed on:   9 May 2022, 02:16:59
+ closed on:   9 May 2022, 03:07:23
 ----------------------------------------------------------------------------------------------------------------------

@@ -79,6 +79,7 @@ label variable pop "Population"
 
 ** Add more country identifiers
 merge m:1 CountryName_std using "country_identifiers.dta"
+drop if _merge == 2
 
 ** Add missing identifiers
 replace Continent_std = continent2 if missing(Continent_std) 
@@ -125,6 +126,25 @@ replace CountryName    = "Chile"		            if  country == "Chili"
 replace status         = "Member State"             if  country == "Chili" 
 replace iso3           = "CHL"                      if  country == "Chili"
 replace POLY_IDcountry =  29                        if  country == "Chili"
+
+replace SubContinent   = "Western Asia"             if  country == "Palestine" 
+replace CountryName    = "West Bank"		        if  country == "Palestine" 
+replace status         = "Occupied Territory"       if  country == "Palestine" 
+replace iso3           = "PSE"                      if  country == "Palestine"
+replace POLY_IDcountry =  202                       if  country == "Palestine"
+
+replace SubContinent   = "Southern Europe"          if  country == "Kosovo" 
+replace CountryName    = "Kosovo"		            if  country == "Kosovo" 
+replace status         = "Partially recognised state"       if  country == "Kosovo" 
+replace iso3           = "XKO"                      if  country == "Kosovo"
+replace POLY_IDcountry =  .                         if  country == "Kosovo"
+
+replace SubContinent   = "Southern Europe"          if  country == "Monte Negro" 
+replace CountryName    = "Montenegro"		        if  country == "Monte Negro" 
+replace status         = "Member State"             if  country == "Monte Negro" 
+replace iso3           = "MNE"                      if  country == "Monte Negro"
+replace POLY_IDcountry =  92                        if  country == "Monte Negro"
+
 
 ** X. Save dataset
 save             "SHDI.dta", replace
