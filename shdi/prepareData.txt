@@ -1,0 +1,254 @@
+----------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
+  log type:  text
+ opened on:   8 May 2022, 18:31:13
+
+. 
+. ** 3. Install modules
+. *ssc install estout, replace all
+. *ssc install outreg2, replace all
+. *ssc install reghdfe, replace all * INFO: http://scorreia.com/software/reghdfe/
+. *net install gr0009_1, from (http://www.stata-journal.com/software/sj10-1) replace all
+. *net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace a
+> ll
+. *set scheme white_tableau, permanently
+. *set scheme gg_tableau, permanently
+. 
+. 
+. ** 4. Import data
+. *use  , clear
+. import delimited "SHDI-SGDI-Total 5.0.csv", case(preserve) clear
+(37 vars, 54,668 obs)
+
+. destring , replace
+iso_code: contains nonnumeric characters; no replace
+country: contains nonnumeric characters; no replace
+year already numeric; no replace
+GDLCODE: contains nonnumeric characters; no replace
+level: contains nonnumeric characters; no replace
+region: contains nonnumeric characters; no replace
+continent: contains nonnumeric characters; no replace
+sgdi: all characters numeric; replaced as double
+(33113 missing values generated)
+shdi already numeric; no replace
+shdif: all characters numeric; replaced as double
+(33110 missing values generated)
+shdim: all characters numeric; replaced as double
+(33113 missing values generated)
+healthindex already numeric; no replace
+healthindexf: all characters numeric; replaced as double
+(32883 missing values generated)
+healthindexm: all characters numeric; replaced as double
+(32883 missing values generated)
+incindex already numeric; no replace
+incindexf: all characters numeric; replaced as double
+(32686 missing values generated)
+incindexm: all characters numeric; replaced as double
+(32686 missing values generated)
+edindex already numeric; no replace
+edindexf: all characters numeric; replaced as double
+(32922 missing values generated)
+edindexm: all characters numeric; replaced as double
+(32925 missing values generated)
+esch already numeric; no replace
+eschf: all characters numeric; replaced as double
+(32723 missing values generated)
+eschm: all characters numeric; replaced as double
+(32724 missing values generated)
+msch already numeric; no replace
+mschf: all characters numeric; replaced as double
+(32770 missing values generated)
+mschm: all characters numeric; replaced as double
+(32772 missing values generated)
+lifexp already numeric; no replace
+lifexpf: all characters numeric; replaced as double
+(32883 missing values generated)
+lifexpm: all characters numeric; replaced as double
+(32883 missing values generated)
+gnic already numeric; no replace
+gnicf: all characters numeric; replaced as double
+(32686 missing values generated)
+gnicm: all characters numeric; replaced as double
+(32686 missing values generated)
+lgnic already numeric; no replace
+lgnicf: all characters numeric; replaced as double
+(32686 missing values generated)
+lgnicm: all characters numeric; replaced as double
+(32686 missing values generated)
+pop: all characters numeric; replaced as double
+(504 missing values generated)
+mfsel already numeric; no replace
+
+. 
+. describe
+
+Contains data
+ Observations:        54,668                  
+    Variables:            37                  
+----------------------------------------------------------------------------------------------------------------------
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+----------------------------------------------------------------------------------------------------------------------
+iso_code        str3    %9s                   
+country         str32   %32s                  
+year            int     %8.0g                 
+GDLCODE         str7    %9s                   
+level           str8    %9s                   
+region          str98   %98s                  
+continent       str12   %12s                  
+sgdi            double  %10.0g                
+shdi            float   %9.0g                 
+shdif           double  %10.0g                
+shdim           double  %10.0g                
+healthindex     float   %9.0g                 
+healthindexf    double  %10.0g                
+healthindexm    double  %10.0g                
+incindex        float   %9.0g                 
+incindexf       double  %10.0g                
+incindexm       double  %10.0g                
+edindex         float   %9.0g                 
+edindexf        double  %10.0g                
+edindexm        double  %10.0g                
+esch            float   %9.0g                 
+eschf           double  %10.0g                
+eschm           double  %10.0g                
+msch            float   %9.0g                 
+mschf           double  %10.0g                
+mschm           double  %10.0g                
+lifexp          float   %9.0g                 
+lifexpf         double  %10.0g                
+lifexpm         double  %10.0g                
+gnic            float   %9.0g                 
+gnicf           double  %10.0g                
+gnicm           double  %10.0g                
+lgnic           float   %9.0g                 
+lgnicf          double  %10.0g                
+lgnicm          double  %10.0g                
+pop             double  %10.0g                
+mfsel           byte    %8.0g                 
+----------------------------------------------------------------------------------------------------------------------
+Sorted by: 
+     Note: Dataset has changed since last saved.
+
+. summarize
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    iso_code |          0
+     country |          0
+        year |     54,668    2005.135    8.555563       1990       2019
+     GDLCODE |          0
+       level |          0
+-------------+---------------------------------------------------------
+      region |          0
+   continent |          0
+        sgdi |     21,555    .9244742    .0819926       .245       1.09
+        shdi |     54,668    .6422901    .1715394       .168        .98
+       shdif |     21,558    .6540228    .1755975       .086       .973
+-------------+---------------------------------------------------------
+       shdim |     21,555    .6996475    .1522553       .238       .987
+ healthindex |     54,668    .7436466    .1476911       .069          1
+healthindexf |     21,785    .7766282    .1402352       .204          1
+healthindexm |     21,785    .7806421     .128016       .268          1
+    incindex |     54,668    .6531721    .1795209       .194          1
+-------------+---------------------------------------------------------
+   incindexf |     21,982    .6216025    .1812001       .045          1
+   incindexm |     21,982    .7154933    .1749945       .259          1
+     edindex |     54,668    .5592647    .2003442       .039       .993
+    edindexf |     21,746    .5974506    .2109297        .01       .989
+    edindexm |     21,743    .6257846    .1724694       .077       .996
+-------------+---------------------------------------------------------
+        esch |     54,668    11.66609    3.459104       .342         18
+       eschf |     21,945     12.6069    3.512776       .142         18
+       eschm |     21,944    12.62322    2.815847      2.026         18
+        msch |     54,668    7.056217    3.390651       .173         15
+       mschf |     21,898    7.395896    3.670926       .109         15
+-------------+---------------------------------------------------------
+       mschm |     21,896    8.237292    3.122314       .435         15
+      lifexp |     54,668    68.33724    9.599883     24.511     85.413
+     lifexpf |     21,785    72.98127    9.115696     35.758     88.259
+     lifexpm |     21,785    68.24178    8.321289     34.934     82.826
+        gnic |     54,668    14259.04    16451.17    360.465   206429.4
+-------------+---------------------------------------------------------
+       gnicf |     21,982    11725.08    13618.37    134.968   159635.8
+       gnicm |     21,982    20399.96    21555.87    554.772   255278.6
+       lgnic |     54,668    8.930401    1.190936      5.887     12.238
+      lgnicf |     21,982    8.720605    1.200468      4.905     11.981
+      lgnicm |     21,982    9.346952     1.16761      6.319      12.45
+-------------+---------------------------------------------------------
+         pop |     54,164    6991.596     43921.2       .798    1397715
+       mfsel |     54,668    .0782359    .2685449          0          1
+
+. 
+. ** Drop unnecesary variables
+. drop sgdi shdif shdim healthindexf healthindexm incindexf incindexm edindexf edindexm eschf eschm mschf mschm lifexp
+> f lifexpm gnicf gnicm lgnicf lgnicm mfsel
+
+. 
+. ** Add corrected continent identifiers
+. kountry country, from(other) geo(un)
+
+---------------------------------------------------
+The command has finished.
+The new variables are named NAMES_STD and GEO.
+---------------------------------------------------
+
+. 
+. ** Drop unnecesary variables
+. drop country
+
+. drop continent
+
+. 
+. ** Rename variables 
+. rename GDLCODE GDLcode
+
+. rename GEO continent
+
+. rename NAMES_STD country
+
+. 
+. ** Order variables
+. order continent, after(GDLcode)
+
+. order country, after(continent)
+
+. 
+. ** Add labels
+. label variable shdi "Subnational human development index"
+
+. label variable lifexp "Life expectancy at birth"
+
+. label variable msch "Mean years of schooling of adults 25+"
+
+. label variable esch "Expected years of schooling of children aged 6"
+
+. label variable gnic "Gross national income per capita (PPP2011)"
+
+. label variable lgnic "Log gross national income per capita (PPP2011)"
+
+. label variable healthindex "Health index"
+
+. label variable incindex "Income index"
+
+. label variable edindex "Education index"
+
+. label variable pop "Population"
+
+. 
+. ** X. Save dataset
+. save             "SHDI.dta", replace
+file SHDI.dta saved
+
+. export delimited "SHDI.csv", replace
+file SHDI.csv saved
+
+. 
+. ** 99. Close log file
+. log close
+      name:  <unnamed>
+       log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
+  log type:  text
+ closed on:   8 May 2022, 18:31:19
+----------------------------------------------------------------------------------------------------------------------
