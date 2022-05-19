@@ -1,6 +1,6 @@
 cls
 **=====================================================
-** Program Name: Remove unnecesary variables and add regional identifiers
+** Program Name: Remove unnecesary variables, add regional identifiers, and compute long-run trends
 ** Author: Carlos Mendez
 ** Date: 2022-05-08
 ** --------------------------------------------------------------------------------------------
@@ -14,7 +14,8 @@ cls
 **=====================================================
 
 ** 0. Change working directory
-cd "/Users/carlos/Github/QuaRCS-lab/data-open/shdi"
+*cd "/Users/carlos/Github/QuaRCS-lab/data-open/shdi"
+cd "/Users/carlosmendez/Documents/GitHub/data-open/shdi"
 
 ** 1. Setup
 clear all
@@ -146,9 +147,44 @@ replace iso3           = "MNE"                      if  country == "Monte Negro"
 replace POLY_IDcountry =  92                        if  country == "Monte Negro"
 
 
+
+** Interpolate missing values of population
+sort GDLcode year
+egen GDLcode_id = group(GDLcode)
+order GDLcode_id, after(GDLcode)
+
+xtset GDLcode_id year
+ipolate pop year, gen(pop_ip) epolate by (GDLcode_id)
+sum
+
+
+** Compute long-run trends: HP filter with parameters 6.25
+gen ln_shdiX100 = ln(100*shdi)
+
+gen ln_healthindexX100 = ln(100*healthindex)
+gen ln_incindexX100 = ln(100*incindex)
+gen ln_edindexX100 = ln(100*edindex)
+
+gen ln_eschX100 = ln(100*esch)
+gen ln_mschX100 = ln(100*msch)
+gen ln_lifexpX100 = ln(100*lifexp)
+
+pfilter ln_shdiX100, method(hp) trend(tr6_ln_shdiX100) smooth(6.25)
+
+pfilter ln_healthindexX100, method(hp) trend(tr6_ln_healthindexX100) smooth(6.25)
+pfilter ln_incindexX100, method(hp) trend(tr6_ln_incindexX100) smooth(6.25)
+pfilter ln_edindexX100 , method(hp) trend(tr6_ln_edindexX100 ) smooth(6.25)
+
+pfilter ln_eschX100, method(hp) trend(tr6_ln_eschX100) smooth(6.25)
+pfilter ln_mschX100, method(hp) trend(tr6_ln_mschX100) smooth(6.25)
+pfilter ln_lifexpX100, method(hp) trend(tr6_ln_lifexpX100) smooth(6.25)
+
+pfilter lgnic, method(hp) trend(tr6_lgnic) smooth(6.25)
+
+
 ** X. Save dataset
-save             "SHDI.dta", replace
-export delimited "SHDI.csv", replace
+save             "shdi.dta", replace
+export delimited "shdi.csv", replace
 
 ** 99. Close log file
 log close

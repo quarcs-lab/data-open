@@ -1,8 +1,8 @@
-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
+       log:  /Users/carlosmendez/Documents/GitHub/data-open/shdi/prepareData.txt
   log type:  text
- opened on:   9 May 2022, 03:07:16
+ opened on:  19 May 2022, 19:24:16
 
 . 
 . ** 3. Install modules
@@ -10,8 +10,8 @@
 . *ssc install outreg2, replace all
 . *ssc install reghdfe, replace all * INFO: http://scorreia.com/software/reghdfe/
 . *net install gr0009_1, from (http://www.stata-journal.com/software/sj10-1) replace all
-. *net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace a
-> ll
+. *net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/"
+> ) replace all
 . *set scheme white_tableau, permanently
 . *set scheme gg_tableau, permanently
 . 
@@ -86,10 +86,10 @@ mfsel already numeric; no replace
 Contains data
  Observations:        54,668                  
     Variables:            37                  
-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 Variable      Storage   Display    Value
     name         type    format    label      Variable label
-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 iso_code        str3    %9s                   
 country         str32   %32s                  
 year            int     %8.0g                 
@@ -127,7 +127,7 @@ lgnicf          double  %10.0g
 lgnicm          double  %10.0g                
 pop             double  %10.0g                
 mfsel           byte    %8.0g                 
-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 Sorted by: 
      Note: Dataset has changed since last saved.
 
@@ -182,8 +182,8 @@ healthindexm |     21,785    .7806421     .128016       .268          1
 
 . 
 . ** Drop unnecesary variables
-. drop sgdi shdif shdim healthindexf healthindexm incindexf incindexm edindexf edindexm eschf eschm mschf mschm lifexp
-> f lifexpm gnicf gnicm lgnicf lgnicm mfsel
+. drop sgdi shdif shdim healthindexf healthindexm incindexf incindexm edindexf edindexm eschf eschm mschf m
+> schm lifexpf lifexpm gnicf gnicm lgnicf lgnicm mfsel
 
 . 
 . ** Add corrected continent identifiers
@@ -206,7 +206,7 @@ The new variables are named NAMES_STD and GEO.
 . 
 . ** Replace missing observations in continent2
 . replace continent2 = continent if missing(continent2) 
-(1,456 real changes made)
+(1,566 real changes made)
 
 . replace continent2 = "Americas" if continent == "America"
 (420 real changes made)
@@ -247,23 +247,23 @@ The new variables are named NAMES_STD and GEO.
 
     Result                      Number of obs
     -----------------------------------------
-    Not matched                         2,368
-        from master                     2,288  (_merge==1)
-        from using                         80  (_merge==2)
+    Not matched                         2,479
+        from master                     2,398  (_merge==1)
+        from using                         81  (_merge==2)
 
-    Matched                            52,380  (_merge==3)
+    Matched                            52,270  (_merge==3)
     -----------------------------------------
 
 . drop if _merge == 2
-(80 observations deleted)
+(81 observations deleted)
 
 . 
 . ** Add missing identifiers
 . replace Continent_std = continent2 if missing(Continent_std) 
-(2,288 real changes made)
+(2,398 real changes made)
 
 . replace Continent = continent2 if missing(Continent) 
-(2,288 real changes made)
+(2,398 real changes made)
 
 . 
 . replace SubContinent   = "Middle Africa"            if  country == "Central African Republic CAR" 
@@ -333,7 +333,8 @@ The new variables are named NAMES_STD and GEO.
 . replace SubContinent   = "Northern Europe"              if  country == "United Kingdom" 
 (390 real changes made)
 
-. replace CountryName    = "U.K. of Great Britain and Northern Ireland"               if  country == "United Kingdom" 
+. replace CountryName    = "U.K. of Great Britain and Northern Ireland"               if  country == "Unite
+> d Kingdom" 
 (390 real changes made)
 
 . replace status         = "Member State"             if  country == "United Kingdom" 
@@ -349,8 +350,8 @@ The new variables are named NAMES_STD and GEO.
 . replace SubContinent   = "Middle Africa"          if  country == "Congo Democratic Republic" 
 (360 real changes made)
 
-. replace CountryName    = "Democratic Republic of the Congo"                 if  country == "Congo Democratic Republi
-> c" 
+. replace CountryName    = "Democratic Republic of the Congo"                 if  country == "Congo Democra
+> tic Republic" 
 (360 real changes made)
 
 . replace status         = "Member State"             if  country == "Congo Democratic Republic" 
@@ -428,18 +429,112 @@ The new variables are named NAMES_STD and GEO.
 
 . 
 . 
-. ** X. Save dataset
-. save             "SHDI.dta", replace
-file SHDI.dta saved
+. 
+. ** Interpolate missing values of population
+. sort GDLcode year
 
-. export delimited "SHDI.csv", replace
-file SHDI.csv saved
+. egen GDLcode_id = group(GDLcode)
+
+. order GDLcode_id, after(GDLcode)
+
+. 
+. xtset GDLcode_id year
+
+Panel variable: GDLcode_id (unbalanced)
+ Time variable: year, 1990 to 2019
+         Delta: 1 unit
+
+. ipolate pop year, gen(pop_ip) epolate by (GDLcode_id)
+(504 missing values generated)
+
+. sum
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    iso_code |          0
+     country |          0
+        year |     54,668    2005.135    8.555563       1990       2019
+     GDLcode |          0
+  GDLcode_id |     54,668    977.9327    566.9649          1       1969
+-------------+---------------------------------------------------------
+  continent2 |          0
+       level |          0
+      region |          0
+   continent |          0
+CountryNam~d |          0
+-------------+---------------------------------------------------------
+        shdi |     54,668    .6422901    .1715394       .168        .98
+ healthindex |     54,668    .7436466    .1476911       .069          1
+    incindex |     54,668    .6531721    .1795209       .194          1
+     edindex |     54,668    .5592647    .2003442       .039       .993
+        esch |     54,668    11.66609    3.459104       .342         18
+-------------+---------------------------------------------------------
+        msch |     54,668    7.056217    3.390651       .173         15
+      lifexp |     54,668    68.33724    9.599883     24.511     85.413
+        gnic |     54,668    14259.04    16451.17    360.465   206429.4
+       lgnic |     54,668    8.930401    1.190936      5.887     12.238
+         pop |     54,164    6991.596     43921.2       .798    1397715
+-------------+---------------------------------------------------------
+POLY_IDcou~y |     54,478    135.6741    76.08243          2        256
+        iso3 |          0
+      status |          0
+ CountryName |          0
+SubContinent |          0
+-------------+---------------------------------------------------------
+   Continent |          0
+Continent_~d |          0
+      _merge |     54,668     2.91227    .4095921          1          3
+      pop_ip |     54,164    6991.596     43921.2       .798    1397715
+
+. 
+. 
+. ** Compute long-run trends: HP filter with parameters 6.25
+. gen ln_shdiX100 = ln(100*shdi)
+
+. gen ln_healthindexX100 = ln(100*healthindex)
+
+. gen ln_incindexX100 = ln(100*incindex)
+
+. gen ln_edindexX100 = ln(100*edindex)
+
+. gen ln_eschX100 = ln(100*esch)
+
+. gen ln_mschX100 = ln(100*msch)
+
+. gen ln_lifexpX100 = ln(100*lifexp)
+
+. 
+. 
+. 
+. 
+. pfilter ln_shdiX100, method(hp) trend(tr6_ln_shdiX100) smooth(6.25)
+
+. pfilter ln_healthindexX100, method(hp) trend(tr6_ln_healthindexX100) smooth(6.25)
+
+. pfilter ln_incindexX100, method(hp) trend(tr6_ln_incindexX100) smooth(6.25)
+
+. pfilter ln_edindexX100 , method(hp) trend(tr6_ln_edindexX100 ) smooth(6.25)
+
+. 
+. pfilter ln_eschX100, method(hp) trend(tr6_ln_eschX100) smooth(6.25)
+
+. pfilter ln_mschX100, method(hp) trend(tr6_ln_mschX100) smooth(6.25)
+
+. pfilter ln_lifexpX100, method(hp) trend(tr6_ln_lifexpX100) smooth(6.25)
+
+. 
+. ** X. Save dataset
+. save             "shdi.dta", replace
+file shdi.dta saved
+
+. export delimited "shdi.csv", replace
+file shdi.csv saved
 
 . 
 . ** 99. Close log file
 . log close
       name:  <unnamed>
-       log:  /Users/carlos/Github/QuaRCS-lab/data-open/shdi/prepareData.txt
+       log:  /Users/carlosmendez/Documents/GitHub/data-open/shdi/prepareData.txt
   log type:  text
- closed on:   9 May 2022, 03:07:23
-----------------------------------------------------------------------------------------------------------------------
+ closed on:  19 May 2022, 19:27:03
+-----------------------------------------------------------------------------------------------------------
