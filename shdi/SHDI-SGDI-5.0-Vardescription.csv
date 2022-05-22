@@ -1,0 +1,34 @@
+Variable,Category,Dtype,Decimals,RankOrder,Label,Shortdescr,Longdescr
+iso_code,System,Str,,,,ISO country code 3 digit,ISO country code 3 digit
+country,System,Str,,,,Country name,Country name
+year,System,Int,0,,,Year of data collection,Year of data collection
+GDLCODE,System,Str,,,,Region code Global Data Lab,"Iso-code, level (t=total), regional division (1=most important), region number"
+level,System,Str,,,,Aggregation level,National or sub-national
+region,System,Str,,,,Sub-national region name,Name of sub-national region
+continent,System,Flt,,,,Continent,"Categories: Africa, America, Asia/Pacific, Europe"
+shdi,Human Development,Pos,3,A,Sub-national HDI,Sub-national HDI,
+sgdi,Gender Development,Pos,3,A,Sub-national GDI,Sub-national GDI,Sub-national Gender Development Index
+shdif,Gender Development,Pos,3,A,Sub-national HDI females,Sub-national HDI females,Sub-national Human Development Index females
+shdim,Gender Development,Pos,3,A,Sub-national HDI males,Sub-national HDI males,Sub-national Human Development Index males
+healthindex,Human Development,Pos,3,A,Health index,Health index,
+healthindexf,Gender Development,Pos,3,A,Health index females,Health index females,Health index females
+healthindexm,Gender Development,Pos,3,A,Health index males,Health index males,Health index males
+edindex,Human Development,Pos,3,A,Educational index ,Educational index ,
+edindexf,Gender Development,Pos,3,A,Educational index females,Educational index females,Educational index females
+edindexm,Gender Development,Pos,3,A,Educational index males,Educational index males,Educational index males 
+incindex,Human Development,Pos,3,A,Income index,Income index,
+incindexf,Gender Development,Pos,3,A,Income index females,Income index females,Income index females
+incindexm,Gender Development,Pos,3,A,Income index males,Income index males,Income index males
+lifexp,Indicators,Pos,3,A,Life expectancy,Life expectancy,Life expectancy at birth
+lifexpf,Indicators,Pos,3,A,Life expectancy females,Life expectancy females,Life expectancy at birth females
+lifexpm,Indicators,Pos,3,A,Life expectancy males,Life expectancy males,Life expectancy at birth males
+esch,Indicators,Pos,3,A,Expected years schooling,Expected years schooling,Expected years schooling children aged 6
+eschf,Indicators,Pos,3,A,Expected years schooling girls,Expected years schooling girls,Expected years schooling girls aged 6
+eschm,Indicators,Pos,3,A,Expected years schooling boys,Expected years schooling boys,Expected years schooling boys aged 6
+msch,Indicators,Pos,3,A,Mean years schooling,Mean years schooling,Mean years schooling population aged 25+
+mschf,Indicators,Pos,3,A,Mean years schooling females,Mean years schooling females,Mean years schooling female population aged 25+
+mschm,Indicators,Pos,3,A,Mean years schooling males,Mean years schooling males,Mean years schooling male population aged 25+
+lgnic,Indicators,Pos,3,A,GNI per capita in thousands of US$ (2011 PPP),GNI per capita in thousands of US$ (2011 PPP),Gross National Income per capita in thousands of US Dollars (2011 PPP)
+lgnicf,Indicators,Pos,3,A,Log Gross National Income per capita females,Log Gross National Income per capita females,Log Gross National Income per capita females
+lgnicm,Indicators,Pos,3,A,Log Gross National Income per capita males,Log Gross National Income per capita males,Log Gross National Income per capita males
+pop,Indicators,Pos,2,A,Population size in thousands,Population size in thousands,Population size in thousands
