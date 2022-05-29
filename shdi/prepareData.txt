@@ -1,8 +1,8 @@
------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /Users/carlosmendez/Documents/GitHub/data-open/shdi/prepareData.txt
   log type:  text
- opened on:  19 May 2022, 19:24:16
+ opened on:  29 May 2022, 16:11:24
 
 . 
 . ** 3. Install modules
@@ -10,8 +10,7 @@
 . *ssc install outreg2, replace all
 . *ssc install reghdfe, replace all * INFO: http://scorreia.com/software/reghdfe/
 . *net install gr0009_1, from (http://www.stata-journal.com/software/sj10-1) replace all
-. *net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/"
-> ) replace all
+. *net install tsg_schemes, from("https://raw.githubusercontent.com/asjadnaqvi/Stata-schemes/main/schemes/") replace all
 . *set scheme white_tableau, permanently
 . *set scheme gg_tableau, permanently
 . 
@@ -86,10 +85,10 @@ mfsel already numeric; no replace
 Contains data
  Observations:        54,668                  
     Variables:            37                  
------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Variable      Storage   Display    Value
     name         type    format    label      Variable label
------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 iso_code        str3    %9s                   
 country         str32   %32s                  
 year            int     %8.0g                 
@@ -127,7 +126,7 @@ lgnicf          double  %10.0g
 lgnicm          double  %10.0g                
 pop             double  %10.0g                
 mfsel           byte    %8.0g                 
------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Sorted by: 
      Note: Dataset has changed since last saved.
 
@@ -182,8 +181,7 @@ healthindexm |     21,785    .7806421     .128016       .268          1
 
 . 
 . ** Drop unnecesary variables
-. drop sgdi shdif shdim healthindexf healthindexm incindexf incindexm edindexf edindexm eschf eschm mschf m
-> schm lifexpf lifexpm gnicf gnicm lgnicf lgnicm mfsel
+. drop sgdi shdif shdim healthindexf healthindexm incindexf incindexm edindexf edindexm eschf eschm mschf mschm lifexpf lifexpm gnicf gnicm lgnicf lgnicm mfsel
 
 . 
 . ** Add corrected continent identifiers
@@ -333,8 +331,7 @@ The new variables are named NAMES_STD and GEO.
 . replace SubContinent   = "Northern Europe"              if  country == "United Kingdom" 
 (390 real changes made)
 
-. replace CountryName    = "U.K. of Great Britain and Northern Ireland"               if  country == "Unite
-> d Kingdom" 
+. replace CountryName    = "U.K. of Great Britain and Northern Ireland"               if  country == "United Kingdom" 
 (390 real changes made)
 
 . replace status         = "Member State"             if  country == "United Kingdom" 
@@ -350,8 +347,7 @@ The new variables are named NAMES_STD and GEO.
 . replace SubContinent   = "Middle Africa"          if  country == "Congo Democratic Republic" 
 (360 real changes made)
 
-. replace CountryName    = "Democratic Republic of the Congo"                 if  country == "Congo Democra
-> tic Republic" 
+. replace CountryName    = "Democratic Republic of the Congo"                 if  country == "Congo Democratic Republic" 
 (360 real changes made)
 
 . replace status         = "Member State"             if  country == "Congo Democratic Republic" 
@@ -430,97 +426,302 @@ The new variables are named NAMES_STD and GEO.
 . 
 . 
 . 
-. ** Interpolate missing values of population
+. ** Compute long-run trends: HP filter with parameters 6.25
+.     * Set panel data structure
 . sort GDLcode year
 
 . egen GDLcode_id = group(GDLcode)
 
 . order GDLcode_id, after(GDLcode)
 
-. 
 . xtset GDLcode_id year
 
 Panel variable: GDLcode_id (unbalanced)
  Time variable: year, 1990 to 2019
          Delta: 1 unit
 
-. ipolate pop year, gen(pop_ip) epolate by (GDLcode_id)
-(504 missing values generated)
+. 
+.     * Generate logs
+. gen ln_shdiX100 = ln(100*shdi)
+
+. 
+. gen ln_healthindexX100 = ln(100*healthindex)
+
+. gen ln_incindexX100    = ln(100*incindex)
+
+. gen ln_edindexX100     = ln(100*edindex)
+
+. 
+. gen ln_eschX100   = ln(100*esch)
+
+. gen ln_mschX100   = ln(100*msch)
+
+. gen ln_lifexpX100 = ln(100*lifexp)
+
+. 
+.     * Estimate trends
+. pfilter ln_shdiX100, method(hp) trend(tr6_ln_shdiX100) smooth(6.25)
+
+. 
+. pfilter ln_healthindexX100, method(hp) trend(tr6_ln_healthindexX100) smooth(6.25)
+
+. pfilter ln_incindexX100,    method(hp) trend(tr6_ln_incindexX100) smooth(6.25)
+
+. pfilter ln_edindexX100 ,    method(hp) trend(tr6_ln_edindexX100 ) smooth(6.25)
+
+. 
+. pfilter ln_eschX100,   method(hp) trend(tr6_ln_eschX100) smooth(6.25)
+
+. pfilter ln_mschX100,   method(hp) trend(tr6_ln_mschX100) smooth(6.25)
+
+. pfilter ln_lifexpX100, method(hp) trend(tr6_ln_lifexpX100) smooth(6.25)
+
+. 
+. pfilter lgnic, method(hp) trend(tr6_lgnic) smooth(6.25)
+
+. 
+.     * Recover levels
+. gen tr6_shdi      = exp(tr6_ln_shdiX100)/100 
+
+. 
+. gen tr6_healthindex = exp(tr6_ln_healthindexX100)/100 
+
+. gen tr6_incindex    = exp(tr6_ln_incindexX100)/100 
+
+. gen tr6_edindex     = exp(tr6_ln_edindexX100)/100 
+
+. 
+. gen tr6_esch      = exp(tr6_ln_eschX100)/100 
+
+. gen tr6_msch      = exp(tr6_ln_mschX100)/100 
+
+. gen tr6_lifexp    = exp(tr6_ln_lifexpX100)/100 
+
+. 
+. 
+.     * check compativitily
+. sum tr6_shdi shdi
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    tr6_shdi |     54,668    .6422678    .1714864   .1743217   .9798343
+        shdi |     54,668    .6422901    .1715394       .168        .98
+
+. 
+. sum tr6_healthindex healthindex 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+tr6_health~x |     54,668    .7436204    .1476581    .093216   1.001386
+ healthindex |     54,668    .7436466    .1476911       .069          1
+
+. sum tr6_incindex  incindex  
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+tr6_incindex |     54,668    .6531118    .1793746   .2024897   1.005894
+    incindex |     54,668    .6531721    .1795209       .194          1
+
+. sum tr6_edindex edindex 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+ tr6_edindex |     54,668    .5591969    .2001972   .0403947   .9960122
+     edindex |     54,668    .5592647    .2003442       .039       .993
+
+. 
+. sum tr6_esch esch 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    tr6_esch |     54,668    11.66334    3.451942   .3432875   18.30041
+        esch |     54,668    11.66609    3.459104       .342         18
+
+. sum tr6_msch msch 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    tr6_msch |     54,668    7.054852    3.388169   .1795067   14.99173
+        msch |     54,668    7.056217    3.390651       .173         15
+
+. sum tr6_lifexp  lifexp
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+  tr6_lifexp |     54,668    68.33625    9.595883   26.18695   85.47738
+      lifexp |     54,668    68.33724    9.599883     24.511     85.413
+
+. 
+. sum tr6_lgnic  lgnic 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   tr6_lgnic |     54,668    8.930401    1.189716   5.945106   12.22918
+       lgnic |     54,668    8.930401    1.190936      5.887     12.238
+
+. 
+. ** Keep most relevant variables
+. keep iso_code country year GDLcode GDLcode_id continent2 level region CountryName_std shdi healthindex incindex edindex esch msch lifexp gnic lgnic pop POLY_IDcoun
+> try iso3 CountryName SubContinent Continent_std tr6_shdi tr6_healthindex tr6_incindex tr6_edindex tr6_esch tr6_msch tr6_lifexp tr6_lgnic
+
+. 
+. ** Rename and label variables
+. label variable iso_code "Country ISO code"
+
+. label variable country "Country name (from Smith and Permanyer 2019)"
+
+. label variable GDLcode "GDL code  (from Smith and Permanyer 2019)"
+
+. label variable GDLcode_id "Numeric GDL code  (from Smith and Permanyer 2019)"
+
+. label variable continent2 "Continent name"
+
+. rename continent2 continentName
+
+. label variable level "Spatial scale (Subnational vs National)"
+
+. label variable region "Region name (includes country names)"
+
+. label variable CountryName_std "Standardized country name (from Stata Kountry package)"
+
+. rename CountryName_std countryName_std
+
+. label variable POLY_IDcountry "Polygon ID to merge with cross-country map"
+
+. label variable iso3 "Country isocode v3"
+
+. label variable CountryName "Additional country name (for verification)"
+
+. rename CountryName countryName2
+
+. label variable SubContinent "Subcontinent"
+
+. rename SubContinent subcontinent
+
+. label variable Continent_std "Standardized countinent name (from Stata Kountry package)"
+
+. rename Continent_std continentName_std
+
+. label variable tr6_lgnic "Trend log GNI per capita (Based on the HP filter with 6.25 smoothing)"
+
+. label variable tr6_shdi "Trend shdi (Based on the HP filter with 6.25 smoothing)"
+
+. label variable tr6_healthindex "Trend health index (Based on the HP filter with 6.25 smoothing)"
+
+. label variable tr6_incindex "Trend income index (Based on the HP filter with 6.25 smoothing)"
+
+. label variable tr6_edindex "Trend education index (Based on the HP filter with 6.25 smoothing)"
+
+. label variable tr6_esch "Trend  esch (Based on the HP filter with 6.25 smoothing)"
+
+. label variable tr6_msch "Trend msch (Based on the HP filter with 6.25 smoothing)"
+
+. label variable tr6_lifexp "Trend lifexp (Based on the HP filter with 6.25 smoothing)"
+
+. label variable year "Year"
+
+. 
+. 
+. ** Order variables
+. order countryName_std countryName2 continentName_std, last
+
+. order iso_code iso3 POLY_IDcountry, last
+
+. order subcontinent, after(continentName)
+
+. order region, after(year)
+
+. order level, after(region)
+
+. 
+. ** Describe dataset
+. describe
+
+Contains data
+ Observations:        54,668                  
+    Variables:            32                  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+country         str32   %32s                  Country name (from Smith and Permanyer 2019)
+year            int     %8.0g                 Year
+region          str98   %98s                  Region name (includes country names)
+level           str8    %9s                   Spatial scale (Subnational vs National)
+GDLcode         str7    %9s                   GDL code (from Smith and Permanyer 2019)
+GDLcode_id      float   %9.0g                 Numeric GDL code (from Smith and Permanyer 2019)
+continentName   str8    %9s                   Continent name
+subcontinent    str25   %25s                  Subcontinent
+shdi            float   %9.0g                 Subnational human development index
+healthindex     float   %9.0g                 Health index
+incindex        float   %9.0g                 Income index
+edindex         float   %9.0g                 Education index
+esch            float   %9.0g                 Expected years of schooling of children aged 6
+msch            float   %9.0g                 Mean years of schooling of adults 25+
+lifexp          float   %9.0g                 Life expectancy at birth
+gnic            float   %9.0g                 Gross national income per capita (PPP2011)
+lgnic           float   %9.0g                 Log gross national income per capita (PPP2011)
+pop             double  %10.0g                Population
+tr6_lgnic       float   %10.0g                Trend log GNI per capita (Based on the HP filter with 6.25 smoothing)
+tr6_shdi        float   %9.0g                 Trend shdi (Based on the HP filter with 6.25 smoothing)
+tr6_healthindex float   %9.0g                 Trend health index (Based on the HP filter with 6.25 smoothing)
+tr6_incindex    float   %9.0g                 Trend income index (Based on the HP filter with 6.25 smoothing)
+tr6_edindex     float   %9.0g                 Trend education index (Based on the HP filter with 6.25 smoothing)
+tr6_esch        float   %9.0g                 Trend esch (Based on the HP filter with 6.25 smoothing)
+tr6_msch        float   %9.0g                 Trend msch (Based on the HP filter with 6.25 smoothing)
+tr6_lifexp      float   %9.0g                 Trend lifexp (Based on the HP filter with 6.25 smoothing)
+countryName_std str38   %38s                  Standardized country name (from Stata Kountry package)
+countryName2    str42   %42s                  Additional country name (for verification)
+continentName~d str8    %9s                   Standardized countinent name (from Stata Kountry package)
+iso_code        str3    %9s                   Country ISO code
+iso3            str3    %9s                   Country isocode v3
+POLY_IDcountry  int     %8.0g                 Polygon ID to merge with cross-country map
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: GDLcode_id  year
+     Note: Dataset has changed since last saved.
 
 . sum
 
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
-    iso_code |          0
      country |          0
         year |     54,668    2005.135    8.555563       1990       2019
-     GDLcode |          0
-  GDLcode_id |     54,668    977.9327    566.9649          1       1969
--------------+---------------------------------------------------------
-  continent2 |          0
-       level |          0
       region |          0
-   continent |          0
-CountryNam~d |          0
+       level |          0
+     GDLcode |          0
 -------------+---------------------------------------------------------
+  GDLcode_id |     54,668    977.9327    566.9649          1       1969
+continentN~e |          0
+subcontinent |          0
         shdi |     54,668    .6422901    .1715394       .168        .98
  healthindex |     54,668    .7436466    .1476911       .069          1
+-------------+---------------------------------------------------------
     incindex |     54,668    .6531721    .1795209       .194          1
      edindex |     54,668    .5592647    .2003442       .039       .993
         esch |     54,668    11.66609    3.459104       .342         18
--------------+---------------------------------------------------------
         msch |     54,668    7.056217    3.390651       .173         15
       lifexp |     54,668    68.33724    9.599883     24.511     85.413
+-------------+---------------------------------------------------------
         gnic |     54,668    14259.04    16451.17    360.465   206429.4
        lgnic |     54,668    8.930401    1.190936      5.887     12.238
          pop |     54,164    6991.596     43921.2       .798    1397715
+   tr6_lgnic |     54,668    8.930401    1.189716   5.945106   12.22918
+    tr6_shdi |     54,668    .6422678    .1714864   .1743217   .9798343
 -------------+---------------------------------------------------------
-POLY_IDcou~y |     54,478    135.6741    76.08243          2        256
+tr6_health~x |     54,668    .7436204    .1476581    .093216   1.001386
+tr6_incindex |     54,668    .6531118    .1793746   .2024897   1.005894
+ tr6_edindex |     54,668    .5591969    .2001972   .0403947   .9960122
+    tr6_esch |     54,668    11.66334    3.451942   .3432875   18.30041
+    tr6_msch |     54,668    7.054852    3.388169   .1795067   14.99173
+-------------+---------------------------------------------------------
+  tr6_lifexp |     54,668    68.33625    9.595883   26.18695   85.47738
+countryNam~d |          0
+countryName2 |          0
+continentN~d |          0
+    iso_code |          0
+-------------+---------------------------------------------------------
         iso3 |          0
-      status |          0
- CountryName |          0
-SubContinent |          0
--------------+---------------------------------------------------------
-   Continent |          0
-Continent_~d |          0
-      _merge |     54,668     2.91227    .4095921          1          3
-      pop_ip |     54,164    6991.596     43921.2       .798    1397715
-
-. 
-. 
-. ** Compute long-run trends: HP filter with parameters 6.25
-. gen ln_shdiX100 = ln(100*shdi)
-
-. gen ln_healthindexX100 = ln(100*healthindex)
-
-. gen ln_incindexX100 = ln(100*incindex)
-
-. gen ln_edindexX100 = ln(100*edindex)
-
-. gen ln_eschX100 = ln(100*esch)
-
-. gen ln_mschX100 = ln(100*msch)
-
-. gen ln_lifexpX100 = ln(100*lifexp)
-
-. 
-. 
-. 
-. 
-. pfilter ln_shdiX100, method(hp) trend(tr6_ln_shdiX100) smooth(6.25)
-
-. pfilter ln_healthindexX100, method(hp) trend(tr6_ln_healthindexX100) smooth(6.25)
-
-. pfilter ln_incindexX100, method(hp) trend(tr6_ln_incindexX100) smooth(6.25)
-
-. pfilter ln_edindexX100 , method(hp) trend(tr6_ln_edindexX100 ) smooth(6.25)
-
-. 
-. pfilter ln_eschX100, method(hp) trend(tr6_ln_eschX100) smooth(6.25)
-
-. pfilter ln_mschX100, method(hp) trend(tr6_ln_mschX100) smooth(6.25)
-
-. pfilter ln_lifexpX100, method(hp) trend(tr6_ln_lifexpX100) smooth(6.25)
+POLY_IDcou~y |     54,478    135.6741    76.08243          2        256
 
 . 
 . ** X. Save dataset
@@ -536,5 +737,5 @@ file shdi.csv saved
       name:  <unnamed>
        log:  /Users/carlosmendez/Documents/GitHub/data-open/shdi/prepareData.txt
   log type:  text
- closed on:  19 May 2022, 19:27:03
------------------------------------------------------------------------------------------------------------
+ closed on:  29 May 2022, 16:15:19
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
