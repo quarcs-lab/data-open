@@ -14,8 +14,10 @@ cls
 **=====================================================
 
 ** 0. Change working directory
-*cd "/Users/carlos/Github/QuaRCS-lab/data-open/shdi"
-cd "/Users/carlosmendez/Documents/GitHub/data-open/shdi"
+    ** At home
+        *cd "/Users/carlos/Github/QuaRCS-lab/data-open/shdi"
+    ** At work
+        cd "/Users/carlosmendez/Documents/GitHub/data-open/shdi"
 
 ** 1. Setup
 clear all
@@ -148,39 +150,105 @@ replace POLY_IDcountry =  92                        if  country == "Monte Negro"
 
 
 
-** Interpolate missing values of population
+** Compute long-run trends: HP filter with parameters 6.25
+    * Set panel data structure
 sort GDLcode year
 egen GDLcode_id = group(GDLcode)
 order GDLcode_id, after(GDLcode)
-
 xtset GDLcode_id year
-ipolate pop year, gen(pop_ip) epolate by (GDLcode_id)
-sum
 
-
-** Compute long-run trends: HP filter with parameters 6.25
+    * Generate logs
 gen ln_shdiX100 = ln(100*shdi)
 
 gen ln_healthindexX100 = ln(100*healthindex)
-gen ln_incindexX100 = ln(100*incindex)
-gen ln_edindexX100 = ln(100*edindex)
+gen ln_incindexX100    = ln(100*incindex)
+gen ln_edindexX100     = ln(100*edindex)
 
-gen ln_eschX100 = ln(100*esch)
-gen ln_mschX100 = ln(100*msch)
+gen ln_eschX100   = ln(100*esch)
+gen ln_mschX100   = ln(100*msch)
 gen ln_lifexpX100 = ln(100*lifexp)
 
+    * Estimate trends
 pfilter ln_shdiX100, method(hp) trend(tr6_ln_shdiX100) smooth(6.25)
 
 pfilter ln_healthindexX100, method(hp) trend(tr6_ln_healthindexX100) smooth(6.25)
-pfilter ln_incindexX100, method(hp) trend(tr6_ln_incindexX100) smooth(6.25)
-pfilter ln_edindexX100 , method(hp) trend(tr6_ln_edindexX100 ) smooth(6.25)
+pfilter ln_incindexX100,    method(hp) trend(tr6_ln_incindexX100) smooth(6.25)
+pfilter ln_edindexX100 ,    method(hp) trend(tr6_ln_edindexX100 ) smooth(6.25)
 
-pfilter ln_eschX100, method(hp) trend(tr6_ln_eschX100) smooth(6.25)
-pfilter ln_mschX100, method(hp) trend(tr6_ln_mschX100) smooth(6.25)
+pfilter ln_eschX100,   method(hp) trend(tr6_ln_eschX100) smooth(6.25)
+pfilter ln_mschX100,   method(hp) trend(tr6_ln_mschX100) smooth(6.25)
 pfilter ln_lifexpX100, method(hp) trend(tr6_ln_lifexpX100) smooth(6.25)
 
 pfilter lgnic, method(hp) trend(tr6_lgnic) smooth(6.25)
 
+    * Recover levels
+gen tr6_shdi      = exp(tr6_ln_shdiX100)/100 
+
+gen tr6_healthindex = exp(tr6_ln_healthindexX100)/100 
+gen tr6_incindex    = exp(tr6_ln_incindexX100)/100 
+gen tr6_edindex     = exp(tr6_ln_edindexX100)/100 
+
+gen tr6_esch      = exp(tr6_ln_eschX100)/100 
+gen tr6_msch      = exp(tr6_ln_mschX100)/100 
+gen tr6_lifexp    = exp(tr6_ln_lifexpX100)/100 
+
+
+    * check compativitily
+sum tr6_shdi shdi
+
+sum tr6_healthindex healthindex 
+sum tr6_incindex  incindex  
+sum tr6_edindex edindex 
+
+sum tr6_esch esch 
+sum tr6_msch msch 
+sum tr6_lifexp  lifexp
+
+sum tr6_lgnic  lgnic 
+
+** Keep most relevant variables
+keep iso_code country year GDLcode GDLcode_id continent2 level region CountryName_std shdi healthindex incindex edindex esch msch lifexp gnic lgnic pop POLY_IDcountry iso3 CountryName SubContinent Continent_std tr6_shdi tr6_healthindex tr6_incindex tr6_edindex tr6_esch tr6_msch tr6_lifexp tr6_lgnic
+
+** Rename and label variables
+label variable iso_code "Country ISO code"
+label variable country "Country name (from Smith and Permanyer 2019)"
+label variable GDLcode "GDL code  (from Smith and Permanyer 2019)"
+label variable GDLcode_id "Numeric GDL code  (from Smith and Permanyer 2019)"
+label variable continent2 "Continent name"
+rename continent2 continentName
+label variable level "Spatial scale (Subnational vs National)"
+label variable region "Region name (includes country names)"
+label variable CountryName_std "Standardized country name (from Stata Kountry package)"
+rename CountryName_std countryName_std
+label variable POLY_IDcountry "Polygon ID to merge with cross-country map"
+label variable iso3 "Country isocode v3"
+label variable CountryName "Additional country name (for verification)"
+rename CountryName countryName2
+label variable SubContinent "Subcontinent"
+rename SubContinent subcontinent
+label variable Continent_std "Standardized countinent name (from Stata Kountry package)"
+rename Continent_std continentName_std
+label variable tr6_lgnic "Trend log GNI per capita (Based on the HP filter with 6.25 smoothing)"
+label variable tr6_shdi "Trend shdi (Based on the HP filter with 6.25 smoothing)"
+label variable tr6_healthindex "Trend health index (Based on the HP filter with 6.25 smoothing)"
+label variable tr6_incindex "Trend income index (Based on the HP filter with 6.25 smoothing)"
+label variable tr6_edindex "Trend education index (Based on the HP filter with 6.25 smoothing)"
+label variable tr6_esch "Trend  esch (Based on the HP filter with 6.25 smoothing)"
+label variable tr6_msch "Trend msch (Based on the HP filter with 6.25 smoothing)"
+label variable tr6_lifexp "Trend lifexp (Based on the HP filter with 6.25 smoothing)"
+label variable year "Year"
+
+
+** Order variables
+order countryName_std countryName2 continentName_std, last
+order iso_code iso3 POLY_IDcountry, last
+order subcontinent, after(continentName)
+order region, after(year)
+order level, after(region)
+
+** Describe dataset
+describe
+sum
 
 ** X. Save dataset
 save             "shdi.dta", replace
