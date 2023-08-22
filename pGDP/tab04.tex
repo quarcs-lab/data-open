@@ -1,0 +1,55 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                    &\multicolumn{1}{c}{Gini}&\multicolumn{1}{c}{Gini}&\multicolumn{1}{c}{Gini}&\multicolumn{1}{c}{Gini}&\multicolumn{1}{c}{Gini}\\
+\hline
+Ln GPDpc            &       0.350\sym{***}&       0.205\sym{**} &       0.171\sym{**} &       0.226\sym{**} &       0.149\sym{**} \\
+                    &     (0.075)         &     (0.081)         &     (0.078)         &     (0.110)         &     (0.059)         \\
+[1em]
+Ln GPDpc2           &      -0.038\sym{***}&      -0.022\sym{**} &      -0.019\sym{**} &      -0.023\sym{*}  &      -0.015\sym{**} \\
+                    &     (0.009)         &     (0.009)         &     (0.009)         &     (0.014)         &     (0.007)         \\
+[1em]
+Ln GDPpc3           &       0.001\sym{***}&       0.001\sym{**} &       0.001\sym{**} &       0.001         &       0.000\sym{*}  \\
+                    &     (0.000)         &     (0.000)         &     (0.000)         &     (0.001)         &     (0.000)         \\
+[1em]
+Resources rents/GDP &       0.018\sym{***}&                     &                     &                     &                     \\
+                    &     (0.007)         &                     &                     &                     &                     \\
+[1em]
+Arable land (%)     &      -0.053\sym{***}&                     &                     &                     &                     \\
+                    &     (0.014)         &                     &                     &                     &                     \\
+[1em]
+Trade/GDP           &                     &       0.005\sym{***}&                     &                     &                     \\
+                    &                     &     (0.002)         &                     &                     &                     \\
+[1em]
+FDI/GDP             &                     &       0.009         &                     &                     &                     \\
+                    &                     &     (0.007)         &                     &                     &                     \\
+[1em]
+Price gasoline      &                     &                     &       0.001         &                     &                     \\
+                    &                     &                     &     (0.002)         &                     &                     \\
+[1em]
+Price gasoline X area&                     &                     &       0.006\sym{**} &                     &                     \\
+                    &                     &                     &     (0.003)         &                     &                     \\
+[1em]
+Aid/GDP             &                     &                     &                     &       0.015\sym{**} &                     \\
+                    &                     &                     &                     &     (0.007)         &                     \\
+[1em]
+School enroll. secondary&                     &                     &                     &      -0.014\sym{*}  &                     \\
+                    &                     &                     &                     &     (0.007)         &                     \\
+[1em]
+Ethnic inequality   &                     &                     &                     &                     &       0.071\sym{***}\\
+                    &                     &                     &                     &                     &     (0.016)         \\
+\hline
+Observations        &         857         &         817         &         676         &         591         &         845         \\
+N Countries         &         176         &         172         &         162         &         148         &         173         \\
+R-squared           &        0.29         &        0.26         &        0.17         &        0.25         &        0.36         \\
+Country FE          &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+Year FE             &         Yes         &         Yes         &         Yes         &         Yes         &         Yes         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Notes: The dependent variable is the population-weighted regional Gini index.}\\
+\multicolumn{6}{l}{\footnotesize Robust standard errors are adjusted for clustering at the country level}\\
+\multicolumn{6}{l}{\footnotesize All models include a constant}\\
+\multicolumn{6}{l}{\footnotesize $* p<0.10, ** p<0.05, *** p<0.01$}\\
+\end{tabular}
+}
