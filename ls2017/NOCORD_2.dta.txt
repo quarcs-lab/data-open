@@ -1,0 +1,1 @@
+https://datasets777.s3-ap-northeast-1.amazonaws.com/Lessmann-2017-Regional-inequality-convergence-and-its-determinants/Data/NOCORD_2.dta
