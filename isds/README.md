@@ -1,0 +1,1 @@
+use “https://github.com/quarcs-lab/data-open/raw/master/isds/data.dta”, clear
