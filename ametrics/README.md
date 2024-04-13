@@ -1,0 +1,1 @@
+use "https://github.com/quarcs-lab/data-open/raw/master/ametrics/data.dta", clear
