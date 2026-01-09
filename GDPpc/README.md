@@ -6,6 +6,16 @@ The input data needed to run the code is available in the repository: https://do
 
 ## Links for data streaming
 
+## Cross-section 2018
+
+https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm0GDPpc2018.geojson
+
+https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm1GDPpc2018.geojson
+
+https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm2GDPpc2018.geojson
+
+### Panel
+
 https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm0_GDPpc_1990_2022.gpkg
 
 https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm1_GDPpc_1990_2022.gpkg
