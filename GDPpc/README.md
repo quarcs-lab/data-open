@@ -14,6 +14,15 @@ https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm1GDPpc201
 
 https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm2GDPpc2018.geojson
 
+In GEE
+
+https://code.earthengine.google.com/?asset=projects/ee-carlosmendez777/assets/adm0GDPpc2018
+
+https://code.earthengine.google.com/?asset=projects/ee-carlosmendez777/assets/adm1GDPpc2018
+
+https://code.earthengine.google.com/?asset=projects/ee-carlosmendez777/assets/adm2GDPpc2018
+
+
 ### Panel
 
 https://github.com/quarcs-lab/data-open/raw/refs/heads/master/GDPpc/adm0_GDPpc_1990_2022.gpkg
